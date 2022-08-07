@@ -202,7 +202,7 @@ recipes.remove(<enderio:block_power_monitor>);
 recipes.addShaped(<enderio:block_power_monitor>, [
 	[<ore:ingotIron>, <enderio:item_conduit_probe>, <ore:ingotIron>],
 	[<ore:ingotIron>, <thermalexpansion:frame:64>, <ore:ingotIron>],
-	[<ore:ingotIron>, <enderio:item_power_conduit>, <ore:ingotIron>]
+	[<ore:ingotIron>, <enderio:item_endergy_conduit:4>, <ore:ingotIron>]
 ]);
 
 	//Graphical Power Monitor
