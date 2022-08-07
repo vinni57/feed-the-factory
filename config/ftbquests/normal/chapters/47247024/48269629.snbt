@@ -1,0 +1,33 @@
+{
+	title: "Advanced Voltaic Pile",
+	icon: {
+		id: "nuclearcraft:voltaic_pile_advanced",
+		tag: {
+			maxTransfer: 6250,
+			capacity: 125000,
+			energy: 0
+		}
+	},
+	x: 11.0d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3d3f68de"
+	],
+	tasks: [{
+		uid: "02972ef8",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:coin 1 66"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "0d6a87ae",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_STORE_5"
+	}]
+}

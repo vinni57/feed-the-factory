@@ -1,0 +1,53 @@
+{
+	title: "Redstone Furnace",
+	icon: {
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				1b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			Level: 0b
+		}
+	},
+	x: -1.0d,
+	y: -1.0d,
+	description: "x1",
+	text: [
+		"Smelts at a relatively slow rate with a somewhat high power cost compared to the external heater.",
+		"",
+		"But, this machine can be upgraded after enough research to be faster, more energy efficient, and potentially even double the output!"
+	],
+	dependencies: [
+		"bb79fa7a"
+	],
+	tasks: [{
+		uid: "89c8b226",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "e4d07ead",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "f957e9f9",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_ORE_RSFURNACE"
+	}]
+}

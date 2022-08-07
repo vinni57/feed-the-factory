@@ -1,0 +1,33 @@
+{
+	title: "Powered Drill",
+	icon: "f0-resources:drill_component",
+	x: -0.5d,
+	y: 0.0d,
+	text: [
+		"The Burner Drill is great and all, but it's hard to keep so many of them fueled.",
+		"",
+		"The Powered Drill works faster than burner drills and uses electricity instead of fuel!"
+	],
+	tasks: [{
+		uid: "fcf2047f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "d4cc8b8f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "cb53af82",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "DRILL_POWERED"
+	}]
+}

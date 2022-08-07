@@ -1,0 +1,51 @@
+{
+	title: "HV Energy Conduit",
+	icon: "enderio:item_power_conduit 1 1",
+	x: 5.0d,
+	y: 4.5d,
+	description: "50,000 rf/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"0fd5fa40"
+	],
+	tasks: [{
+		uid: "67806525",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 32L
+	},
+	{
+		uid: "8ebe81a9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics64"
+		}],
+		count: 12L
+	},
+	{
+		uid: "0025b19a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 12L
+	},
+	{
+		uid: "38f8622d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		count: 48L
+	}],
+	rewards: [{
+		uid: "6ec1c455",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_POWER_EIO_HV"
+	}]
+}

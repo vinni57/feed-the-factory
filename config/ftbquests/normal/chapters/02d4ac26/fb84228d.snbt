@@ -1,0 +1,26 @@
+{
+	title: "MV Cables",
+	icon: "industrialwires:ic2_connector 1 1",
+	x: 4.0d,
+	y: 3.0d,
+	description: "Connector: 1,000 rf/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"3cb31236"
+	],
+	tasks: [{
+		uid: "cc92d7fd",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}]
+	}],
+	rewards: [{
+		uid: "e8064039",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_POWER_IWTIN"
+	}]
+}

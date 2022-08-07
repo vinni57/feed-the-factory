@@ -1,0 +1,33 @@
+{
+	title: "Quick Blast Furnace Math",
+	icon: "minecraft:coal 1 1",
+	x: 5.5d,
+	y: 2.0d,
+	shape: "gear",
+	text: [
+		"2 Charcoal = 1 Steel",
+		"",
+		"1 Coal = 1 Steel",
+		"",
+		"1 Coke = 2 Steel"
+	],
+	dependencies: [
+		"0a901c5d"
+	],
+	tasks: [{
+		uid: "b90a5c4d",
+		type: "checkmark",
+		title: "Gotcha"
+	}],
+	rewards: [{
+		uid: "07da4d43",
+		type: "item",
+		item: "thermalfoundation:storage_resource 1 1"
+	},
+	{
+		uid: "9fb2cc77",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 20
+	}]
+}

@@ -1,0 +1,87 @@
+{
+	title: "Arc Furnace",
+	icon: "immersiveengineering:graphite_electrode",
+	x: -2.0d,
+	y: 5.0d,
+	description: "x3",
+	text: [
+		"Another multiblock, also capable of alloying and recyling tools and armor!",
+		"",
+		"But its greatest functionality is the ability to turn ores into crystals, which can be turned into up to 294 ingots per ore!"
+	],
+	dependencies: [
+		"4e83799e"
+	],
+	tasks: [{
+		uid: "fe770c3e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 32L
+	},
+	{
+		uid: "38f7566f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics64"
+		}],
+		count: 16L
+	},
+	{
+		uid: "53b666e3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction64"
+		}],
+		count: 8L
+	},
+	{
+		uid: "06c86060",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "ae4e59e2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchchemical1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "7dd906b7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchquantum1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "fc52ffa6",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_ORE_IEARCFURNACE"
+	},
+	{
+		uid: "c6321ddf",
+		type: "item",
+		title: "No one-use capsule available",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 5,
+				structureName: "config/capsule/prefabs/immersiveengineering/ie-arcfurnace",
+				display: {
+					color: 3949738
+				},
+				label: "Ie-arcfurnace"
+			},
+			Damage: 3s
+		}
+	}]
+}

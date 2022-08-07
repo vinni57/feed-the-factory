@@ -1,0 +1,43 @@
+{
+	title: "Tectonic Initiator",
+	icon: "thermalexpansion:augment 1 273",
+	x: -1.0d,
+	y: 0.5d,
+	description: "x3.5",
+	text: [
+		"This augment can be applied to the Pulverizer to get an extra dirty dust out of ores at the cost of liquid tectonic petrotheum!"
+	],
+	dependencies: [
+		"c1404463"
+	],
+	tasks: [{
+		uid: "0ef1094b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 32L
+	},
+	{
+		uid: "3172deab",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "9e23a8a6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 48L
+	}],
+	rewards: [{
+		uid: "fee118fd",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_ORE_TECTONIC"
+	}]
+}

@@ -1,0 +1,60 @@
+{
+	title: "Infinity Drill",
+	icon: "thermalfoundation:material 1 656",
+	x: -0.5d,
+	y: 1.5d,
+	text: [
+		"Finally, a way to automate tier one ores! This multiblock takes liquid aerotheum and a drill catalyst, along with lots of power to run."
+	],
+	dependencies: [
+		"77b07d8f"
+	],
+	tasks: [{
+		uid: "44dae6a9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 16L
+	},
+	{
+		uid: "ab14b1c9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics8"
+		}],
+		count: 32L
+	},
+	{
+		uid: "81e793dc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "06b8c793",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "DRILL_INFINITY"
+	},
+	{
+		uid: "50e0c896",
+		type: "item",
+		title: "One-use capsules craftable",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 3,
+				structureName: "config/capsule/prefabs/modularmachinery/infinityminer",
+				display: {
+					color: 3949738
+				},
+				label: "Infinityminer"
+			},
+			Damage: 3s
+		}
+	}]
+}

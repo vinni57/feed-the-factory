@@ -1,0 +1,39 @@
+{
+	title: "Conduit Filtering",
+	icon: "enderio:item_advanced_item_filter",
+	x: -2.0d,
+	y: 3.5d,
+	description: "Specifying Fluids and Items",
+	text: [
+		"Conduits can have a filter attached to their ends to limit what items and fluids can be inserted or extracted.",
+		"",
+		"The 3 filters unlocked by this research can specify items and fluids to let through, with the Advanced Filter allowing NBT and Metadata filtering as well."
+	],
+	dependencies: [
+		"41c56a78",
+		"f644dc6a"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "67ed6300",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "93f46f5e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "7777fe3d",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_COND_FILTER_1"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Polymer Clay Automation",
+	x: 22.5d,
+	y: 3.0d,
+	text: [
+		"Automated diamonds means automated polymer clay! All I need is automated clay to go along with it.",
+		"",
+		"Perhaps the Immersive Engineering Bottling Machine is the answer?"
+	],
+	dependencies: [
+		"6964191c"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "8f47d8cc",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:polymer_clay"
+		}],
+		consume_items: false
+	}]
+}

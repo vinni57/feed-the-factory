@@ -1,0 +1,23 @@
+{
+	title: "Liquid Plastic",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "liquidplastic",
+			Amount: 1000
+		}
+	},
+	x: 37.0d,
+	y: -2.0d,
+	description: "AKA Polyethylene",
+	text: [
+		"Ethylene with Oxygen in the Salt Mixer makes Liquid Plastic."
+	],
+	dependencies: [
+		"405ca439"
+	],
+	tasks: [{
+		uid: "57e3ec4c",
+		type: "checkmark"
+	}]
+}

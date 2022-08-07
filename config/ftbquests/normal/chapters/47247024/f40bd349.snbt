@@ -1,0 +1,80 @@
+{
+	title: "Oil Processing",
+	icon: {
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				1b,
+				2b,
+				3b,
+				3b,
+				3b,
+				3b
+			],
+			Level: 0b
+		},
+		Damage: 7s
+	},
+	x: 0.0d,
+	y: 4.0d,
+	description: "More power per the gallon!",
+	text: [
+		"Crude oil is nice and all, but I know I can do better. By refining it in a Fractionating Still or Distillation Tower, I can make an even more efficient fuel!",
+		"",
+		"It's also needed for making plastic."
+	],
+	dependencies: [
+		"4c0b5a37"
+	],
+	tasks: [{
+		uid: "56eb9e44",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 16L
+	},
+	{
+		uid: "48c6c8fc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics8"
+		}],
+		count: 64L
+	},
+	{
+		uid: "006e1503",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "d399153a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "f597177c",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_OIL_3"
+	},
+	{
+		uid: "50556818",
+		type: "item",
+		item: {
+			id: "immersivepetroleum:schematic",
+			tag: {
+				multiblock: "IP:DistillationTower"
+			}
+		}
+	}]
+}

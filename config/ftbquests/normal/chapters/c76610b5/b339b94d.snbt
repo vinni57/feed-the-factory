@@ -1,0 +1,58 @@
+{
+	title: "Metal Press",
+	icon: "minecraft:piston",
+	x: -6.5d,
+	y: -1.0d,
+	description: "Cheaper Plates and Gears",
+	text: [
+		"3 ingots for 2 plates? 4 ingots per gear?! It's a ripoff!",
+		"",
+		"But with specialized metal press machinery, they don't have to be! This multiblock makes plates cost only 1 ingot each, and gears cost only 2 ingots!",
+		"",
+		"Rate of production matches the transfer rate of the most basic servo."
+	],
+	dependencies: [
+		"b06d99c9"
+	],
+	tasks: [{
+		uid: "4b2d522f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "1c8fec87",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_MAT_PRESS"
+	},
+	{
+		uid: "17339896",
+		type: "item",
+		item: "immersiveengineering:mold"
+	},
+	{
+		uid: "ce827625",
+		type: "item",
+		item: "immersiveengineering:mold 1 1"
+	},
+	{
+		uid: "4efc4443",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 3,
+				structureName: "config/capsule/prefabs/immersiveengineering/ie-metalpress",
+				display: {
+					color: 3949738
+				},
+				label: "Ie-metalpress"
+			},
+			Damage: 3s
+		}
+	}]
+}

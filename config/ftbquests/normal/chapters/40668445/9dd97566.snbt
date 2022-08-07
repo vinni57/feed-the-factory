@@ -1,0 +1,15 @@
+{
+	x: 22.5d,
+	y: -1.0d,
+	dependencies: [
+		"ab0f035b"
+	],
+	tasks: [{
+		uid: "da3dea61",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_pearl"
+		}],
+		consume_items: false
+	}]
+}

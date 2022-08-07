@@ -1,0 +1,23 @@
+{
+	title: "Automated Oil",
+	x: 46.0d,
+	y: -1.0d,
+	text: [
+		"This data model can produce Oil Sand, which can be processed into crude oil.",
+		"",
+		"No more drilling, which means I can expand my plastic production even further!"
+	],
+	dependencies: [
+		"dfd8c0b3"
+	],
+	tasks: [{
+		uid: "4d21da43",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_wither_skeleton"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Crushing Cobble",
+	x: 0.5d,
+	y: 2.0d,
+	text: [
+		"I can craft cobblestone with an engineer's hammer to grind it down into gravel, and again with the hammer to grind it down into sand!",
+		"",
+		"Pretty convenient if there are no deserts around, but it does wear down the hammer."
+	],
+	dependencies: [
+		"de263f53"
+	],
+	tasks: [{
+		uid: "e26fcecd",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}],
+		consume_items: false
+	}]
+}

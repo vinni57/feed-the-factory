@@ -1,0 +1,26 @@
+{
+	title: "Solar Panel Tier 8",
+	icon: "solarflux:solar_panel_8",
+	x: -8.0d,
+	y: 7.0d,
+	description: "16384 rf/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"5669b9d6"
+	],
+	tasks: [{
+		uid: "5b2b4cb7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchquantum1"
+		}]
+	}],
+	rewards: [{
+		uid: "1d439062",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_SOLAR_SF_8"
+	}]
+}

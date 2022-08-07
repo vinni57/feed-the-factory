@@ -1,0 +1,41 @@
+{
+	title: "Deep Mob Learning",
+	icon: "deepmoblearning:simulation_chamber",
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"Certain mob drops and materials can be automated using Deep Mob Learning.",
+		"",
+		"Each model needs to be unlocked with research first, however. But once I unlock one, I can make more easily!"
+	],
+	tasks: [{
+		uid: "fd1362ba",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "fcb742d4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "25468169",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "ebba77ff",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "MAT_DML"
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Gear Die",
+	icon: "thermalexpansion:augment 1 337",
+	x: -5.5d,
+	y: 1.0d,
+	text: [
+		"This augment will allow the Compactor to produce gears instead of plates. 2 ingots per gear."
+	],
+	dependencies: [
+		"06164fc3"
+	],
+	tasks: [{
+		uid: "3d4f1a21",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "1bafedf3",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_MAT_GEARDIE"
+	}]
+}

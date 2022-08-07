@@ -1,0 +1,22 @@
+{
+	x: 24.5d,
+	y: -2.0d,
+	shape: "gear",
+	description: "Faster Tier 3 Drilling",
+	text: [
+		"This tier 3 drill can mine up ores more quickly than the fluxed electrum variant!"
+	],
+	dependencies: [
+		"c1ca632d"
+	],
+	tasks: [{
+		uid: "6996399e",
+		type: "item",
+		items: [{
+			item: "f0-resources:item_drill_head.f0r.enderium"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

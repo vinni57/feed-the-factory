@@ -1,0 +1,21 @@
+{
+	title: "DML Rising: Revengeance",
+	icon: "deepmoblearning:simulation_chamber",
+	x: 44.0d,
+	y: -2.0d,
+	description: "It ain't over 'till it's over",
+	text: [
+		"The first set of models I unlocked were extremely useful for progressing, but I'm not done with the technology just yet.",
+		"",
+		"With the new type of research given to me by plastic, I'm now able to unlock brand new model types that are essential for going forward.",
+		"",
+		"There are also models that aren't as important, but could still save me incredible amounts of time if I make good use of them."
+	],
+	dependencies: [
+		"6d52878d"
+	],
+	tasks: [{
+		uid: "c7d057c8",
+		type: "checkmark"
+	}]
+}

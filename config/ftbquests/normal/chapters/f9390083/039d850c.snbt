@@ -1,0 +1,52 @@
+{
+	title: "Plastic",
+	icon: "contenttweaker:plasticingot",
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"This modern material has many amazing uses!",
+		"",
+		"Making it requires processing oil, so I'd better have a source of that first before unlocking this."
+	],
+	dependencies: [
+		"97d8b03c"
+	],
+	tasks: [{
+		uid: "3e0fb9d4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 16L
+	},
+	{
+		uid: "ef385f8d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics8"
+		}],
+		count: 64L
+	},
+	{
+		uid: "339c3eda",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "117eca82",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility8"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "a4994bc6",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "MAT_PLASTIC"
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "Enderium Drill Head",
+	icon: "f0-resources:item_drill_head.f0r.enderium",
+	x: -6.5d,
+	y: 3.0d,
+	text: [
+		"This can mine the same metals as a fluxed electrum drill, but is much faster."
+	],
+	dependencies: [
+		"dcfed21d"
+	],
+	tasks: [{
+		uid: "5f2c376a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 64L
+	},
+	{
+		uid: "b1e1ca82",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "d6b4f387",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "15393b79",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "UPGRADE_DRILL_T2"
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 3.0d,
+	y: 2.0d,
+	can_repeat: true,
+	dependencies: [
+		"55d2159e"
+	],
+	tasks: [{
+		uid: "d9bcb668",
+		type: "checkmark",
+		title: "Simulation Supercomputer",
+		icon: "deepmoblearning:creative_model_learner"
+	}],
+	rewards: [{
+		uid: "db6fca11",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 3,
+				structureName: "config/capsule/prefabs/modularmachinery/simulationchamber",
+				display: {
+					color: 3949738
+				},
+				label: "Simulationchamber"
+			},
+			Damage: 3s
+		}
+	}]
+}

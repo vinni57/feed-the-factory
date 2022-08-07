@@ -1,0 +1,15 @@
+{
+	title: "Advanced Fusion",
+	icon: "nuclearcraft:fusion_core",
+	x: -1.0d,
+	y: 8.0d,
+	dependencies: [
+		"519acaac"
+	],
+	rewards: [{
+		uid: "1f6fad4e",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_NUCLEAR_NCFUSION"
+	}]
+}

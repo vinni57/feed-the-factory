@@ -1,0 +1,20 @@
+{
+	x: 59.0d,
+	y: -6.0d,
+	dependencies: [
+		"9e6aa28b"
+	],
+	tasks: [{
+		uid: "0a3cd8a5",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fuel_leu_235",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

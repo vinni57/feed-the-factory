@@ -1,0 +1,67 @@
+{
+	title: "Induction Smelter",
+	icon: {
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				3b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			Level: 0b
+		},
+		Damage: 3s
+	},
+	x: -7.5d,
+	y: 1.0d,
+	text: [
+		"This Thermal Expansion machine will take two metals and output their alloy.",
+		"",
+		"It has a slew of other recipes that might prove useful as well. Especially for ore multiplication once I unlock the relevant research."
+	],
+	dependencies: [
+		"f5468b47"
+	],
+	tasks: [{
+		uid: "01eef73c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 12L
+	},
+	{
+		uid: "2081b19d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "4c9ebcf2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "fd577b71",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_MAT_INDUCTION"
+	},
+	{
+		uid: "97cf8427",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_ORE_SLAG"
+	}]
+}

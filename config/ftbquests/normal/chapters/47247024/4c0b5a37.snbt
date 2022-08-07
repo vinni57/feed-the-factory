@@ -1,0 +1,78 @@
+{
+	title: "Oil",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "crude_oil",
+			Amount: 1000
+		}
+	},
+	x: -1.0d,
+	y: 4.0d,
+	description: "250 rf/tick base, 10,000 rf/tick max",
+	text: [
+		"Deep underground are deposits of a black, viscous fluid worth its weight in gold; Crude Oil.",
+		"",
+		"This research will unlock the means for me to pump it out of the ground via Immersive Petroleum Pumpjacks and Factory0 Fluid Pumps, as well as the Compression Dynamo that can burn the stuff for power.",
+		"",
+		"500 rf/tick might not seem like too much right now, but there are more upgrades and augments to unlock!"
+	],
+	dependencies: [
+		"a3042060"
+	],
+	tasks: [{
+		uid: "d05063e5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 8L
+	},
+	{
+		uid: "d4c0ef12",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics8"
+		}],
+		count: 32L
+	},
+	{
+		uid: "00e88ec2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 8L
+	},
+	{
+		uid: "91860f78",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "7966d68a",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_OIL"
+	},
+	{
+		uid: "dd1f4f4d",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 7,
+				structureName: "config/capsule/prefabs/immersivepetroleum/pumpjack",
+				display: {
+					color: 3949738
+				},
+				label: "Pumpjack"
+			},
+			Damage: 3s
+		}
+	}]
+}

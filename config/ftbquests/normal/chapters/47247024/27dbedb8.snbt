@@ -1,0 +1,39 @@
+{
+	title: "Portable Power",
+	icon: "immersivepetroleum:metal_device 1 1",
+	x: -2.0d,
+	y: 4.5d,
+	description: "Gas Guzzling 5,000 rf/t",
+	text: [
+		"Sometimes I just need power, FAST. This generator will do just that, producing a large amount of power at the cost of ludicrous amounts of liquid fuel.",
+		"",
+		"It uses the same fuels as the Compression Dynamo and Diesel Generator, but nowhere near as efficiently.",
+		"",
+		"Export power via HV wire from the orange port. The cable connects to it directly without a connector."
+	],
+	dependencies: [
+		"4c0b5a37"
+	],
+	tasks: [{
+		uid: "eb326523",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 8L
+	},
+	{
+		uid: "d0a5fb42",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "73223660",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_OIL_ALTGEN"
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "MAX Energy Conduit",
+	icon: "enderio:item_endergy_conduit 1 11",
+	x: 5.0d,
+	y: 9.0d,
+	description: "50,000,000 rf/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"c421f902"
+	],
+	tasks: [{
+		uid: "8038892c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}]
+	}],
+	rewards: [{
+		uid: "6d5b1ce5",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_POWER_EIO_MAX"
+	}]
+}

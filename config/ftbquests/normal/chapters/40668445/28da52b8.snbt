@@ -1,0 +1,21 @@
+{
+	title: "Tier 2 Ore Automation",
+	x: 43.0d,
+	y: -3.0d,
+	text: [
+		"By using mining drones in the Infinity Miner, I can start automating the production of Tier 2 ores, including gold, tin, and silver.",
+		"",
+		"I can unlock the research for it in the \"Research: Upgrades\" tab."
+	],
+	dependencies: [
+		"6d52878d"
+	],
+	tasks: [{
+		uid: "6b011375",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mining_drone"
+		}],
+		consume_items: false
+	}]
+}

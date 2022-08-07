@@ -1,0 +1,63 @@
+{
+	title: "Tier 2 Infinity Drill",
+	icon: "contenttweaker:mining_drone",
+	x: -0.5d,
+	y: 3.0d,
+	description: "Auto-mine tier 2 ores",
+	text: [
+		"On its own, the Infinity Miner can only dig up the first tier of ores. By utilizing a specialized mining drone, I can start digging up rarer ores too!",
+		"",
+		"The drone is quite complex to set up. Even though it uses relatively (at this point) common materials, it requires a lot of microcrafting to create.",
+		"",
+		"Bright side is that each craft produces several, and they're only consumed 5% of the time after each mining mission."
+	],
+	dependencies: [
+		"a4faa47b"
+	],
+	tasks: [{
+		uid: "f92c44b4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 32L
+	},
+	{
+		uid: "760c23f0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics64"
+		}],
+		count: 16L
+	},
+	{
+		uid: "2b11856b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "0e80df67",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "d8068b41",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchchemical1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "7b89da5e",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "DRILL_INFINITY_DRONE"
+	}]
+}

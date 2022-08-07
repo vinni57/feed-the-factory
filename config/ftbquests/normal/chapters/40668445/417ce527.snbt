@@ -1,0 +1,23 @@
+{
+	title: "Cheaper Components",
+	x: 4.5d,
+	y: 0.0d,
+	shape: "gear",
+	text: [
+		"The engineer's workbench can be used to make engineering components cheaper, among other things. There's also an automated multiblock version that uses power!",
+		"",
+		"It's also needed to make Metal Press Molds, and is the only way to obtain them.",
+		"",
+		"Various recipes require blueprints, however, and I need to craft those and insert them into the workbench to be able to make what I need."
+	],
+	dependencies: [
+		"eb55fd51"
+	],
+	tasks: [{
+		uid: "e9c5ca01",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 2"
+		}]
+	}]
+}

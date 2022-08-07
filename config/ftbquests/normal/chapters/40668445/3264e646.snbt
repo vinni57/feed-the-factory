@@ -1,0 +1,17 @@
+{
+	x: 12.5d,
+	y: 3.0d,
+	text: [
+		"Rather than hoarding my research for the next major milestone, I should spend some of it on making my life easier. Moving items, fluids, and power for example would be extremely helpful.",
+		"",
+		"There are also upgrades I could get, like an electric drill so I don't have to worry about constantly fueling everything with coal. It's the electric age, for crying out loud!"
+	],
+	dependencies: [
+		"22263397"
+	],
+	tasks: [{
+		uid: "702353f9",
+		type: "checkmark",
+		title: "Meanwhile..."
+	}]
+}

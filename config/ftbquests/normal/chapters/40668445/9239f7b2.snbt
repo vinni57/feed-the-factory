@@ -1,0 +1,36 @@
+{
+	title: "Pressure Pipes Piping",
+	icon: "pressure:pipe",
+	x: 14.5d,
+	y: 2.0d,
+	shape: "gear",
+	description: "Infinite Fluid Transfer!",
+	text: [
+		"The new machines that aluminum unlocks need a lot of power, and that means I need to move a LOT of steam around to fuel the dynamos that power them.",
+		"",
+		"The previous fluid conduits won't really cut it, but Pressure Pipes gives me a way of transferring fluids, including water and STEAM, at nigh-infinite rates!",
+		"",
+		"Its research can be found in the \"Research: Transfer\" tab."
+	],
+	dependencies: [
+		"dff9d3a5"
+	],
+	tasks: [{
+		uid: "1bcc52d8",
+		type: "item",
+		title: "Pressure Pipes Transfer",
+		items: [{
+			item: "pressure:pipe"
+		},
+		{
+			item: "pressure:pump"
+		},
+		{
+			item: "pressure:input"
+		},
+		{
+			item: "pressure:output"
+		}],
+		consume_items: false
+	}]
+}

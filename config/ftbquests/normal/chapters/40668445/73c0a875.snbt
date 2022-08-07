@@ -1,0 +1,20 @@
+{
+	title: "Aluminum Age",
+	x: 16.5d,
+	y: 3.0d,
+	description: "Stage 3",
+	text: [
+		"Access to aluminum comes with new machines, new materials, and new challenges.",
+		"",
+		"Everything costs more materials and power, but gives access to things I wouldn't get otherwise! I'd say it's more than worth it."
+	],
+	dependencies: [
+		"dff9d3a5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f0617c28",
+		type: "checkmark",
+		title: "Aluminum Age"
+	}]
+}

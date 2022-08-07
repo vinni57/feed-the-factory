@@ -1,0 +1,24 @@
+{
+	title: "Crafting Station?",
+	x: -2.5d,
+	y: 4.0d,
+	shape: "gear",
+	text: [
+		"Though there's no \"Tinker's Construct\" to go along with it, I can still make crafting stations.",
+		"",
+		"Place them next to an inventory to be able to access everything inside when crafting.",
+		"",
+		"Combine with JEI to make quick crafting a breeze!"
+	],
+	dependencies: [
+		"4abc2ee2"
+	],
+	tasks: [{
+		uid: "435b27ca",
+		type: "item",
+		items: [{
+			item: "craftingstation:crafting_station"
+		}],
+		consume_items: false
+	}]
+}

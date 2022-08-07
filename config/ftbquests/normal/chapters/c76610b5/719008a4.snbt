@@ -1,0 +1,53 @@
+{
+	title: "Induction Smelter",
+	icon: "thermalexpansion:augment 1 304",
+	x: -1.0d,
+	y: 2.0d,
+	description: "x2-x4",
+	text: [
+		"This augment will allow the Induction Smelter to accept liquid Pyrotheum as an input to increase the number of clumps produced by one.",
+		"",
+		"With Cinnabar as a secondary ingredient, this will produce 4 clumps per ore!"
+	],
+	dependencies: [
+		"19a1bbd5"
+	],
+	tasks: [{
+		uid: "29143064",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 16L
+	},
+	{
+		uid: "1b9f5d51",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics8"
+		}],
+		count: 64L
+	},
+	{
+		uid: "2e0c7c6d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 12L
+	},
+	{
+		uid: "1dfb989f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "ae46fc7d",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_ORE_PCONCENTRATOR"
+	}]
+}

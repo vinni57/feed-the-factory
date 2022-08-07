@@ -1,0 +1,30 @@
+{
+	title: "Aluminum",
+	icon: "thermalfoundation:material 1 132",
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"Refining aluminum should be easy enough, but most of the problem comes from actually obtaining its ore.",
+		"",
+		"I need a very specialized drill and I lack the knowledge on how to properly make it.",
+		"",
+		"Thus, I need A LOT of advanced research in order to figure it out."
+	],
+	dependencies: [
+		"bd2c4210"
+	],
+	tasks: [{
+		uid: "b9da80f4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics8"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "df774356",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "MAT_ALUMINUM"
+	}]
+}

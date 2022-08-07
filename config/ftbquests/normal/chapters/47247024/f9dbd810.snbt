@@ -1,0 +1,34 @@
+{
+	title: "Elite Battery",
+	icon: {
+		id: "nuclearcraft:lithium_ion_battery_du",
+		tag: {
+			maxTransfer: 125000,
+			capacity: 2500000,
+			energy: 0
+		}
+	},
+	x: 12.0d,
+	y: 4.0d,
+	dependencies: [
+		"9b269bfa"
+	],
+	tasks: [{
+		uid: "e49839dd",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:lithium_ion_battery_du",
+			tag: {
+				maxTransfer: 125000,
+				capacity: 2500000,
+				energy: 0
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "625a0dbe",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_STORE_10"
+	}]
+}

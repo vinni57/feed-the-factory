@@ -1,0 +1,22 @@
+{
+	title: "Ore Processing",
+	icon: "minecraft:iron_ore",
+	x: -3.0d,
+	y: -3.0d,
+	description: "Getting more out of your ores!",
+	text: [
+		"Immediately smelting ores early on is good enough, but soon I'll need MORE.",
+		"",
+		"Ore procssing is tiered, and the output of each tier can be passed into the previous one as if it were a raw piece of ore.",
+		"",
+		"So 3 Clumps outputted by Induction Smelter from Tier 3 can be passed into the Pulverizer from Tier 2 to produce 2.5 dirt dusts each, and smelted with Flux Anodizers into 2 ingots each. That's a total of 15 ingots per ore!",
+		"",
+		"Some of the upgrades in each tier are optional, so unlock and use whatever works best for you!"
+	],
+	tasks: [{
+		uid: "ae87cabf",
+		type: "checkmark",
+		title: "Ore Processing",
+		icon: "minecraft:furnace"
+	}]
+}

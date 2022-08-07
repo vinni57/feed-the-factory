@@ -1,0 +1,37 @@
+{
+	title: "Bigger Filters",
+	icon: "enderio:item_big_advanced_item_filter",
+	x: -2.0d,
+	y: 4.5d,
+	description: "Mo' Fields, Mo' Problems",
+	text: [
+		"Sometimes, a lot of filtering fields are needed, usually when handling many different types of ores.",
+		"",
+		"The Big Item Filter and Advanced variant have a chest's worth of fields to filter items by!"
+	],
+	dependencies: [
+		"8c2e19fc"
+	],
+	tasks: [{
+		uid: "6a922163",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "9a8d740a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "b9cbc780",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_COND_FILTER_BIG"
+	}]
+}

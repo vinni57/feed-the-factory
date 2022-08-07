@@ -1,0 +1,43 @@
+{
+	title: "Shulker Data Model",
+	icon: "deepmoblearning:data_model_shulker",
+	x: 7.0d,
+	y: 2.0d,
+	description: "Gems",
+	text: [
+		"This Data Model outputs pristine matter than be converted into diamonds!"
+	],
+	dependencies: [
+		"09c25c7e"
+	],
+	tasks: [{
+		uid: "02a9201a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "ce39643c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "6e9cd761",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "9f04b7d1",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "MAT_DML_SHULKER"
+	}]
+}

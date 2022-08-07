@@ -1,0 +1,22 @@
+item.industrialwires.ic2_wire_coil.tin.name=MV Wire Coil
+item.industrialwires.ic2_wire_coil.tin_ins.name=Insulated MV Wire Coil
+tile.industrialwires.ic2_connector.tin_conn.name=MV Wire Connector
+tile.industrialwires.ic2_connector.tin_relay.name=MV Wire Relay
+
+item.industrialwires.ic2_wire_coil.copper.name=Copper Wire Coil
+item.industrialwires.ic2_wire_coil.copper_ins.name=Insulated Copper Wire Coil
+tile.industrialwires.ic2_connector.copper_conn.name=Copper Wire Connector
+tile.industrialwires.ic2_connector.copper_relay.name=Copper Wire Relay
+
+item.industrialwires.ic2_wire_coil.gold.name=EV Wire Coil
+item.industrialwires.ic2_wire_coil.gold_ins.name=Insulated EV Wire Coil
+tile.industrialwires.ic2_connector.gold_conn.name=EV Wire Connector
+tile.industrialwires.ic2_connector.gold_relay.name=EV Wire Relay
+
+item.industrialwires.ic2_wire_coil.hv.name=MAX Wire Coil
+tile.industrialwires.ic2_connector.hv_conn.name=MAX Wire Connector
+tile.industrialwires.ic2_connector.hv_relay.name=MAX Wire Relay
+
+item.industrialwires.ic2_wire_coil.glass.name=Glass Fiber Wire Coil
+tile.industrialwires.ic2_connector.glass_conn.name=Glass Fiber Wire Connector
+tile.industrialwires.ic2_connector.glass_relay.name=Glass Fiber Wire Relay

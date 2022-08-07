@@ -1,0 +1,20 @@
+{
+	x: 9.5d,
+	y: 5.0d,
+	text: [
+		"Some handheld devices require power to operate, such as the Ender IO magnet. to recharge it, I can right-click it on a Charging Station.",
+		"",
+		"The station obviously takes electricity, and I can supply power through the back."
+	],
+	dependencies: [
+		"48938a29"
+	],
+	tasks: [{
+		uid: "eec8325c",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 5"
+		}],
+		consume_items: false
+	}]
+}

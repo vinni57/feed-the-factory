@@ -1,0 +1,12 @@
+{
+	title: "Molten Depleted Uranium Fuel",
+	x: 62.5d,
+	y: -4.0d,
+	dependencies: [
+		"8690099b"
+	],
+	tasks: [{
+		uid: "cf8c3eb6",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,79 @@
+{
+	title: "Diesel Generator",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "diesel",
+			Amount: 1000
+		}
+	},
+	x: -2.0d,
+	y: 3.5d,
+	description: "Extremely Efficient 7,500 rf/t",
+	text: [
+		"This is a power-producing multiblock that makes use of the same fuels as the Reactant Dynamo.",
+		"",
+		"Its unwieldly size and difficulty to set up is made up by its sheer fuel efficiency, which is better than a Dynamo with 6 Fuel Catalyzer upgrades!",
+		"",
+		"Though one advantage of the dynamo is that it can at least make use of Thermal Mediators to increase its efficiency."
+	],
+	dependencies: [
+		"4c0b5a37"
+	],
+	tasks: [{
+		uid: "e1792cd8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 12L
+	},
+	{
+		uid: "e41a0ed9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics8"
+		}],
+		count: 48L
+	},
+	{
+		uid: "10df580c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 12L
+	},
+	{
+		uid: "d018409d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "9a28086c",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_OIL_2"
+	},
+	{
+		uid: "c86b97c3",
+		type: "item",
+		title: "No one-use capsule available",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 5,
+				structureName: "config/capsule/prefabs/immersiveengineering/ie-dieselgenerator",
+				display: {
+					color: 3949738
+				},
+				label: "Ie-dieselgenerator"
+			},
+			Damage: 3s
+		}
+	}]
+}

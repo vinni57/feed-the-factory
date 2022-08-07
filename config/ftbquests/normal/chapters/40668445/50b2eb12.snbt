@@ -1,0 +1,73 @@
+{
+	title: "Fluxed Electrum",
+	icon: "contenttweaker:fluxedelectrum",
+	x: 13.5d,
+	y: 3.0d,
+	description: "A material stepping stone",
+	text: [
+		"Fluxed Electrum is a tricky metal. It's very complicated to create, even requiring research to unlock in the first place, and it only has one real use so far.",
+		"",
+		"But that one use is to be the pathway to get an even more useful material; aluminum. Thus, it's a necessary evil. It'll probably be more useful later on, though.",
+		"",
+		"To get it, melt redstone dust in a Magma Crucible, then move that fluid to a Fluid Transposer, where it's combineed with Electrum Ingots to make Fluxed Electrum.",
+		"",
+		"Once research for Aluminum is unlocked, I can check JEI to see the specifics of the recipe."
+	],
+	dependencies: [
+		"3264e646"
+	],
+	tasks: [{
+		uid: "188dbdd2",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 6s
+		}],
+		consume_items: false
+	},
+	{
+		uid: "ae2955ef",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 8s
+		}],
+		consume_items: false
+	},
+	{
+		uid: "c6fdd9b7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:fluxedelectrum"
+		}],
+		consume_items: false
+	}]
+}

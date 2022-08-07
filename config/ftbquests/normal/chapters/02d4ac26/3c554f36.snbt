@@ -1,0 +1,35 @@
+{
+	title: "LV Energy Conduit",
+	icon: "enderio:item_endergy_conduit 1 4",
+	x: 5.0d,
+	y: 1.5d,
+	description: "500 rf/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"3cb31236"
+	],
+	tasks: [{
+		uid: "d5563bda",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "eeaf3d0f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "8eeb0172",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_POWER_EIO_LV"
+	}]
+}

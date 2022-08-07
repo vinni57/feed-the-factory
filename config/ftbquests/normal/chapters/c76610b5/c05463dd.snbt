@@ -1,0 +1,36 @@
+{
+	title: "Fluid Crafting",
+	icon: "thermalexpansion:augment 1 433",
+	x: 6.0d,
+	y: 1.0d,
+	text: [
+		"This augment allows the Sequential Fabricator to accept fluids directly in place of a bucket containing the liquid!",
+		"",
+		"It'll consume 1000 mb (1 bucket worth) for each crafting operation that requires a filled bucket."
+	],
+	dependencies: [
+		"e6778d0d"
+	],
+	tasks: [{
+		uid: "4d0a649a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "d90877e7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "6fc9d814",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_CRAFT_FLUID"
+	}]
+}

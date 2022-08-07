@@ -1,0 +1,12 @@
+{
+	x: 68.5d,
+	y: -5.0d,
+	dependencies: [
+		"faa2ea8f"
+	],
+	tasks: [{
+		uid: "1a2c0fb2",
+		type: "checkmark",
+		title: "Tier 3 Mining Drone"
+	}]
+}

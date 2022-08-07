@@ -1,0 +1,27 @@
+{
+	title: "Faster Movement",
+	icon: "travellersboots:bootsmkiii",
+	x: -8.0d,
+	y: 1.5d,
+	text: [
+		"These boots provide a greater speed boost than the previous one!",
+		"",
+		"On top of that, they even give step assist, which lets me climb one-block inclines without jumping!",
+		"",
+		"I'll need it to get around my even bigger factories!"
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "2b7ac59c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "9aadb67b",
+		type: "item",
+		item: "travellersboots:bootsmkiii"
+	}]
+}

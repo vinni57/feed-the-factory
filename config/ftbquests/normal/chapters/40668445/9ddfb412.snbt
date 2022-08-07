@@ -1,0 +1,21 @@
+{
+	title: "MV Cables",
+	x: 18.5d,
+	y: 2.0d,
+	description: "Better Power Transfer",
+	text: [
+		"LV cables were nice, but with new materials come better ways of making power. And I need better ways to carry that power around!",
+		"",
+		"I'll need to unlock the research for them first in the \"Research: Transfer\" tab first."
+	],
+	dependencies: [
+		"73c0a875"
+	],
+	tasks: [{
+		uid: "37a91f95",
+		type: "item",
+		items: [{
+			item: "industrialwires:ic2_connector"
+		}]
+	}]
+}

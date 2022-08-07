@@ -1,0 +1,35 @@
+{
+	title: "Tier 3 Ore Processing",
+	icon: "contenttweaker:ore-clump-gold",
+	x: 18.5d,
+	y: 4.0d,
+	shape: "gear",
+	description: "Getting even more bang for your buck",
+	text: [
+		"Is turning ores into dirty dusts not efficient enough? Too little aluminum ore to make what I need?",
+		"",
+		"Well here's the solution! Using tier 3 ore processing, I can create multiple clumps out of an ore, which can then be turned into multiple dirty dusts, and finally smelted into ingots!"
+	],
+	dependencies: [
+		"fabfc282"
+	],
+	tasks: [{
+		uid: "911f0a3b",
+		type: "item",
+		title: "Tier 3 Ore Processors",
+		items: [{
+			item: "thermalfoundation:material 1 865"
+		},
+		{
+			item: "thermalfoundation:material 1 866"
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "887036ba",
+		type: "item",
+		item: "thermalfoundation:ore 1 4",
+		count: 32
+	}]
+}

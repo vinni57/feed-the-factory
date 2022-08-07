@@ -1,0 +1,37 @@
+{
+	x: -0.5d,
+	y: 6.0d,
+	shape: "gear",
+	text: [
+		"Nothing beats good old vanilla. Except pistachio, or coffee.",
+		"",
+		"Anyway, having a chest minecart ride over tracks placed on top of hoppers will extract one item per pass-by.",
+		"",
+		"I can use this to split ores and fuel between multiple furnaces! It has quite an iron cost, but I can easily get quite a bit of iron."
+	],
+	dependencies: [
+		"e9624ddd"
+	],
+	optional: true,
+	tasks: [{
+		uid: "797cf6c9",
+		type: "item",
+		items: [{
+			item: "minecraft:chest_minecart"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2f5b9919",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "05a4ae3e",
+		type: "item",
+		item: "signals:cart_hopper"
+	}]
+}

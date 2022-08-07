@@ -1,0 +1,38 @@
+{
+	title: "Monster-free Enchanting",
+	x: 22.5d,
+	y: 4.0d,
+	text: [
+		"With lapis, I can make an Arcane Ensorcellator, a machine that can apply enchantments to books!",
+		"",
+		"It needs liquid knowledge, which can be obtained by melting the extra \"matter\" outputted from running these models in a Magma Crucible.",
+		"",
+		"To get experience to apply those enchantments in avils, I can right-click that same \"matter\" while its in my hand to eat it and gain experience."
+	],
+	dependencies: [
+		"6964191c"
+	],
+	tasks: [{
+		uid: "8c7c62a3",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 13s
+		}],
+		consume_items: false
+	}]
+}

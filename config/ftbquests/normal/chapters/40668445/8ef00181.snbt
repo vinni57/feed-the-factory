@@ -1,0 +1,23 @@
+{
+	title: "Modular Machinery",
+	x: 1.5d,
+	y: 3.0d,
+	text: [
+		"Many of the multiblock machines available to me can only be made in capsule form.",
+		"",
+		"That means I don't have to worry about placing each piece in the world, as I can right-click their capsule form to automatically deploy them into the world!",
+		"",
+		"Most of these multiblock capsules require a Modular Machinery Base Capsule to craft, which in turn requires these machine casings."
+	],
+	dependencies: [
+		"44987a8c"
+	],
+	tasks: [{
+		uid: "8015b900",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}],
+		consume_items: false
+	}]
+}

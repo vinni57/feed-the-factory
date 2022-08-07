@@ -1,0 +1,37 @@
+{
+	title: "Diggy Diggy Hole",
+	x: -2.5d,
+	y: 3.0d,
+	text: [
+		"Stone and Cobblestone are important early on, but the only way to get it now is by digging it out of the ground.",
+		"",
+		"Pickaxes are nice, but only break 1 block at a time. Hammers on the other hand break a 3x3 area of blocks and would be perfect for stone collection!"
+	],
+	dependencies: [
+		"74e5bef0"
+	],
+	tasks: [{
+		uid: "60c17cfd",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "05735b17",
+		type: "item",
+		item: "thermalfoundation:tool.hammer_iron"
+	},
+	{
+		uid: "96f777b6",
+		type: "item",
+		item: "thermalfoundation:tool.excavator_iron"
+	},
+	{
+		uid: "7c3fbff8",
+		type: "item",
+		item: "minecraft:coal 1 1",
+		count: 16
+	}]
+}

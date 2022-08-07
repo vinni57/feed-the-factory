@@ -1,0 +1,16 @@
+{
+	title: "Advanced Fission",
+	icon: "nuclearcraft:salt_fission_controller",
+	x: 0.0d,
+	y: 6.0d,
+	description: "A better reactor",
+	dependencies: [
+		"519acaac"
+	],
+	rewards: [{
+		uid: "402a54ac",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_NUCLEAR_SALT"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 42.0d,
+	y: -2.0d,
+	text: [
+		"With plastic, I can make the next type of research. It needs a lot of plastic, so I'd better not be slacking with my automation.",
+		"",
+		"Even with its long production chain, plastic was the only thing I really had to make, so making more should be relatively easy."
+	],
+	dependencies: [
+		"0fc5f912"
+	],
+	tasks: [{
+		uid: "06f87ae8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchchemical1"
+		}],
+		consume_items: false
+	}]
+}

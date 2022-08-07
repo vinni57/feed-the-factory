@@ -1,0 +1,36 @@
+{
+	title: "LV Capacitor Bank",
+	icon: "enderio:block_cap_bank 1 1",
+	x: 6.5d,
+	y: 0.0d,
+	text: [
+		"This class of Capacitor can both input AND output on all sides, as well as automatically daisy-chain itself with any adjacent capacitors (of this type).",
+		"",
+		"Shift right-click a side with an empty hand to have it display a bar on how much is filled, and a second time to show the input/output rate!"
+	],
+	dependencies: [
+		"01843969"
+	],
+	tasks: [{
+		uid: "5ad54180",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "6596d5fa",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "43fc8786",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_STORE_EIO_1"
+	}]
+}

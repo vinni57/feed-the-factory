@@ -1,0 +1,57 @@
+{
+	title: "Sequential Fabricator",
+	icon: {
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				1b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			Level: 0b
+		},
+		Damage: 11s
+	},
+	x: 4.5d,
+	y: 1.0d,
+	text: [
+		"Much smaller than the Assembler multiblock, but starting out is comparatively slow and doesn't take fluids.",
+		"",
+		"When upgraded and augmented, this machine can do more in less space at the cost of more power.",
+		"",
+		"It also works with researched recipes!"
+	],
+	dependencies: [
+		"cbbf469e",
+		"ebeffc31"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "7925cac5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 32L
+	},
+	{
+		uid: "b4da8b9a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "cd3e4d24",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_CRAFT_TE"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Super Factory Manager",
+	x: 18.5d,
+	y: 5.0d,
+	shape: "gear",
+	description: "Precise short-range automation",
+	text: [
+		"With Production Research, I can figure out Super Factory Manager, a wonderful tool that will allow me to perform very precise automation!",
+		"",
+		"I can define a set of rules and actions that will be performed on a trigger (something happening, a timer, etc.) on a set of inventories.",
+		"",
+		"Eg. Pull from an inventory and insert into an autocrafter. Once everything has been made, move it over to a researcher, etc. Even account for how many of another item there is, so I don't accidentally make too many of something!"
+	],
+	dependencies: [
+		"fabfc282"
+	],
+	tasks: [{
+		uid: "68d5668f",
+		type: "item",
+		items: [{
+			item: "superfactorymanager:manager"
+		}],
+		consume_items: false
+	}]
+}

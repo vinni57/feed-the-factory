@@ -1,0 +1,29 @@
+{
+	title: "Auto Workbench",
+	x: 4.5d,
+	y: 5.0d,
+	shape: "gear",
+	description: "Crafts gated recipes!",
+	text: [
+		"This one-block machine can craft recipes gated behind research! It's a miracle!",
+		"",
+		"...if only it weren't so slow! It takes 10 seconds to perform a single craft, but it's relatively simple so maybe I can chain several of these together?"
+	],
+	dependencies: [
+		"0a901c5d"
+	],
+	tasks: [{
+		uid: "a97742dc",
+		type: "item",
+		items: [{
+			item: "buildcraftfactory:autoworkbench_item"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "e19de8b3",
+		type: "item",
+		item: "buildcraftfactory:autoworkbench_item",
+		count: 3
+	}]
+}

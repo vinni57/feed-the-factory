@@ -1,0 +1,18 @@
+{
+	x: 48.0d,
+	y: -1.0d,
+	text: [
+		"This item can be melted into crude in a Magma Crucible."
+	],
+	dependencies: [
+		"25a058e1"
+	],
+	tasks: [{
+		uid: "3d154376",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 892"
+		}],
+		consume_items: false
+	}]
+}

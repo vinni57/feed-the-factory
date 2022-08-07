@@ -1,0 +1,13 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"Electricity is a powerful tool in more advanced machines. Once I unlock the means of producing power, I should start going through this tree."
+	],
+	tasks: [{
+		uid: "eabfd78c",
+		type: "checkmark",
+		title: "Power Transfer",
+		icon: "immersiveengineering:connector 1 8"
+	}]
+}

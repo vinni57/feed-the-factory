@@ -1,0 +1,23 @@
+{
+	title: "HV Power Transfer",
+	x: 31.0d,
+	y: 0.0d,
+	text: [
+		"As it is, my current power transfer infrastructure isn't really standing up to the energy I'm generating or using.",
+		"",
+		"And with the advent of power from oil coming up, I'm in trouble! Luckily, I should be able to unlock the research needed for HV power transfer now.",
+		"",
+		"In the Research: Transfer tab, this unlock should let me move more power around at once!"
+	],
+	dependencies: [
+		"884d026b"
+	],
+	tasks: [{
+		uid: "276bd349",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 2"
+		}],
+		consume_items: false
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Insulated Cabling",
+	x: 9.0d,
+	y: 2.0d,
+	description: "Zap!",
+	text: [
+		"Apparently, exposed cables carrying power will zap me if I walk through them! Ouch...",
+		"",
+		"I can solve this problem by covering them in hemp, but it only works for the LV and MV tiers. Once I reach HV, I'd better keep them far away from wherever I walk.",
+		"",
+		"On the bright side, I only need one hemp fiber instead of a whole fabric!"
+	],
+	dependencies: [
+		"48938a29"
+	],
+	tasks: [{
+		uid: "006b6985",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wirecoil 1 6"
+		}],
+		consume_items: false
+	}]
+}

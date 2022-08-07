@@ -1,0 +1,38 @@
+{
+	title: "Trash Can",
+	x: 7.0d,
+	y: 0.0d,
+	shape: "gear",
+	description: "I eat Gahbaj!",
+	text: [
+		"The Nullifier can take any item or fluid as input and delete it from existence! If only we had this back home to deal with the trash problem...",
+		"",
+		"I can use it to drain away any extra creosote I might have, or anything else I don't need."
+	],
+	dependencies: [
+		"f8b10c44"
+	],
+	tasks: [{
+		uid: "9a1a69e9",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				]
+			},
+			Damage: 1s
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}]
+}

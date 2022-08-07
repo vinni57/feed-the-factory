@@ -1,0 +1,47 @@
+{
+	title: "High Pressure Pipes",
+	icon: "pressure:pipe",
+	x: -4.0d,
+	y: 7.5d,
+	description: "Infinite, Instantaneous Fluid Transfer!",
+	text: [
+		"Conduits are nice for their filtering abilities and ease of use, but they're limited by their extraction rate and throughput.",
+		"",
+		"High Pressure Pipes are how I can get around these limitations by having nigh INFINITE FLUID TRANSFER RATE!!!",
+		"",
+		"The High Pressure Pump can transfer from a tank right behind it to one in front of it, and the High Pressure Input and Output can push fluids into and out of High Pressure Pipes."
+	],
+	dependencies: [
+		"39a047c0"
+	],
+	tasks: [{
+		uid: "3e3b4066",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 12L
+	},
+	{
+		uid: "77e0c313",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 48L
+	},
+	{
+		uid: "016ae636",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "9e9215b9",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_FLUID_PP_PIPES"
+	}]
+}

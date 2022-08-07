@@ -1,0 +1,28 @@
+{
+	title: "Diamond Drill Head",
+	icon: "f0-resources:item_drill_head.f0r.diamond",
+	x: -6.5d,
+	y: 0.0d,
+	description: "Upgraded Tier 1 Drill",
+	text: [
+		"The steel drill head is better than the iron drill head in every way, and it will mine up more types of ores! The problem with that is that you might not want it to mine everything.",
+		"",
+		"Sometimes, you just want to mine up the first tier ores like copper and iron, while ignoring nickel and lead, but the iron drill is so slow!",
+		"",
+		"The diamond drill head has the speed of steel, but only mines iron drill-tiered metals!"
+	],
+	tasks: [{
+		uid: "2daefdcd",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "c43b0fad",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "UPGRADE_DRILL_T0"
+	}]
+}

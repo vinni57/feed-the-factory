@@ -1,0 +1,17 @@
+{
+	title: "Tier 3",
+	icon: "contenttweaker:ore-clump-gold",
+	x: -3.0d,
+	y: 2.0d,
+	description: "Clumps",
+	text: [
+		"Ores and Shards can be turned into Clumps by machines in this tier."
+	],
+	dependencies: [
+		"5896e621"
+	],
+	tasks: [{
+		uid: "29bc511f",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	title: "Recombined Resolifidied Separated Molten Depleted Uranium Fuel",
+	x: 64.5d,
+	y: -4.0d,
+	dependencies: [
+		"7e7123c5"
+	],
+	tasks: [{
+		uid: "a07e2394",
+		type: "checkmark"
+	}]
+}

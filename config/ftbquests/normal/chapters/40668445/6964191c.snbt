@@ -1,0 +1,31 @@
+{
+	title: "Gems!",
+	x: 21.5d,
+	y: 3.0d,
+	text: [
+		"Pristine Shulker Matter can be converted into a wide variety of gems!"
+	],
+	dependencies: [
+		"338f7fc3"
+	],
+	tasks: [{
+		uid: "5baf0ff3",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		},
+		{
+			item: "minecraft:emerald"
+		},
+		{
+			item: "minecraft:quartz"
+		},
+		{
+			item: "minecraft:dye 1 4"
+		},
+		{
+			item: "minecraft:prismarine_shard"
+		}],
+		consume_items: false
+	}]
+}

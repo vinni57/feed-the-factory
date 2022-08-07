@@ -1,0 +1,33 @@
+{
+	title: "Ultimate Voltaic Pile",
+	icon: {
+		id: "nuclearcraft:voltaic_pile_elite",
+		tag: {
+			maxTransfer: 25000,
+			capacity: 500000,
+			energy: 0
+		}
+	},
+	x: 13.0d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"792c183b"
+	],
+	tasks: [{
+		uid: "697935be",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:coin 1 66"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "0dae0f6b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_STORE_7"
+	}]
+}

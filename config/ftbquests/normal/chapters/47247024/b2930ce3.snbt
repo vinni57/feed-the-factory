@@ -1,0 +1,37 @@
+{
+	title: "Solar Panel Tier 3",
+	icon: "solarflux:solar_panel_3",
+	x: -8.0d,
+	y: 2.0d,
+	description: "16 rf/t | First usable tier",
+	text: [
+		"Finally, a panel I don't have to place down a dozen of for each machine!",
+		"",
+		"It's quite expensive to produce, but it's worth it if I don't want to make actual power infrastructure."
+	],
+	dependencies: [
+		"e8f65791"
+	],
+	tasks: [{
+		uid: "4197a38a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "269640da",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "f7891458",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_SOLAR_SF_3"
+	}]
+}

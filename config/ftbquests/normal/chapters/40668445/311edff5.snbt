@@ -1,0 +1,25 @@
+{
+	title: "Electric Drilling",
+	x: 7.5d,
+	y: 1.0d,
+	shape: "gear",
+	text: [
+		"Refilling drills with fuel can be a pain, and it still might not feel that fast!",
+		"",
+		"Here's a solution; a drill that's powered by electricity! Genius! It's still capable of holding the same type of drills and outputting to any side, but it's somehow faster!",
+		"",
+		"Place in a 3x3 square with only 1 height, then shift-right click one of the sides to output to whatever chest, conveyor belt, or inventory is there. It takes power on any side too."
+	],
+	dependencies: [
+		"f8b10c44"
+	],
+	tasks: [{
+		uid: "824a9684",
+		type: "item",
+		items: [{
+			item: "f0-resources:drill_component"
+		}],
+		count: 9L,
+		consume_items: false
+	}]
+}

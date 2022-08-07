@@ -1,0 +1,28 @@
+{
+	x: 32.5d,
+	y: -1.0d,
+	description: "Power from Liquid Fuels",
+	text: [
+		"This dynamo should let me actually use oil to produce power! The fuel I have so far however is pretty... crude, so maybe I can make something better out of it later?",
+		"",
+		"On the bright side, this generator can also run on Creosote! So if I have enough treated wood, there's now a better use for the byproduct."
+	],
+	dependencies: [
+		"a10da648"
+	],
+	tasks: [{
+		uid: "59b4f7ea",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 2s
+		}],
+		consume_items: false
+	}]
+}

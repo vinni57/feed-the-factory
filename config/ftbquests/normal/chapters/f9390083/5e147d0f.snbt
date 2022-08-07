@@ -1,0 +1,37 @@
+{
+	title: "Fastest Steel",
+	icon: "immersiveengineering:metal_device1",
+	x: -2.0d,
+	y: 0.0d,
+	description: "30 RF/t each",
+	text: [
+		"Place one or two of these on the left and right sides of the advanced blast furnace and provide it power from the top.",
+		"",
+		"It'll speed up steel production even more!"
+	],
+	dependencies: [
+		"43f74923"
+	],
+	tasks: [{
+		uid: "af1f9609",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "71acbd04",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "f724d967",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "MAT_STEEL_PREHEATER"
+	}]
+}

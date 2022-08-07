@@ -1,0 +1,53 @@
+{
+	title: "Multiblock Tanks",
+	icon: "minecraft:bucket",
+	x: 4.5d,
+	y: 4.0d,
+	shape: "gear",
+	description: "Better Fluid Storage",
+	text: [
+		"Sometimes the portable tank isn't enough to store the amount of fluids that I'm producing.",
+		"",
+		"Thankfully, I can built the Immersive Engineering tank, a multiblock that stores 512 bucks of fluid!",
+		"",
+		"The instructions on how to set one up are in the Engineer's Manual under the Construction tab."
+	],
+	dependencies: [
+		"0a901c5d"
+	],
+	tasks: [{
+		uid: "bfc36a4b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:sheetmetal 1 9"
+		}],
+		count: 34L,
+		consume_items: false
+	},
+	{
+		uid: "8f8ac286",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_decoration"
+		}],
+		count: 4L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "f356e705",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 5,
+				structureName: "config/capsule/prefabs/immersiveengineering/ie-sheetmetaltank",
+				display: {
+					color: 3949738
+				},
+				label: "Ie-sheetmetaltank"
+			},
+			Damage: 3s
+		}
+	}]
+}

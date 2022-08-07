@@ -1,0 +1,31 @@
+{
+	title: "Machine Augments",
+	icon: "thermalexpansion:augment 1 128",
+	x: -2.0d,
+	y: -1.5d,
+	text: [
+		"General machine augments increase the energy efficiency or processing speed. Of course, I can mix and match between them."
+	],
+	tasks: [{
+		uid: "125039c7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "bbed2bdf",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "c6e21c07",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "UPGRADE_TE_MACHINE"
+	}]
+}

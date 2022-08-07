@@ -1,0 +1,39 @@
+{
+	title: "No Mining Here",
+	icon: "minecraft:iron_ore",
+	x: -1.5d,
+	y: 3.0d,
+	description: "Press F9 to view chunk borders!",
+	text: [
+		"Am I glad that I also have a mining drill with me! I can't imagine doing it by hand. I just have to scan for a chunk with the ore I'm looking for and place down the drill, fill it with burnable fuel and a drill item, and let it run!",
+		"",
+		"The drill has to be placed in a 2x2x2 block (8 drill blocks total), and I need to sneak-right click one of the faces of the completed structure with an empty hand so it outputs on that side. Placing a chest or other inventory will make it output directly into it.",
+		"",
+		"The Iron Drill Head can only mine out Iron, Copper, Redstone, Coal, and Diamond. It's a good start, I suppose.",
+		"",
+		"ALSO sometimes, the drill might show that there's fuel inside but stuck at that value. This actually means that it's out of fuel and needs some more. Small visual bug, I suppose."
+	],
+	dependencies: [
+		"4abc2ee2"
+	],
+	tasks: [{
+		uid: "9f0a2cd6",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ore"
+		}],
+		count: 2L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "eb0e231b",
+		type: "item",
+		item: "f0-resources:burner_drill_component",
+		count: 8
+	},
+	{
+		uid: "091b1c1d",
+		type: "item",
+		item: "f0-resources:item_drill_head.f0r.iron"
+	}]
+}

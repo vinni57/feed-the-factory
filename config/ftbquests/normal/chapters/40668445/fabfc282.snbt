@@ -1,0 +1,18 @@
+{
+	x: 16.5d,
+	y: 4.0d,
+	text: [
+		"With aluminum comes a new type of research! Production Research paves the way for brand new upgrades, machines, and systems!"
+	],
+	dependencies: [
+		"73c0a875"
+	],
+	tasks: [{
+		uid: "c9ac13a9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		consume_items: false
+	}]
+}

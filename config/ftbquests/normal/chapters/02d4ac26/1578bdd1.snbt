@@ -1,0 +1,37 @@
+{
+	title: "Advanced Conduit Filtering",
+	icon: "enderio:item_limited_item_filter",
+	x: -2.0d,
+	y: 6.5d,
+	description: "When you need to get more specific",
+	text: [
+		"NBT and Metadata aren't always enough. The filters unlocked by this research allow filtering based on all sorts of qualities, like by mod, energy, enchantment, etc.",
+		"",
+		"The most powerful filter is the Limited Item Filter, which can keep an inventory stocked with a specific number of certain items. Great for Researchers!"
+	],
+	dependencies: [
+		"8c2e19fc"
+	],
+	tasks: [{
+		uid: "c5ba35cf",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "82159ab9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "c049620e",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_COND_FILTER_SPECIAL"
+	}]
+}

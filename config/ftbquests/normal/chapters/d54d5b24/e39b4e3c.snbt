@@ -1,0 +1,14 @@
+{
+	title: "Automate Everything",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Getting back home will require automating all sorts of items, from humble ores and ingots, to complex materials made from a chain of machines.",
+		"",
+		"I can check back here to see how well things are going, and to pick up some well-deserved rewards!"
+	],
+	tasks: [{
+		uid: "556af1cd",
+		type: "checkmark"
+	}]
+}

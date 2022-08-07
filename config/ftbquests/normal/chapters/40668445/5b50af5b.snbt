@@ -1,0 +1,23 @@
+{
+	title: "Better Chemical Production",
+	x: 38.5d,
+	y: -3.0d,
+	text: [
+		"With the creation of plastic, I can now create an even better chemical reactor!",
+		"",
+		"It even has an alternate way of producing polyethylene plastic that doesn't require oil! But it's... really long and I already have an oil-based chain set up.",
+		"",
+		"So why bother unless I want to forego oil completely? And I see no reason for that as long as oil is making me so much power."
+	],
+	dependencies: [
+		"9404b367"
+	],
+	tasks: [{
+		uid: "77960fc1",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:chemical_reactor_idle"
+		}],
+		consume_items: false
+	}]
+}

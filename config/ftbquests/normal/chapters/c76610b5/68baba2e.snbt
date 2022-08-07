@@ -1,0 +1,69 @@
+{
+	title: "Crusher Multiblock",
+	icon: "minecraft:anvil",
+	x: -2.0d,
+	y: 3.5d,
+	description: "x3.5",
+	text: [
+		"A large multiblock structure whose only real cost at this point is power. It can turn ores and shards into 3.5 clumps on average!"
+	],
+	dependencies: [
+		"7cfa1fea"
+	],
+	tasks: [{
+		uid: "c586d0b0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 32L
+	},
+	{
+		uid: "13c1402d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics64"
+		}],
+		count: 16L
+	},
+	{
+		uid: "0507d1a3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 12L
+	},
+	{
+		uid: "d8cd5bb3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "6a6925be",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_ORE_IECRUSHER"
+	},
+	{
+		uid: "1bb60802",
+		type: "item",
+		title: "No one-use capsule available",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 5,
+				structureName: "config/capsule/prefabs/immersiveengineering/ie-crusher",
+				display: {
+					color: 3949738
+				},
+				label: "Ie-crusher"
+			},
+			Damage: 3s
+		}
+	}]
+}

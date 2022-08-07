@@ -1,0 +1,38 @@
+{
+	title: "Item Conduits",
+	icon: "enderio:item_item_conduit",
+	x: 0.0d,
+	y: 3.5d,
+	text: [
+		"These Item Conduits can transfer items over a long distance almost instantaneously! Too bad they're limited to only moving 4 items per second.",
+		"",
+		"But what they boast is fine-tuned control, with round robin mode, colored channels, and room to take in various filters!",
+		"",
+		"As the most versatile method of item transfer, they also cost quite a lot."
+	],
+	dependencies: [
+		"48c6f1d9"
+	],
+	tasks: [{
+		uid: "c736e212",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 16L
+	},
+	{
+		uid: "45e5eece",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "216fcf9b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_COND_ITEM_1"
+	}]
+}

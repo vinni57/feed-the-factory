@@ -1,0 +1,24 @@
+{
+	title: "Basic Research",
+	x: 3.5d,
+	y: 3.0d,
+	description: "Yes, that takes 2 minutes to make.",
+	text: [
+		"My first Research! This is the first type I can make with what I've got on hand, but as I unlock new technologies, that list should expand!",
+		"",
+		"The road to that is going to be long and difficult, so there's nothing wrong with spending Research to make it easier to produce more, instead of just saving up for the next tier.",
+		"",
+		"For starters, anything that will make it easier to move items around would be great, like minecarts! I'll eventually need power and the ability to move that around too."
+	],
+	dependencies: [
+		"d4bd178e"
+	],
+	tasks: [{
+		uid: "cf694b5f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		consume_items: false
+	}]
+}

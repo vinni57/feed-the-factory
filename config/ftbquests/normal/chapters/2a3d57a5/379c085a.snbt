@@ -1,0 +1,37 @@
+{
+	x: 1.0d,
+	y: 4.0d,
+	can_repeat: true,
+	dependencies: [
+		"f2113392"
+	],
+	tasks: [{
+		uid: "3070e67f",
+		type: "checkmark",
+		title: "Diesel Generator",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "diesel",
+				Amount: 1000
+			}
+		}
+	}],
+	rewards: [{
+		uid: "b839d066",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 5,
+				structureName: "config/capsule/prefabs/immersiveengineering/ie-dieselgenerator",
+				display: {
+					color: 3949738
+				},
+				label: "Ie-dieselgenerator"
+			},
+			Damage: 3s
+		}
+	}]
+}

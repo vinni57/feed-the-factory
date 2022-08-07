@@ -1,0 +1,39 @@
+{
+	title: "Research Speed Upgrade",
+	icon: "contenttweaker:upgrade_speed_1",
+	x: -3.5d,
+	y: 0.0d,
+	description: "Faster Research",
+	text: [
+		"By replacing a gearbox block on the researcher with the Speed Upgrade, I can increase the speed at which research is produced by 15%!",
+		"",
+		"They also stack, so I can replace both gearboxes with this!",
+		"",
+		"Too bad it takes proportionally more power, but it's the same as stacking part of a new researcher into a single one."
+	],
+	dependencies: [
+		"2376e153"
+	],
+	tasks: [{
+		uid: "7497add3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "81d7c527",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "a68bdd89",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "RESEARCHER_SPEED_1"
+	}]
+}

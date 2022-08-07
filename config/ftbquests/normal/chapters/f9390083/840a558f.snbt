@@ -1,0 +1,43 @@
+{
+	title: "Enderman Data Model",
+	icon: "deepmoblearning:data_model_enderman",
+	x: 6.0d,
+	y: 2.0d,
+	description: "Ender Pearls",
+	text: [
+		"This Data Model outputs pristine matter than be converted into ender pearls!"
+	],
+	dependencies: [
+		"09c25c7e"
+	],
+	tasks: [{
+		uid: "87dc3a61",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "773b0103",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "632eb524",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "e5597f3c",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "MAT_DML_ENDER"
+	}]
+}

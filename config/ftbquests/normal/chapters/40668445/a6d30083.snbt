@@ -1,0 +1,23 @@
+{
+	x: 19.5d,
+	y: 3.0d,
+	description: "Actually obtaining the loot",
+	text: [
+		"Pristine matter is pretty and all, but what am I supposed to do with it?",
+		"",
+		"The loot fabricator can turn these into a particular drop of choice at the cost of power.",
+		"",
+		"Only takes piped item inputs from the top and outputs them at the bottom. Power can be supplied on any side."
+	],
+	dependencies: [
+		"ad9d7c0d"
+	],
+	tasks: [{
+		uid: "fb1b40e2",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:extraction_chamber"
+		}],
+		consume_items: false
+	}]
+}

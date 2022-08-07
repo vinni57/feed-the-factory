@@ -1,0 +1,33 @@
+{
+	title: "Bulk Crafting",
+	icon: "contenttweaker:mmcapsule",
+	x: 2.5d,
+	y: 4.0d,
+	shape: "gear",
+	description: "Because 1 researcher is NEVER enough",
+	text: [
+		"I can't just craft a new machine or multiblock at a time, that takes way too long!",
+		"",
+		"I need to get used to the idea of \"Bulk Crafting\", where I make a lot of something when I only need a few now, but will need a lot more later on. That's probably going to happen with researchers, or even the Multiblock Base Capsules.",
+		"",
+		"Let me do that now, in fact."
+	],
+	dependencies: [
+		"d4bd178e"
+	],
+	tasks: [{
+		uid: "0f2497eb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mmcapsule"
+		}],
+		count: 8L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "d5e93471",
+		type: "item",
+		item: "contenttweaker:mmcapsule",
+		count: 4
+	}]
+}

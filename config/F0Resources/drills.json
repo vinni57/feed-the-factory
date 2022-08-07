@@ -1,0 +1,56 @@
+[
+  {
+    "name": "f0r.iron",
+    "isUnlocalized": true,
+    "durability": 251,
+    "color": 14211288,
+    "tier": 0,
+    "speed": 1.0
+  },
+  {
+    "name": "f0r.diamond",
+    "isUnlocalized": true,
+    "durability": 1562,
+    "color": 3402699,
+    "tier": 0,
+    "speed": 1.5
+  },
+  
+  
+  
+  {
+    "name": "f0r.steel",
+    "isUnlocalized": true,
+    "durability": 400,
+    "color": 9803157,
+    "tier": 1,
+    "speed": 1.5
+  },
+  {
+    "name": "f0r.invar",
+    "isUnlocalized": true,
+    "durability": 425,
+    "color": 14146521,
+    "tier": 1,
+    "speed": 2.0
+  },
+  
+  
+  
+  {
+    "name": "f0r.electrum",
+    "isUnlocalized": true,
+    "durability": 100,
+    "color": 15262332,
+    "tier": 2,
+    "speed": 2.0
+  },
+  {
+    "name": "f0r.enderium",
+    "isUnlocalized": true,
+    "durability": 1841,
+    "color": 1007455,
+    "tier": 2,
+    "speed": 3.0
+  }
+]

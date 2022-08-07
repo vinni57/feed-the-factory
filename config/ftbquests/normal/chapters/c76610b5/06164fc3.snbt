@@ -1,0 +1,62 @@
+{
+	title: "Compactor",
+	icon: {
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				1b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			Level: 0b
+		},
+		Damage: 5s
+	},
+	x: -6.5d,
+	y: 1.0d,
+	text: [
+		"This is a single block machine that can turn ingots into plates at the same rate as the Metal Press.",
+		"",
+		"With the right augment, it should be able to produce gears as well."
+	],
+	dependencies: [
+		"b339b94d"
+	],
+	tasks: [{
+		uid: "4093aa7f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "dc226ba8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "beb39947",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "fb5c53c5",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_MAT_COMPACTOR"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Tier 1",
+	icon: "minecraft:gold_ingot",
+	x: -3.0d,
+	y: -1.0d,
+	description: "Smelting",
+	text: [
+		"Direct conversion of ores and dusts into ingots, same as a vanilla furnace.",
+		"",
+		"Multiplicative effects only work on Dirty Dusts, not regular dust. Dirty dusts are outputted by the next tier of processing."
+	],
+	dependencies: [
+		"6d7fb146"
+	],
+	tasks: [{
+		uid: "7750dc81",
+		type: "checkmark",
+		title: "Smelting"
+	}]
+}

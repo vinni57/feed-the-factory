@@ -1,0 +1,32 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	shape: "gear",
+	text: [
+		"Mining and drilling for cobblestone was always a pain.",
+		"",
+		"With this block, all of that will be over! Just place it down next to a chest or other inventory and it'll automatically output cobblestone to it. Or, I could place a hopper below it. Either way, free and easy cobblestone! Woo!"
+	],
+	dependencies: [
+		"f8b10c44"
+	],
+	tasks: [{
+		uid: "bbb79cab",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cobblestone_generator"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "06c5c724",
+		type: "item",
+		item: "nuclearcraft:cobblestone_generator",
+		count: 7
+	},
+	{
+		uid: "1cd6d4aa",
+		type: "item",
+		item: "thermalfoundation:material 1 163"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Ethylene",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "ethene",
+			Amount: 1000
+		}
+	},
+	x: 35.5d,
+	y: -2.0d,
+	text: [
+		"I can mix Naphtha and Hydrogen in the Salt Mixer to make Ethylene."
+	],
+	dependencies: [
+		"5010a3bd"
+	],
+	tasks: [{
+		uid: "4efcb0d3",
+		type: "checkmark"
+	}]
+}

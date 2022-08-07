@@ -1,0 +1,30 @@
+{
+	title: "Elite Voltaic Pile",
+	icon: {
+		id: "nuclearcraft:voltaic_pile_du",
+		tag: {
+			maxTransfer: 12500,
+			capacity: 250000,
+			energy: 0
+		}
+	},
+	x: 12.0d,
+	y: 2.0d,
+	dependencies: [
+		"48269629"
+	],
+	tasks: [{
+		uid: "3164ecab",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:coin 1 66"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "41c77044",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_STORE_6"
+	}]
+}

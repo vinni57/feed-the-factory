@@ -1,0 +1,27 @@
+{
+	title: "Compressed Research",
+	x: 3.5d,
+	y: 2.0d,
+	description: "More research, less space!",
+	text: [
+		"Sometimes I'll need a lot of research to unlock certain technologies, and I'll need to submit them in their compressed form.",
+		"",
+		"I can craft 8 research into a research pack, and 8 research packs into a research stack."
+	],
+	dependencies: [
+		"dab7ef50"
+	],
+	tasks: [{
+		uid: "c169e972",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "9d7eca6c",
+		type: "item",
+		item: "contenttweaker:researchlogistics8"
+	}]
+}

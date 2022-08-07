@@ -1,0 +1,34 @@
+{
+	title: "Ultimate Battery",
+	icon: {
+		id: "nuclearcraft:lithium_ion_battery_elite",
+		tag: {
+			maxTransfer: 250000,
+			capacity: 5000000,
+			energy: 0
+		}
+	},
+	x: 13.0d,
+	y: 4.0d,
+	dependencies: [
+		"f9dbd810"
+	],
+	tasks: [{
+		uid: "6e401d38",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:lithium_ion_battery_elite",
+			tag: {
+				maxTransfer: 250000,
+				capacity: 5000000,
+				energy: 0
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "76b0421b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_STORE_11"
+	}]
+}

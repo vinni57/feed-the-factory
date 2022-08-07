@@ -1,0 +1,44 @@
+{
+	title: "Super Factory Manager",
+	icon: "superfactorymanager:manager",
+	x: 0.0d,
+	y: 7.5d,
+	text: [
+		"Another wonderful automation tool! This one has its own special interface for defining rules for moving around items and such.",
+		"",
+		"Great for more complicated factory setups, especially if I want to define everything in one place."
+	],
+	dependencies: [
+		"a0f665b4"
+	],
+	tasks: [{
+		uid: "ee238f40",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 32L
+	},
+	{
+		uid: "6ff9b8c9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "efe3005e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "8cfe46c2",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_FACTORY"
+	}]
+}

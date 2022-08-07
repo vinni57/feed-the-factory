@@ -1,0 +1,21 @@
+{
+	x: 25.5d,
+	y: 6.5d,
+	shape: "gear",
+	text: [
+		"This augment, when applied to the pulverizer, will make it produce an additional dirty dust per input!",
+		"",
+		"It requires a constant input of liquid petrotheum to function, however."
+	],
+	dependencies: [
+		"ae2253c3"
+	],
+	tasks: [{
+		uid: "6c12aec4",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 273"
+		}],
+		consume_items: false
+	}]
+}

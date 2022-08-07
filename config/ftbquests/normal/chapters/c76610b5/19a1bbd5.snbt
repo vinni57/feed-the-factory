@@ -1,0 +1,53 @@
+{
+	title: "Induction Smelter",
+	icon: "thermalfoundation:material 1 865",
+	x: -2.0d,
+	y: 2.0d,
+	description: "x2-x3",
+	text: [
+		"The induction smelter can alloy metals, but I believe with the right secondary ingredient, it can also process ores extremely efficiently!",
+		"",
+		"The machine itself can be unlocked here or in the metalworking subtree to the left, but this research also allows it to multiply ores!",
+		"",
+		"This research should allow me to start crafting that ingredient, Rich Slag, and its upgraded form, Cinnabar."
+	],
+	dependencies: [
+		"78c23b0b"
+	],
+	tasks: [{
+		uid: "43a4bfb7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 12L
+	},
+	{
+		uid: "77677b85",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "037934b6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "7d39acc2",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_ORE_SLAG"
+	},
+	{
+		uid: "8821750d",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_MAT_INDUCTION"
+	}]
+}

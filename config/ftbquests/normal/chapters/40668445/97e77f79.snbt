@@ -1,0 +1,23 @@
+{
+	title: "Flux Anodizers",
+	x: 13.0d,
+	y: 1.5d,
+	shape: "gear",
+	description: "Doubling while smelting?",
+	text: [
+		"One interesting upgrade for the Redstone Furnace is this! It doubles any ores it smelts, but it also interestingly works on Dirty Dusts obtained from other ore processing methods.",
+		"",
+		"I can chain the two together to get something along the lines of 4-5x ingots per ore!"
+	],
+	dependencies: [
+		"a290313d"
+	],
+	tasks: [{
+		uid: "c4ff28f3",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 257"
+		}],
+		consume_items: false
+	}]
+}

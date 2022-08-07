@@ -1,0 +1,51 @@
+{
+	title: "Reflux Column",
+	icon: "thermalexpansion:augment 1 368",
+	x: 1.0d,
+	y: 4.5d,
+	description: "Efficient Refining",
+	text: [
+		"This augment will make the Fractionating Still much more efficient."
+	],
+	dependencies: [
+		"f40bd349"
+	],
+	tasks: [{
+		uid: "f779b5cb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 16L
+	},
+	{
+		uid: "ad5c7256",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics64"
+		}],
+		count: 12L
+	},
+	{
+		uid: "46092177",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "bfc83ab8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		count: 48L
+	}],
+	rewards: [{
+		uid: "928834d4",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_OIL_RC"
+	}]
+}

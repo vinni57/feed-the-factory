@@ -1,0 +1,26 @@
+{
+	title: "Nuclearcraft Ingots",
+	x: 48.0d,
+	y: -2.0d,
+	description: "Alloyed for Fission",
+	text: [
+		""
+	],
+	dependencies: [
+		"e764fb5a"
+	],
+	tasks: [{
+		uid: "30ddf49a",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ingot 1 5"
+		},
+		{
+			item: "nuclearcraft:ingot 1 7"
+		},
+		{
+			item: "nuclearcraft:ingot 1 6"
+		}],
+		consume_items: false
+	}]
+}

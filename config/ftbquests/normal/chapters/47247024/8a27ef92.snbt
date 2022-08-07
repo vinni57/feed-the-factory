@@ -1,0 +1,43 @@
+{
+	title: "Solar Panel Tier 4",
+	icon: "solarflux:solar_panel_4",
+	x: -8.0d,
+	y: 3.0d,
+	description: "64 rf/t",
+	text: [
+		"These panels should be enough to power the starting DML models. I'll need a few of them per machine, but not dozens of them."
+	],
+	dependencies: [
+		"b2930ce3"
+	],
+	tasks: [{
+		uid: "164f1b5b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 8L
+	},
+	{
+		uid: "e6aa6013",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "674aaff5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "b0e1b916",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_SOLAR_SF_4"
+	}]
+}

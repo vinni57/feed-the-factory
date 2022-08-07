@@ -1,0 +1,35 @@
+{
+	title: "Tier 4 Ore Processing",
+	icon: "contenttweaker:ore-shard-gold",
+	x: 31.0d,
+	y: 1.0d,
+	text: [
+		"Once again, I'm in need of more materials. If not for new factories and machines, then for more research.",
+		"",
+		"The only way I have to create shards is through the Immersive Engineering Crusher, a powerful multiblock that takes ores from the top and crushes them into shards.",
+		"",
+		"Items are dropped in from the top. I just have to be careful not to fall into those crushing wheels myself!"
+	],
+	dependencies: [
+		"884d026b"
+	],
+	tasks: [{
+		uid: "445ef406",
+		type: "item",
+		items: [{
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 5,
+				structureName: "config/capsule/prefabs/immersiveengineering/ie-crusher",
+				display: {
+					color: 3949738
+				},
+				label: "Ie-crusher"
+			},
+			Damage: 3s
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}]
+}

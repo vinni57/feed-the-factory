@@ -1,0 +1,26 @@
+{
+	title: "Tier 2 Researcher Upgrades",
+	x: 21.5d,
+	y: 4.0d,
+	shape: "gear",
+	description: "50% Bonus",
+	text: [
+		"Emeralds and Lapis will let me craft the second tier of researcher upgrade.",
+		"",
+		"Just replace the gearboxes on the machine with these blocks to get a faster production speed or more energy efficiency than the previous tier!"
+	],
+	dependencies: [
+		"6964191c"
+	],
+	tasks: [{
+		uid: "00a01257",
+		type: "item",
+		items: [{
+			item: "contenttweaker:upgrade_speed_2"
+		},
+		{
+			item: "contenttweaker:upgrade_energy_2"
+		}],
+		consume_items: false
+	}]
+}

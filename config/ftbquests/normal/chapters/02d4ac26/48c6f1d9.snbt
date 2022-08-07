@@ -1,0 +1,16 @@
+{
+	title: "Moving Items",
+	icon: "minecraft:chest",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"I'm lucky to at least know how to do this, to an extent.",
+		"",
+		"Conveyor Belts move items at a very slow rate, but their throughput is unparalleled! I can dump stacks of items into a single belt every second and it'll be able to carry all of it without any problem!"
+	],
+	tasks: [{
+		uid: "07d6ef08",
+		type: "checkmark",
+		title: "Moving Everything"
+	}]
+}

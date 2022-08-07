@@ -1,0 +1,50 @@
+{
+	title: "Biofuel",
+	icon: "thermalfoundation:material 1 819",
+	x: 1.0d,
+	y: 3.5d,
+	text: [
+		"\"Eco-friendly\" fuels I can use instead of oil! Biodiesel and Grassoline take a bit of effort to make, but don't require constantly pumping."
+	],
+	dependencies: [
+		"f40bd349"
+	],
+	tasks: [{
+		uid: "3259e86c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 16L
+	},
+	{
+		uid: "f966f37c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics64"
+		}],
+		count: 8L
+	},
+	{
+		uid: "d614415c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 14L
+	},
+	{
+		uid: "0d826b1d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		count: 48L
+	}],
+	rewards: [{
+		uid: "d530257e",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_OIL_BIO"
+	}]
+}

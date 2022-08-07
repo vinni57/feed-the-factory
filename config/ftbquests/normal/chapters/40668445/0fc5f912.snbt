@@ -1,0 +1,18 @@
+{
+	x: 40.0d,
+	y: -2.0d,
+	text: [
+		"Plastic in another shape. It has no specail properties of its own, but it'll be needed alongside regular plastic ingots for various recipes."
+	],
+	dependencies: [
+		"9404b367"
+	],
+	tasks: [{
+		uid: "f95b2009",
+		type: "item",
+		items: [{
+			item: "contenttweaker:plasticplate"
+		}],
+		consume_items: false
+	}]
+}

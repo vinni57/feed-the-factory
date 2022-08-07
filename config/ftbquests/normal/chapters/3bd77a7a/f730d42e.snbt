@@ -1,0 +1,39 @@
+{
+	title: "Research Energy Upgrade",
+	icon: "contenttweaker:upgrade_energy_1",
+	x: -2.0d,
+	y: 0.0d,
+	description: "Energy Efficient Research",
+	text: [
+		"Researchers take up a lot more power for higher tiers of research, so it'd be nice if I could make them more energy efficient.",
+		"",
+		"By replacing a gearbox block in a researcher with this, I can make it use 15% less power!",
+		"",
+		"They also stack, so I can replace both gearboxes for an additional bonus!"
+	],
+	dependencies: [
+		"2376e153"
+	],
+	tasks: [{
+		uid: "cd3ad8e0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "f8bf1ff6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "a0aa94b1",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "RESEARCHER_ENERGY_1"
+	}]
+}

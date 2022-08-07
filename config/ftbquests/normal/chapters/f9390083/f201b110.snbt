@@ -1,0 +1,47 @@
+{
+	title: "Mob Data Model",
+	icon: "deepmoblearning:data_model_zombie",
+	x: 9.0d,
+	y: 2.0d,
+	shape: "circle",
+	text: [
+		"I honestly expected most of these models to drop... well, mob drops, but that hasn't been the case.",
+		"",
+		"Luckily, I still have a way to get some!",
+		"",
+		"This model will drop a variety of mob drops, including wither skeleton heads, which I can craft directly into Nether Stars!"
+	],
+	dependencies: [
+		"09c25c7e"
+	],
+	tasks: [{
+		uid: "9098f19f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "99cb0d0c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "0ca6f029",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "167d887b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "MAT_DML_ZOMBIE"
+	}]
+}

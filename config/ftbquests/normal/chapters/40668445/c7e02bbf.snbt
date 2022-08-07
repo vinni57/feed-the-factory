@@ -1,0 +1,24 @@
+{
+	title: "Dealing with World Updates",
+	x: -3.5d,
+	y: 2.0d,
+	shape: "heart",
+	description: "[4th wall break incoming]",
+	text: [
+		"Hi, modpack developer here! If I do make an update to how factory0 spawns ores, it won't be reflected in already created worlds.",
+		"Worse still, it'll break the seismic scanner!",
+		"",
+		"Thankfully, the only update I've really made for now is to increase the amount of iron and copper in the veins they do spawn in.",
+		"",
+		"But if you want to enjoy that change without creating a new world, feel free to use the /f0r command to add 600 copper and iron to any vein you might already be drilling from! Yup, it's technically cheating, but you have my permission to do so.",
+		"I mean technically, putting together a modpack is letting you cheat but in a way that actually challenges you, so it's still a legitimate game. Whatever, just have fun :)"
+	],
+	dependencies: [
+		"74e5bef0"
+	],
+	tasks: [{
+		uid: "b37fd254",
+		type: "checkmark",
+		title: "Dealing with World Updates?"
+	}]
+}

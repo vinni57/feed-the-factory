@@ -1,0 +1,37 @@
+{
+	title: "Fluid Pump and Pipes",
+	icon: "immersiveengineering:metal_device0 1 5",
+	x: -4.0d,
+	y: 1.5d,
+	text: [
+		"The IE Fluid Pump requires an active redstone signal to operate (eg. from a lever), and the side that outputs the fluid needs to be specified by right-clicking it with an engineer's hammer.",
+		"",
+		"The outputting side will have an orange dot above it, NOT a blue one.",
+		"",
+		"Power (inputted from the top) is only needed when pumping fluids placed in the world. Extracting fluid from machines is free!"
+	],
+	dependencies: [
+		"c299bbda"
+	],
+	tasks: [{
+		uid: "39093dc6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 8L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "a8b98521",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_FLUID_IE"
+	},
+	{
+		uid: "8006c198",
+		type: "item",
+		item: "immersiveengineering:metal_device1 1 6",
+		count: 8
+	}]
+}

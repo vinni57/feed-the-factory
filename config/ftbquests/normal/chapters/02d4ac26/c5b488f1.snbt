@@ -1,0 +1,26 @@
+{
+	title: "IV Cables",
+	icon: "immersiveengineering:connector 1 4",
+	x: 4.0d,
+	y: 7.5d,
+	description: "Connector: 1,000,000 rf/t | Network: 8,000,000 rf/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"7c133253"
+	],
+	tasks: [{
+		uid: "bdf81536",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchquantum1"
+		}]
+	}],
+	rewards: [{
+		uid: "be90ef10",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_POWER_IEHV"
+	}]
+}

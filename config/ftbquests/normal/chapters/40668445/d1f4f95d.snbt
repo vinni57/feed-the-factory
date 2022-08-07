@@ -1,0 +1,22 @@
+{
+	title: "Gear Upgrade",
+	x: 14.5d,
+	y: 5.0d,
+	shape: "gear",
+	text: [
+		"The compactor can be upgraded to create gears with this augment! It's still slow, takes power, and has the same material cost.",
+		"",
+		"But it's automatable! And maybe it'll lead to something even better?"
+	],
+	dependencies: [
+		"9b89902e"
+	],
+	tasks: [{
+		uid: "69ee592a",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 337"
+		}],
+		consume_items: false
+	}]
+}

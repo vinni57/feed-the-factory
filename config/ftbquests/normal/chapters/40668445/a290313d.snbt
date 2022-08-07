@@ -1,0 +1,44 @@
+{
+	title: "Electric Smelting",
+	icon: "minecraft:furnace",
+	x: 11.5d,
+	y: 2.0d,
+	shape: "gear",
+	text: [
+		"Constantly filling furnaces with coal is getting bothersome, especially at the rate I need to smelt things!",
+		"",
+		"Luckily, there are several powered solutions to this! The external heater needs to be placed next to a furnace and powered to act as a fuel substitute.",
+		"",
+		"The Redstone Furnace simply takes power and smelts items inside of it. Better yet, it can automatically output the result as well! That's two less minecarts!"
+	],
+	dependencies: [
+		"48938a29"
+	],
+	tasks: [{
+		uid: "5af18936",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 1"
+		},
+		{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			}
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Liquid Crafting",
+	x: 8.0d,
+	y: 6.0d,
+	shape: "gear",
+	description: "Autocrafter using Fluids?",
+	text: [
+		"This augment, when applied to the Sequential Fabricator, will allow it to hold fluids and use that in crafting recipes in place of filled buckets of that liquid type!",
+		"",
+		"I'll finally be able to make use of all of that creosote that I had to stick in a tank and craft with manually! Now if only there was a way to automate wood..."
+	],
+	dependencies: [
+		"25b331d5"
+	],
+	tasks: [{
+		uid: "92eaa9b7",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 433"
+		}],
+		consume_items: false
+	}]
+}

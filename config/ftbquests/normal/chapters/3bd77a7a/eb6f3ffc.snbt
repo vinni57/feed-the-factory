@@ -1,0 +1,22 @@
+{
+	title: "Thermal Upgrade Kit 4",
+	icon: "thermalfoundation:upgrade 1 3",
+	x: -5.0d,
+	y: 4.5d,
+	dependencies: [
+		"dbafcd59"
+	],
+	tasks: [{
+		uid: "fcb206f1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchquantum1"
+		}]
+	}],
+	rewards: [{
+		uid: "447cc37b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "UPGRADE_AUG_4"
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 58.0d,
+	y: -6.0d,
+	dependencies: [
+		"6f888622",
+		"6d7ca4d3"
+	],
+	tasks: [{
+		uid: "db0195fe",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fuel_leu_235_fluoride",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	can_repeat: true,
+	dependencies: [
+		"68baba2e"
+	],
+	tasks: [{
+		uid: "f4d12138",
+		type: "checkmark",
+		title: "Crusher",
+		icon: "immersiveengineering:metal 1 18"
+	}],
+	rewards: [{
+		uid: "f1c21100",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 5,
+				structureName: "config/capsule/prefabs/immersiveengineering/ie-crusher",
+				display: {
+					color: 3949738
+				},
+				label: "Ie-crusher"
+			},
+			Damage: 3s
+		}
+	}]
+}

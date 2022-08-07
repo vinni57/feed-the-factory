@@ -1,0 +1,45 @@
+{
+	title: "Steam Power",
+	icon: {
+		id: "thermalexpansion:dynamo",
+		tag: {
+			RSControl: 0b,
+			Facing: 1b,
+			Energy: 0,
+			Level: 0b
+		}
+	},
+	x: -1.0d,
+	y: 2.0d,
+	description: "40 rf/tick (Base)",
+	text: [
+		"This generator runs on solid burnable fuel, but it also requires liquid water.",
+		"",
+		"There are several ways to get an infinite source of water, all of them in the \"Research: Transfer\" tab."
+	],
+	dependencies: [
+		"71161bb4"
+	],
+	tasks: [{
+		uid: "d53fee04",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "b6e57583",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "61bc0364",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_STEAM_1"
+	}]
+}

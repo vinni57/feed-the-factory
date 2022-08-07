@@ -1,0 +1,28 @@
+{
+	title: "Infinite Water Source",
+	icon: "nuclearcraft:water_source",
+	x: -5.0d,
+	y: 1.5d,
+	text: [
+		"This machine produces water at a slow rate, and automatically outputs it to adjacent blocks that can hold it.",
+		"",
+		"It's quite slow, but also relatively cheap."
+	],
+	dependencies: [
+		"941ea755"
+	],
+	tasks: [{
+		uid: "420619ca",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "6c8d5892",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_FLUID_SRC"
+	}]
+}

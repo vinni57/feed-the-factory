@@ -1,0 +1,62 @@
+{
+	title: "Research Speed 3",
+	icon: "contenttweaker:upgrade_speed_3",
+	x: -3.5d,
+	y: 3.0d,
+	description: "As fast as it gets!",
+	text: [
+		"This final tier of speed upgrade will increase a researcher's speed by 50%!",
+		"",
+		"And I shouldn't forget it's stackable, so two of them can cut down the time to only a quarter of the original! But with 4x the power usage."
+	],
+	dependencies: [
+		"dbafcd59",
+		"49bcd3d3"
+	],
+	tasks: [{
+		uid: "63718d24",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 32L
+	},
+	{
+		uid: "8e4c629c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics64"
+		}],
+		count: 12L
+	},
+	{
+		uid: "21d4f27f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "3236df9b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "81b86568",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchchemical1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "7bb33658",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "RESEARCHER_SPEED_3"
+	}]
+}

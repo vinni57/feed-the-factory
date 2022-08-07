@@ -1,0 +1,38 @@
+{
+	title: "Alloy Furnace",
+	icon: "nuclearcraft:alloy_furnace_idle",
+	x: -7.5d,
+	y: -1.0d,
+	text: [
+		"My first foray into alloying! This machine takes two inputs, as well as power, and slowly processes an alloy.",
+		"",
+		"It's quite slow, with 20 second processing times, and upgrades for it require more advanced research to unlock and use.",
+		"",
+		"Oh well, some form of automation is better than nothing."
+	],
+	dependencies: [
+		"b06d99c9"
+	],
+	tasks: [{
+		uid: "1f8c8989",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "63a66093",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "0989eccd",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_MAT_NCALLOYER"
+	}]
+}

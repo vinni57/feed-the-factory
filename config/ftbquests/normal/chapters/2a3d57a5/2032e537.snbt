@@ -1,0 +1,17 @@
+{
+	icon: "guideapi:logisticalautomation-guide",
+	x: -1.0d,
+	y: 1.0d,
+	can_repeat: true,
+	hide: true,
+	tasks: [{
+		uid: "c2a33092",
+		type: "checkmark",
+		title: "Logistical Automation"
+	}],
+	rewards: [{
+		uid: "ff56388e",
+		type: "item",
+		item: "guideapi:logisticalautomation-guide"
+	}]
+}

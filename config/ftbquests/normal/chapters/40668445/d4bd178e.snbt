@@ -1,0 +1,64 @@
+{
+	title: "Burner Researcher",
+	icon: "contenttweaker:mmcapsule",
+	x: 2.5d,
+	y: 3.0d,
+	description: "Better researcher ahead, don't make a hundred of these!",
+	text: [
+		"A lot of luxuries I've taken for granted are no longer available to me. I have to work for them, and I can do that by conducting research!",
+		"",
+		"The very first researcher, the Burner Researcher, takes coal and other materials needed to produce Research items. These Research items can be exchanged for features I can then use via the other tabs in the quest book.",
+		"",
+		"The Researcher is made up of multible blocks, but these capsules make them much easier to create! Just craft the capsule, then right click twice to automatically build it where I'm looking."
+	],
+	dependencies: [
+		"8ef00181"
+	],
+	tasks: [{
+		uid: "b0ecdaa8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mmcapsule"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "64266503",
+		type: "item",
+		items: [{
+			id: "capsule:capsule",
+			tag: {
+				color: 13421772,
+				size: 3,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/burnerresearcher",
+				display: {
+					color: 16777215
+				},
+				label: "Burner Researcher",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "28a250ca",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 3,
+				structureName: "config/capsule/prefabs/modularmachinery/burnerresearcher",
+				display: {
+					color: 3949738
+				},
+				label: "Burnerresearcher"
+			},
+			Damage: 3s
+		}
+	}]
+}

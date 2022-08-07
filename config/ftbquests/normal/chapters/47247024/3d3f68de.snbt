@@ -1,0 +1,27 @@
+{
+	title: "Basic Voltaic Pile",
+	icon: {
+		id: "nuclearcraft:voltaic_pile_basic",
+		tag: {
+			maxTransfer: 3750,
+			capacity: 75000,
+			energy: 0
+		}
+	},
+	x: 10.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "6d754ae8",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:coin 1 65"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "0ebb8f6f",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_STORE_4"
+	}]
+}

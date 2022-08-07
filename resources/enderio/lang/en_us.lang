@@ -1,0 +1,15 @@
+enderio.item_endergy_conduit_copper.name=LV Energy Conduit
+enderio.item_endergy_conduit_iron.name=MV Energy Conduit
+enderio.item_power_conduit_ender.name=HV Energy Conduit
+enderio.item_endergy_conduit_gold.name=EV Energy Conduit
+enderio.item_endergy_conduit_crystalline.name=IV Energy Conduit
+enderio.item_endergy_conduit_stellar.name=MAX Energy Conduit
+
+enderio.item_liquid_conduit.name=Fluid Conduit
+enderio.item_liquid_conduit_advanced.name=Low Pressure Fluid Conduit
+enderio.item_liquid_conduit_ender.name=Medium Pressure Fluid Conduit
+
+tile.block_cap_bank.creative.name=Creative Capacitor Bank
+tile.block_cap_bank.simple.name=LV Capacitor Bank
+tile.block_cap_bank.activated.name=HV Capacitor Bank
+tile.block_cap_bank.vibrant.name=IV Capacitor Bank

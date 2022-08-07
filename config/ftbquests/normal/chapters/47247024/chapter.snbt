@@ -1,0 +1,7 @@
+{
+	title: "Research: Power",
+	icon: "contenttweaker:researchproduction8",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

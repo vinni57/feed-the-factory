@@ -1,0 +1,45 @@
+{
+	title: "Oil",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "oil",
+			Amount: 1000
+		}
+	},
+	x: 31.0d,
+	y: -1.0d,
+	description: "Fluid pump must be placed on smooth stone to work!",
+	text: [
+		"[[WARNING: Fluid pump must be placed on smooth stone to work!]]",
+		"",
+		"With aluminum, I can start working with oil! I'll need to unlock the research for it in the Power tab, which will give me access to the means of drilling for it, along with a generator to burn it for power.",
+		"",
+		"I can find deep oil wells using the Factory0 Seismic Reader, with a bucket of oil inside to read for it.",
+		"",
+		"And this specialized fluid pump arranged in a 3x3x3 cube should be able to pump for it at the cost of power. I don't even need a drill!"
+	],
+	dependencies: [
+		"884d026b"
+	],
+	tasks: [{
+		uid: "6dff87c6",
+		type: "item",
+		items: [{
+			item: "f0-resources:pump_component"
+		}],
+		count: 27L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "31e30656",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "oil",
+				Amount: 1000
+			}
+		}
+	}]
+}

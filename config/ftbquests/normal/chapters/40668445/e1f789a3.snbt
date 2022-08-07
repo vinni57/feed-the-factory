@@ -1,0 +1,41 @@
+{
+	title: "Automated Ores!",
+	icon: "minecraft:iron_ore 64",
+	x: 25.5d,
+	y: 5.5d,
+	shape: "diamond",
+	text: [
+		"With Aerotheum, I can finally stop mining for Iron and other tier 1 ores!",
+		"",
+		"After unlocking the Ore Miner Multiblock from the Upgrades tab, I can craft the capsule for this multiblock!",
+		"",
+		"It outputs Tier 1 Ores when supplied with liquid Aerotheum, power, and a drill that does not get consumed. The higher the drill's speed, the faster the process.",
+		"",
+		"The Gearbox blocks can be replaced with speed or efficiency upgrades."
+	],
+	dependencies: [
+		"824de9ae"
+	],
+	tasks: [{
+		uid: "8786ddb9",
+		type: "item",
+		items: [{
+			id: "capsule:capsule",
+			tag: {
+				color: 13421772,
+				size: 3,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/infinityminer",
+				display: {
+					color: 16777215
+				},
+				label: "Infinity Miner",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 20.5d,
+	y: 6.5d,
+	text: [
+		"The nether's blaze has several cousins, and their drops have some really good uses!",
+		"",
+		"Aerotheum for automated ore creation with the Infinity Miner.",
+		"",
+		"Petrotheum for increased pulverizer output.",
+		"",
+		"Cryotheum for speeding up machines and improving power output from dynamos."
+	],
+	dependencies: [
+		"a6d30083"
+	],
+	tasks: [{
+		uid: "856a57a5",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_thermal_elemental"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

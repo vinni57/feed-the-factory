@@ -1,0 +1,41 @@
+{
+	x: 4.5d,
+	y: 1.0d,
+	text: [
+		"Craft a bucket of creosote with 8 wooden planks around it to get 8 treated wood.",
+		"",
+		"Besides looking good, this block is also used in more advanced crafting recipes down the line.",
+		"",
+		"Extracting it can be a pain, but placing an Immersive Engineering pump on top of it will work just fine, even without any power!",
+		"",
+		"I can store the creosote in Thermal Expansion Fluid Tanks, or Multiblock Tanks."
+	],
+	dependencies: [
+		"d0daf2a7"
+	],
+	tasks: [{
+		uid: "7521151e",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:treated_wood"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "08335581",
+		type: "item",
+		item: "immersiveengineering:metal_device0 1 5",
+		count: 3
+	},
+	{
+		uid: "fcf664f3",
+		type: "item",
+		item: {
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0b,
+				Level: 0b
+			}
+		}
+	}]
+}

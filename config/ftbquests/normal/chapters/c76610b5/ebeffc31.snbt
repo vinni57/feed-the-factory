@@ -1,0 +1,60 @@
+{
+	title: "Assembler",
+	icon: {
+		id: "immersiveengineering:conveyor",
+		tag: {
+			conveyorType: "immersiveengineering:covered"
+		}
+	},
+	x: 5.0d,
+	y: -1.0d,
+	description: "Large-scale auto-crafting",
+	text: [
+		"A multiblock crafting machine that takes items and fluids, and outputs the results incredibly quickly! Just insert via the blue dotted end, and extract from the orange one.",
+		"",
+		"Too bad it can't craft any unlockable recipes, even if I've already researched them!"
+	],
+	dependencies: [
+		"cdfd7c0f"
+	],
+	tasks: [{
+		uid: "eabed285",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 16L
+	},
+	{
+		uid: "4cb52869",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "d78e5666",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_CRAFT_IE"
+	},
+	{
+		uid: "d9db64c9",
+		type: "item",
+		title: "No one-use capsule available",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 3,
+				structureName: "config/capsule/prefabs/immersiveengineering/ie-assembler",
+				display: {
+					color: 3949738
+				},
+				label: "Ie-assembler"
+			},
+			Damage: 3s
+		}
+	}]
+}

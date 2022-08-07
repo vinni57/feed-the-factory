@@ -1,0 +1,62 @@
+{
+	title: "Fasterest Steel",
+	icon: "thermalfoundation:storage_alloy",
+	x: -3.0d,
+	y: 0.0d,
+	text: [
+		"Turns out that there's an even FASTER way to make steel! A setup called the Ultra Blast Furnace can produce the metal even more quickly at the cost of even more power.",
+		"",
+		"It still needs iron and a source of carbon, but those should be easy to obtain at this piont."
+	],
+	dependencies: [
+		"5e147d0f"
+	],
+	tasks: [{
+		uid: "5329bb1c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 32L
+	},
+	{
+		uid: "f65e029f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics8"
+		}],
+		count: 8L
+	},
+	{
+		uid: "92f14bbe",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "fb4828c9",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "MAT_STEEL_ULTRA"
+	},
+	{
+		uid: "5d7ac9b0",
+		type: "item",
+		title: "One-use capsules craftable",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 3,
+				structureName: "config/capsule/prefabs/modularmachinery/blastfurnace",
+				display: {
+					color: 3949738
+				},
+				label: "Blastfurnace"
+			},
+			Damage: 3s
+		}
+	}]
+}

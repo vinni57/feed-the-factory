@@ -1,0 +1,39 @@
+{
+	title: "Better Autocrafting",
+	x: 7.5d,
+	y: 5.0d,
+	shape: "gear",
+	text: [
+		"The Assembler and Auto Workbench are nice and all, but they have their limits. The Assembler can't craft researchable items, and the Workbench is so slow!",
+		"",
+		"Luckily, with enough Mechanics research, I should be able to unlock and then craft the Sequential Fabricator, which will allow me to get around both of those issues!",
+		"",
+		"It's worth the investment if I want to easily automate future Mechanics research without having to even touch anything except the raw materials and end product!"
+	],
+	dependencies: [
+		"9048f21d"
+	],
+	tasks: [{
+		uid: "b73911e9",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 11s
+		}],
+		consume_items: false
+	}]
+}

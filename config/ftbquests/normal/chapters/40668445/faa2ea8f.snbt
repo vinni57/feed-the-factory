@@ -1,0 +1,18 @@
+{
+	x: 67.5d,
+	y: -5.0d,
+	description: "UCB-ium",
+	text: [
+		"Named after the university where everyone's got a stick up their butt, this isotope will let me craft "
+	],
+	dependencies: [
+		"4d460027"
+	],
+	tasks: [{
+		uid: "a300dfa2",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:berkelium 1 4"
+		}]
+	}]
+}

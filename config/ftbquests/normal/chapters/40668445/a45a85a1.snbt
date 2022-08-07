@@ -1,0 +1,22 @@
+{
+	title: "Connectors",
+	x: 9.0d,
+	y: 4.0d,
+	description: "Creating Power Networks",
+	text: [
+		"Connectors can only host a single wire, so to have multiple and create a power network of sorts, I need to use relays as in-between nodes.",
+		"",
+		"Relays can have multiple wires connected to them!"
+	],
+	dependencies: [
+		"48938a29"
+	],
+	tasks: [{
+		uid: "4698d790",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 1"
+		}],
+		consume_items: false
+	}]
+}

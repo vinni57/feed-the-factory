@@ -1,0 +1,31 @@
+{
+	x: 1.0d,
+	y: 5.0d,
+	can_repeat: true,
+	dependencies: [
+		"bd2c4210"
+	],
+	tasks: [{
+		uid: "94fbdb11",
+		type: "checkmark",
+		title: "Basic Blast Furnace",
+		icon: "immersiveengineering:stone_decoration 1 1"
+	}],
+	rewards: [{
+		uid: "874ae3d7",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 3,
+				structureName: "config/capsule/prefabs/immersiveengineering/ie-blastfurnace",
+				display: {
+					color: 3949738
+				},
+				label: "Ie-blastfurnace"
+			},
+			Damage: 3s
+		}
+	}]
+}

@@ -1,0 +1,50 @@
+{
+	title: "Routers and Conveyors",
+	x: -0.5d,
+	y: 5.0d,
+	shape: "gear",
+	text: [
+		"Splitting Conveyor Belts split items evenly and push them to their right and left.",
+		"",
+		"Routers split items evenly between all of the sides I set in its interface. Place it down and right click it to edit it."
+	],
+	dependencies: [
+		"e9624ddd"
+	],
+	optional: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "5ef3fa8f",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 3"
+		}]
+	},
+	{
+		uid: "119e3a18",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:splitter"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "25d07019",
+		type: "item",
+		item: {
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:splitter"
+			}
+		},
+		count: 7
+	},
+	{
+		uid: "73ac2b9a",
+		type: "item",
+		item: "immersiveengineering:wooden_device0 1 3",
+		count: 7
+	}]
+}

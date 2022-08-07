@@ -1,0 +1,19 @@
+{
+	title: "Mining",
+	icon: "thermalfoundation:material 1 656",
+	x: 0.0d,
+	y: 1.0d,
+	text: [
+		"I have to get started somewhere, and that's with mining.",
+		"",
+		"And I need a LOT of mined goods to get far. The amounts listed below will help get past a few early hurdles, but this is just the starting point."
+	],
+	dependencies: [
+		"e39b4e3c"
+	],
+	tasks: [{
+		uid: "970bc764",
+		type: "checkmark",
+		icon: "minecraft:iron_ore"
+	}]
+}

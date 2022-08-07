@@ -1,0 +1,22 @@
+{
+	title: "Minecart Chunkloading",
+	x: -0.5d,
+	y: 7.0d,
+	shape: "gear",
+	text: [
+		"Anything too far away from me will stop running. But with the Chunkloader Upgrade, minecarts will still be able to run even when they'd normally be that far.",
+		"",
+		"This will let me build even bigger rail networks and use it for extremely long distance automation."
+	],
+	dependencies: [
+		"2cc1d45e"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b8c27fe3",
+		type: "item",
+		items: [{
+			item: "signals:chunkloader_upgrade"
+		}]
+	}]
+}

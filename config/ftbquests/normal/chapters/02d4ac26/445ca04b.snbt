@@ -1,0 +1,27 @@
+{
+	title: "IV Energy Conduit",
+	icon: "enderio:item_power_conduit 1 2",
+	x: 5.0d,
+	y: 7.5d,
+	description: "5,000,000 rf/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"c5b488f1"
+	],
+	tasks: [{
+		uid: "8be14fa8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchchemical8"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "21aa4be1",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_POWER_EIO_IV"
+	}]
+}

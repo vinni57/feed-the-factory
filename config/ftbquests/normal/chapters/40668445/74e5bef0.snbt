@@ -1,0 +1,37 @@
+{
+	title: "Know your Tools",
+	x: -2.5d,
+	y: 2.0d,
+	description: "2 Different \"Ore Scanners\"",
+	text: [
+		"I have two different items that can be used to find ores.",
+		"",
+		"First is the Ore Scanner, the diamond colored oval with an antenna. Right-clicking it will show me what ores and how many are in the chunk I'm standing in. It's precise, accurate, but limited in range.",
+		"",
+		"The second is the Seismic Reader, the gray rectangle that looks like a radio. Right-clicking it opens an interface that has a map of the surrounding area AND an item slot. I can insert a piece of ore into it and it will show me what chunks nearby contain it.",
+		"The chunk I'm standing in is at the very center, but is hard to make out. I can put my mouse over each chunk to show a number and whether it's the one I'm standing in. THIS DOES NOT UPDATE WHEN ORES ARE MINED! So it won't always be accurate, but it has a long range."
+	],
+	dependencies: [
+		"d6f91d35"
+	],
+	tasks: [{
+		uid: "8018f6ba",
+		type: "checkmark",
+		title: "I know what the Ore Scanner does",
+		icon: {
+			ForgeCaps: {
+				Parent: 100000
+			},
+			id: "f0-resources:item_advanced_scanner",
+			tag: {
+				"f0r:energy": 100000
+			}
+		}
+	},
+	{
+		uid: "30292beb",
+		type: "checkmark",
+		title: "I know what the Seismic Reader does",
+		icon: "f0-resources:item_ore_visualizer"
+	}]
+}

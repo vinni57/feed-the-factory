@@ -1,0 +1,52 @@
+{
+	title: "Aqueous Accumulator",
+	icon: {
+		id: "thermalexpansion:device",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				0b,
+				1b,
+				0b,
+				0b,
+				0b,
+				0b
+			]
+		}
+	},
+	x: -6.0d,
+	y: 1.5d,
+	text: [
+		"This machine produces water very quickly, and I can control which sides it outputs to.",
+		"",
+		"It's even faster if I extract from it manually, since the Accumulator's output rate is limited, while its water generation rate is nigh-infinite!"
+	],
+	dependencies: [
+		"78136edf"
+	],
+	tasks: [{
+		uid: "4947d03d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "bcb3e49d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "8542e94c",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_FLUID_TEAQ"
+	}]
+}

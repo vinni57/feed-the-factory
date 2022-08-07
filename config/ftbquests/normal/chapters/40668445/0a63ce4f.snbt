@@ -1,0 +1,20 @@
+{
+	x: 21.5d,
+	y: 0.0d,
+	text: [
+		"This data model produces redstone. That's one less item I need to drill for!"
+	],
+	dependencies: [
+		"b5f7d251"
+	],
+	tasks: [{
+		uid: "e7fc786d",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_witch"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

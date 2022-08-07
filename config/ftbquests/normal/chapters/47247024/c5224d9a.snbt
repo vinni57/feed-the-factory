@@ -1,0 +1,39 @@
+{
+	title: "Waterwheels",
+	icon: "immersiveengineering:wooden_device1",
+	x: -3.0d,
+	y: 0.0d,
+	description: "45 RF/Tick. Google the proper setup!",
+	text: [
+		"Renewable Power, what a lovely thing. While I don't have to worry about the ecology of wherever I am, I still have to worry about fueling my generators. But Waterwheels don't take fuel!",
+		"",
+		"Just place this on a kinetic dynamo and have water pour over it, and the dynamo will output power from the top at a constant rate. I can place 3 of them on a single dynamo in fact!",
+		"",
+		"Produces 15 rf/t per waterwheel. Sounds like a lot, but the tedium of setting it up makes up for it."
+	],
+	dependencies: [
+		"71161bb4"
+	],
+	tasks: [{
+		uid: "a69b7447",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "d576769c",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_WATER_IE"
+	},
+	{
+		uid: "7fdb0fa1",
+		type: "item",
+		item: {
+			id: "thermalexpansion:reservoir",
+			tag: {}
+		}
+	}]
+}

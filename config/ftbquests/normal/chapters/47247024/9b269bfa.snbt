@@ -1,0 +1,34 @@
+{
+	title: "Advanced Battery",
+	icon: {
+		id: "nuclearcraft:lithium_ion_battery_advanced",
+		tag: {
+			maxTransfer: 62500,
+			capacity: 1250000,
+			energy: 0
+		}
+	},
+	x: 11.0d,
+	y: 4.0d,
+	dependencies: [
+		"1fd68849"
+	],
+	tasks: [{
+		uid: "e20c44f5",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:lithium_ion_battery_advanced",
+			tag: {
+				maxTransfer: 62500,
+				capacity: 1250000,
+				energy: 0
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "476b6e82",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_STORE_9"
+	}]
+}

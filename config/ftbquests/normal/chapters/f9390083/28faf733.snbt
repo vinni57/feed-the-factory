@@ -1,0 +1,43 @@
+{
+	title: "Ghast Data Model",
+	icon: "deepmoblearning:data_model_ghast",
+	x: 5.0d,
+	y: 2.0d,
+	description: "Glowstone Dust",
+	text: [
+		"This Data Model outputs pristine matter than be converted into glowstone dust!"
+	],
+	dependencies: [
+		"09c25c7e"
+	],
+	tasks: [{
+		uid: "cc0adaff",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "e2fc442d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "74892bd4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "8a877214",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "MAT_DML_GHAST"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 56.0d,
+	y: -2.0d,
+	dependencies: [
+		"f43899c2"
+	],
+	tasks: [{
+		uid: "988d2cd2",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cooler"
+		}]
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	title: "Basic Researcher",
+	icon: "contenttweaker:researchmechanics64",
+	x: -8.0d,
+	y: -1.5d,
+	text: [
+		"Basic research is nice and all, but if I want to get out of here, I'm going to have to do more advanced research.",
+		"",
+		"This new researcher can do everything a Burner Researcher can, but at the cost of electricity instead of coal. It can also be used to make every kind of research going forward.",
+		"",
+		"Of course, I'll need to unlock a way to generate and move power. LV Wires in the \"Research: Transfer\" tab and the Coal Generator in the \"Research: Power\" tab are a start."
+	],
+	dependencies: [
+		"48938a29"
+	],
+	tasks: [{
+		uid: "0bbc9166",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "845aa3d9",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "RESEARCHER"
+	},
+	{
+		uid: "0d5dcb03",
+		type: "item",
+		title: "One-use capsules craftable",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 3,
+				structureName: "config/capsule/prefabs/modularmachinery/researcher",
+				display: {
+					color: 3949738
+				},
+				label: "Researcher"
+			},
+			Damage: 3s
+		}
+	}]
+}

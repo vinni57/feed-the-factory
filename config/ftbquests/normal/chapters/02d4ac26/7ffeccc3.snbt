@@ -1,0 +1,26 @@
+{
+	title: "MV Energy Conduit",
+	icon: "enderio:item_endergy_conduit 1 1",
+	x: 5.0d,
+	y: 3.0d,
+	description: "5,000 rf/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"fb84228d"
+	],
+	tasks: [{
+		uid: "c2dfd0ed",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}]
+	}],
+	rewards: [{
+		uid: "8d34c17a",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_POWER_EIO_MV"
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Invar Drill Head",
+	icon: "f0-resources:item_drill_head.f0r.invar",
+	x: -6.5d,
+	y: 1.5d,
+	text: [
+		"This is an upgraded form of the steel drill head. It's a lot faster and potentially easier to make!"
+	],
+	dependencies: [
+		"944ebf8e"
+	],
+	tasks: [{
+		uid: "cd60d42b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "e763634a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "dc81d6b7",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "UPGRADE_DRILL_T1"
+	}]
+}

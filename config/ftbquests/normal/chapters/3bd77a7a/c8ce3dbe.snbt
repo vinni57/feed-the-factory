@@ -1,0 +1,43 @@
+{
+	title: "Nuclearcraft Upgrades",
+	icon: "nuclearcraft:upgrade",
+	x: -0.5d,
+	y: -1.5d,
+	text: [
+		"Nuclearcraft machines can be sped up with speed upgrades to run N times faster, where N is 1+the number of speed upgrades applied. Too bad it comes with an exponential extra power cost.",
+		"",
+		"Energy upgrades work to offset the extra power cost of speed upgrades. I can apply at most the same number of energy upgrades as there are speed upgrades on a machine.",
+		"",
+		"Each machine can hold up to a stack of each. I'd better collect enough materials to make them!"
+	],
+	tasks: [{
+		uid: "ff5189a3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 24L
+	},
+	{
+		uid: "4be6e3be",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics8"
+		}],
+		count: 12L
+	},
+	{
+		uid: "148e8abf",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "87281a37",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "UPGRADE_NC"
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "Integrated Dynamics Item Transfer",
+	icon: "integratedtunnels:part_importer_world_item_item",
+	x: 0.0d,
+	y: 9.5d,
+	text: [
+		"Item transfer for Integrated Dynamics will make it an even more powerful tool!"
+	],
+	dependencies: [
+		"a0f665b4"
+	],
+	tasks: [{
+		uid: "c24ebc23",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 32L
+	},
+	{
+		uid: "19f83f9e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics8"
+		}],
+		count: 8L
+	},
+	{
+		uid: "d7164bc4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "cdd52c3f",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_ID_ITEM"
+	}]
+}

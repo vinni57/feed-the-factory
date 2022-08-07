@@ -1,0 +1,12 @@
+{
+	title: "Separated Molten Depleted Uranium Fuel",
+	x: 63.5d,
+	y: -4.0d,
+	dependencies: [
+		"733f0c6a"
+	],
+	tasks: [{
+		uid: "635b2ea0",
+		type: "checkmark"
+	}]
+}

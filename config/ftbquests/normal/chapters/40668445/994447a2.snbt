@@ -1,0 +1,25 @@
+{
+	x: 6.5d,
+	y: 1.0d,
+	description: "Standard Inventory Cabling",
+	text: [
+		"I've finally found it; the golden standard for item movement!",
+		"",
+		"This item conduit has it all, instantaneous movement, round robin capabilities, and separate color channels for the same network!",
+		"",
+		"I can even use filters to limit what gets sent where, or what gets extracted. Perfect for throttling researchers with exactly what they need!",
+		"",
+		"Too bad it has a low throughput, can't be upgraded, and can be expensive."
+	],
+	dependencies: [
+		"f8b10c44"
+	],
+	tasks: [{
+		uid: "52d79f3d",
+		type: "item",
+		items: [{
+			item: "enderio:item_item_conduit"
+		}],
+		consume_items: false
+	}]
+}

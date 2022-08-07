@@ -1,0 +1,39 @@
+{
+	title: "Chisel is here!",
+	x: -0.5d,
+	y: 1.0d,
+	shape: "gear",
+	description: "Just thought you should know...",
+	text: [
+		"I'm going to be making all sorts of large structures eventually, most likely made out of nothing but cobblestone.",
+		"",
+		"I can at least chisel them using this item so they won't look like a complete eyesore.",
+		"",
+		"Right-click the chisel to open it up!"
+	],
+	dependencies: [
+		"de263f53"
+	],
+	tasks: [{
+		uid: "21bcfd75",
+		type: "item",
+		items: [{
+			item: "chisel:chisel_iron"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "feb60e69",
+		type: "item",
+		item: "chisel:cobblestone2",
+		count: 64
+	},
+	{
+		uid: "a5cf83b6",
+		type: "item",
+		item: "chisel:marblepillar 1 7",
+		count: 64
+	}]
+}

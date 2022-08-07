@@ -1,0 +1,27 @@
+{
+	title: "Basic Battery",
+	icon: {
+		id: "nuclearcraft:lithium_ion_battery_basic",
+		tag: {
+			maxTransfer: 37500,
+			capacity: 750000,
+			energy: 0
+		}
+	},
+	x: 10.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "1a0d88cd",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:coin 1 69"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "fd8e9f0c",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_STORE_8"
+	}]
+}

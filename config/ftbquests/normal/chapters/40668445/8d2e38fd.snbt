@@ -1,0 +1,25 @@
+{
+	title: "Thermal Upgrade Kit",
+	x: 6.5d,
+	y: 5.0d,
+	shape: "gear",
+	description: "Tier 1",
+	text: [
+		"I can right-click thermal machines and dynamos with this to increase their processing speed and upgradability.",
+		"",
+		"It will make dynamos produce 50% more power and give them an extra augment slot.",
+		"",
+		"It will make machines run 2x faster and give them 2 extra augment slots."
+	],
+	dependencies: [
+		"9048f21d"
+	],
+	tasks: [{
+		uid: "a4ae9a92",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade"
+		}],
+		consume_items: false
+	}]
+}

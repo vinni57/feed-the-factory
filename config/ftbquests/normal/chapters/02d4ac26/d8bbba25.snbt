@@ -1,0 +1,30 @@
+{
+	title: "Better Conveyor Logistics",
+	icon: "logisticalautomation:alternator",
+	x: -1.0d,
+	y: 2.5d,
+	text: [
+		"While Immersive Engineering provides blocks such as the router to split items, there are improved variants with more features!",
+		"",
+		"The Filter, Alternator, Junction, Splitter, and Extractor can be used together to create an even better automated factory!",
+		"",
+		"The splitter especially, which can split whole stacks into two."
+	],
+	dependencies: [
+		"40b09e13"
+	],
+	tasks: [{
+		uid: "bb74bf17",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "3f13f76f",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_LA_2"
+	}]
+}

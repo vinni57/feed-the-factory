@@ -1,0 +1,25 @@
+{
+	title: "Thermal Upgrade",
+	x: 24.5d,
+	y: 0.0d,
+	shape: "gear",
+	description: "Teir 3",
+	text: [
+		"With Signalum, I can now craft Signalum Upgrade Kits!",
+		"",
+		"Dynamos now produce 60% more power than the previous tier and hold 2 more augment slots.",
+		"",
+		"Machines now run 50% faster than the previous tier and hold 2 more augments."
+	],
+	dependencies: [
+		"2d7fd907"
+	],
+	tasks: [{
+		uid: "1f052757",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 2"
+		}],
+		consume_items: false
+	}]
+}

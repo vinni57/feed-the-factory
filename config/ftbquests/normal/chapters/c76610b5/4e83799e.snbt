@@ -1,0 +1,17 @@
+{
+	title: "Tier 5",
+	icon: "contenttweaker:ore-crystal-gold",
+	x: -3.0d,
+	y: 5.0d,
+	description: "Crystals",
+	text: [
+		"Ores can be turned into Crystals in this tier."
+	],
+	dependencies: [
+		"7cfa1fea"
+	],
+	tasks: [{
+		uid: "cacf8079",
+		type: "checkmark"
+	}]
+}

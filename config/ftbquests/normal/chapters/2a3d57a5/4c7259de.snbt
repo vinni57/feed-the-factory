@@ -1,0 +1,16 @@
+{
+	icon: "immersiveengineering:tool 1 3",
+	x: -1.0d,
+	y: 0.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "b31c1949",
+		type: "checkmark",
+		title: "Engineer's Manual"
+	}],
+	rewards: [{
+		uid: "9993a938",
+		type: "item",
+		item: "immersiveengineering:tool 1 3"
+	}]
+}

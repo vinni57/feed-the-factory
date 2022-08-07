@@ -1,0 +1,22 @@
+{
+	x: 31.0d,
+	y: 2.0d,
+	text: [
+		"The Blaze, a powerful nether mob now compressed into a card.",
+		"",
+		"Its output has many uses, including potion making, but blazing pyrotheum is what I'm most looking forward to."
+	],
+	dependencies: [
+		"884d026b"
+	],
+	tasks: [{
+		uid: "83c4fabb",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_blaze"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,52 @@
+{
+	title: "Better Boilers",
+	icon: "betterboilers:boiler_valve",
+	x: 1.0d,
+	y: 2.0d,
+	description: "Centralized Steam Production",
+	text: [
+		"Matching boilers to turbines is getting a little tedious, especially with how I need to scale up for larger setups.",
+		"",
+		"Better Boilers is the solution, with a multiblock that can take tons of water and burnable fuel to produce a ludicrous amount of steam!",
+		"",
+		"Basics:",
+		"-Need a rectangular base with exactly one Boiler Controller and at least one Firebox Hatch.",
+		"-Need at least 36 Boiler Blocks stacked on top of rectangular base. Maximum 100.",
+		"-Can have Boiler Valves, Boiler Vents, and Boiler Pumps in place of Boiler Blocks.",
+		"-Boiler Valve takes water, can be pumped into it directly.",
+		"-Firebox Hatch takes burnable fuel, can be inserted directly through hoppers, conduits, etc.",
+		"-Steam extracted from Boiler Vents (manually), Boiler Pump auto outputs at 1000 mb/t (way less than the production rate).",
+		"-Shift right-click the Boiler Controller with the Inspector's Booklet to check if the boiler is constructed properly.",
+		"-More fuel slots filled in the controller = higher boil rate = more steam."
+	],
+	dependencies: [
+		"a99ba985"
+	],
+	tasks: [{
+		uid: "57226cc2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "d1c6e5c3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "0da069d4",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_STEAM_3"
+	},
+	{
+		uid: "174234fb",
+		type: "item",
+		item: "betterboilers:inspector"
+	}]
+}

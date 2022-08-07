@@ -1,0 +1,41 @@
+{
+	title: "Divide and Conquer",
+	icon: "thermalexpansion:augment 1 640",
+	x: 0.0d,
+	y: 2.0d,
+	description: "160 rf/tick",
+	text: [
+		"The Steam Dynamo normally produces steam and uses it internally. But by splitting the two processes between dynamos, both of them become much more efficient.",
+		"",
+		"The Boiler Conversion and Turbine Conversion augments can be applied to Steam Dynamos to make them produce and consume steam respectively.",
+		"",
+		"A single boiler can produce enough steam to power 3 turbines at the same time!",
+		"",
+		"Note: Efficiency upgrades WON'T work with the Turbine Conversion augment. It will ALWAYS consume 1 mb of steam for every 2 rf it produces. But this means Auxiliary Transmission Coils have no extra penalty!"
+	],
+	dependencies: [
+		"a3042060"
+	],
+	tasks: [{
+		uid: "03aeb015",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "0c96d79e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "3712fcee",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_STEAM_2"
+	}]
+}

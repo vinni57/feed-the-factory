@@ -1,0 +1,19 @@
+{
+	icon: "contenttweaker:ore-dirtydust-gold",
+	x: -3.0d,
+	y: 0.5d,
+	description: "Dusts",
+	text: [
+		"Ores or Clumps get crushed into Dirty Dust in this tier.",
+		"",
+		"Dirty Dust can be smelted into ingots by machines in the previous tier, but have no uses beyond that."
+	],
+	dependencies: [
+		"56ed1491"
+	],
+	tasks: [{
+		uid: "1fe9cdf7",
+		type: "checkmark",
+		title: "Tier 2"
+	}]
+}

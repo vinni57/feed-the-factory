@@ -1,0 +1,25 @@
+{
+	title: "Water, water, everywhere?",
+	icon: "minecraft:water_bucket",
+	x: 0.5d,
+	y: 4.0d,
+	description: "Or nowhere?",
+	text: [
+		"Depending on wherever I end up, there might not be any water nearby.",
+		"",
+		"Luckily, I just remembered that I brought a pair of buckets with me to make an infinite source!"
+	],
+	dependencies: [
+		"de263f53"
+	],
+	tasks: [{
+		uid: "e1057f1b",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "16ef203c",
+		type: "item",
+		item: "minecraft:water_bucket",
+		count: 2
+	}]
+}

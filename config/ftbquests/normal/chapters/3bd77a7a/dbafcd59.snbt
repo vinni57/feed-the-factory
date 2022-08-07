@@ -1,0 +1,39 @@
+{
+	title: "Thermal Upgrade Kit 3",
+	icon: "thermalfoundation:upgrade 1 2",
+	x: -5.0d,
+	y: 3.0d,
+	dependencies: [
+		"a963295d"
+	],
+	tasks: [{
+		uid: "f7c0c468",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 32L
+	},
+	{
+		uid: "5e071c10",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "221381e6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "3e3223d7",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "UPGRADE_AUG_3"
+	}]
+}

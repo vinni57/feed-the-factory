@@ -1,0 +1,46 @@
+{
+	title: "Pressurized Multiblock Tank",
+	icon: "pressure:tank_controller",
+	x: -5.5d,
+	y: 3.5d,
+	text: [
+		"I really need a bigger tank for my fluids. If I have aluminum, I can make the Pressure Pipes Tank!",
+		"",
+		"The structure is freeform and needs exactly one Tank Controller. After that, Tank Blocks add 64 buckets of capacity each, and Tank Fluid Intake and Outlet allow me to insert and extract fluids.",
+		"",
+		"There are several other optional parts as well, and I can look at their tooltips by searching up @PressurePipes in JEI."
+	],
+	dependencies: [
+		"941ea755"
+	],
+	tasks: [{
+		uid: "d9c0d59c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "ab01056e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "04323ded",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "36e7e9df",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_FLUID_PP_TANK"
+	}]
+}

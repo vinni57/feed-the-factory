@@ -1,0 +1,17 @@
+{
+	x: 56.5d,
+	y: -5.0d,
+	shape: "heart",
+	description: "Have fuel be craftable with solid U-235 and U-238?",
+	text: [
+		""
+	],
+	dependencies: [
+		"cc409dd9"
+	],
+	tasks: [{
+		uid: "4bf63c68",
+		type: "checkmark",
+		title: "TODO: Remove fluoride requirement?"
+	}]
+}

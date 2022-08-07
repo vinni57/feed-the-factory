@@ -1,0 +1,51 @@
+{
+	title: "Solar Panel Tier 5",
+	icon: "solarflux:solar_panel_5",
+	x: -8.0d,
+	y: 4.0d,
+	description: "256 rf/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"8a27ef92"
+	],
+	tasks: [{
+		uid: "14b40b2c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 8L
+	},
+	{
+		uid: "4e07c386",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics8"
+		}],
+		count: 32L
+	},
+	{
+		uid: "12ed5395",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 8L
+	},
+	{
+		uid: "7388ffb0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "06975c3d",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_SOLAR_SF_5"
+	}]
+}

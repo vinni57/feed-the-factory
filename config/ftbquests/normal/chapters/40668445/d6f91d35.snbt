@@ -1,0 +1,47 @@
+{
+	title: "Research...",
+	x: -2.5d,
+	y: 1.0d,
+	description: "Save these Rewards for the Scanner!",
+	text: [
+		"",
+		"(You might have noticed that you don't have access to everything that you should have at the beginning)",
+		"",
+		"(You'll have to research them first! You do so by trading research items for the ability to use a particular feature.)",
+		"",
+		"(To get  Research, you need to insert items+power into a Researcher Machine. Check out JEI for recipes!)"
+	],
+	dependencies: [
+		"c647f1dc"
+	],
+	tasks: [{
+		uid: "129922d4",
+		type: "checkmark",
+		title: "What to Expect"
+	}],
+	rewards: [{
+		uid: "32fe43b7",
+		type: "item",
+		item: "minecraft:iron_ore"
+	},
+	{
+		uid: "3bb5a006",
+		type: "item",
+		item: "thermalfoundation:ore"
+	},
+	{
+		uid: "dfcc2af6",
+		type: "item",
+		item: "minecraft:redstone"
+	},
+	{
+		uid: "de5def4e",
+		type: "item",
+		item: "minecraft:coal"
+	},
+	{
+		uid: "49cb868d",
+		type: "item",
+		item: "minecraft:diamond"
+	}]
+}

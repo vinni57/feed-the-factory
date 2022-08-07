@@ -1,0 +1,36 @@
+{
+	title: "Autocrafting",
+	x: 4.5d,
+	y: 6.0d,
+	shape: "gear",
+	description: "Yup, it's totally a thing!",
+	text: [
+		"At this point, I should be able to begin autocrafting, thanks to the Immersive Engineering Assembler!",
+		"",
+		"It won't work on recipes locked behind research, however, even if I have unlocked that research already!",
+		"",
+		"So it's quite limited, but it should still work well to help me automate a lot of the manual crafting work I've been doing."
+	],
+	dependencies: [
+		"0a901c5d"
+	],
+	tasks: [{
+		uid: "8bca9a38",
+		type: "item",
+		items: [{
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 3,
+				structureName: "config/capsule/prefabs/immersiveengineering/ie-assembler",
+				display: {
+					color: 3949738
+				},
+				label: "Ie-assembler"
+			},
+			Damage: 3s
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 56.0d,
+	y: 2.5d,
+	description: "Active Cooling",
+	text: [
+		""
+	],
+	dependencies: [
+		"48ae70dd"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "acfd0c9a",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_port"
+		}]
+	}]
+}

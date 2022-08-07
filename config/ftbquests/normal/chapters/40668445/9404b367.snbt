@@ -1,0 +1,31 @@
+{
+	x: 38.5d,
+	y: -2.0d,
+	text: [
+		"And here it is, plastic! The holy grail of modern day material sciences! This material paves the way for all sorts of new machines and mechanics, let alone research.",
+		"",
+		"It'd be a good idea to start automating this."
+	],
+	dependencies: [
+		"bf183400"
+	],
+	tasks: [{
+		uid: "b30d1867",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotPlastic",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotPlastic"
+				}
+			}
+		}],
+		consume_items: false
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Better Boilers Numbers",
+	x: 1.5d,
+	y: 1.0d,
+	shape: "gear",
+	text: [
+		"5,000 mb of steam is produced per \"operation\" (progress arrow reaching the end).",
+		"",
+		"# of operations/tick = 300 / (# of fireboxes in the base * # of fuel slots currently active)",
+		"",
+		"With a maximum of 100 Boiler Blocks allowed, this allows producing 5,000 mb of steam/tick with a 100 firebox base boiler with all 3 fuel slots filled with burnable fuel.",
+		"",
+		"Turbines produce 2 rf/mb of steam (affects on efficiency by augments are ignored), so one maxed boiler can support 10,000 rf/t worth of dynamos.",
+		"",
+		"Steam Dynamos with the Reinforced upgrade and the maximum number of power increasing augments should produce about 1,000 rf/t each = 10 maxed dynamos / maxed boiler."
+	],
+	dependencies: [
+		"3392e9a3"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "a54d2741",
+		type: "checkmark",
+		title: "TL;DR: Boilers with 100 fireboxes, 20 maxed-out reinforced dynamos",
+		icon: "betterboilers:controller"
+	}]
+}

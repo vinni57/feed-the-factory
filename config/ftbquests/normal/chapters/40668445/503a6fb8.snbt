@@ -1,0 +1,28 @@
+{
+	title: "Researcher Upgrades",
+	x: 6.0d,
+	y: 6.0d,
+	shape: "gear",
+	description: "30% Bonus",
+	text: [
+		"The researcher's great and all, but I feel like it could still be better.",
+		"",
+		"By replacing the gearbox blocks in its structure with upgrades, I can make it go faster or be more energy efficient!",
+		"",
+		"I only have tier 1 upgrades for now, but I can stack 2 of the same kind on a single Researcher if I want to!"
+	],
+	dependencies: [
+		"8d2e38fd"
+	],
+	tasks: [{
+		uid: "db1f90fe",
+		type: "item",
+		items: [{
+			item: "contenttweaker:upgrade_speed_1"
+		},
+		{
+			item: "contenttweaker:upgrade_energy_1"
+		}],
+		consume_items: false
+	}]
+}

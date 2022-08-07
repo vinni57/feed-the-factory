@@ -1,0 +1,28 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "e96885e9",
+		type: "checkmark",
+		title: "Burner Researcher",
+		icon: "contenttweaker:researchlogistics1"
+	}],
+	rewards: [{
+		uid: "fd95ec13",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 3,
+				structureName: "config/capsule/prefabs/modularmachinery/burnerresearcher",
+				display: {
+					color: 3949738
+				},
+				label: "Burnerresearcher"
+			},
+			Damage: 3s
+		}
+	}]
+}

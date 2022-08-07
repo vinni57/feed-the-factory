@@ -1,0 +1,27 @@
+{
+	title: "Thermal Upgrade Kit 1",
+	icon: "thermalfoundation:upgrade",
+	x: -5.0d,
+	y: 0.0d,
+	text: [
+		"Thermal Expansion dynamos and machines are great, but they can be better.",
+		"",
+		"Applying upgrades makes them produce more power and run faster, along with increasing the number of augments they can take!",
+		"",
+		"Each tier of upgrade can only be applied once, though, so I'll need to use the next tier after this one."
+	],
+	tasks: [{
+		uid: "652fd2be",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "3958bf5e",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "UPGRADE_AUG_1"
+	}]
+}

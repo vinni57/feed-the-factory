@@ -1,0 +1,68 @@
+{
+	title: "Mega Metal Press",
+	icon: "immersiveengineering:mold",
+	x: -6.5d,
+	y: 3.0d,
+	text: [
+		"This multiblock works like a Metal Press, but works much faster, producing a gear, plate, wire, or rod every 5 ticks. That's 4 outputs per second!"
+	],
+	dependencies: [
+		"06164fc3"
+	],
+	tasks: [{
+		uid: "33dac7ad",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 16L
+	},
+	{
+		uid: "b0994dcc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics8"
+		}],
+		count: 32L
+	},
+	{
+		uid: "1dea104a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 8L
+	},
+	{
+		uid: "73d95d54",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "80c20fa0",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_MAT_MEGAPRESS"
+	},
+	{
+		uid: "eab81f47",
+		type: "item",
+		title: "One-use capsules craftable",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 3,
+				structureName: "config/capsule/prefabs/modularmachinery/metalpress",
+				display: {
+					color: 3949738
+				},
+				label: "Metalpress"
+			},
+			Damage: 3s
+		}
+	}]
+}

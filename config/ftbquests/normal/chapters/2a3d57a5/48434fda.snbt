@@ -1,0 +1,28 @@
+{
+	x: 1.0d,
+	y: 2.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "8191aa6d",
+		type: "checkmark",
+		title: "Arc Furnace",
+		icon: "immersiveengineering:graphite_electrode"
+	}],
+	rewards: [{
+		uid: "f6945876",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 5,
+				structureName: "config/capsule/prefabs/immersiveengineering/ie-arcfurnace",
+				display: {
+					color: 3949738
+				},
+				label: "Ie-arcfurnace"
+			},
+			Damage: 3s
+		}
+	}]
+}

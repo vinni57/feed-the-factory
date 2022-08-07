@@ -1,0 +1,24 @@
+{
+	x: 26.5d,
+	y: 0.0d,
+	text: [
+		"The three thermal alloys allow me to craft Utility Research, the fourth type!",
+		"",
+		"Before continuing on, it might be good to automate the production of this, as well as the other types of research.",
+		"",
+		"I should make use of the other obtainable materials from Deep Mob Learning, especially the Infinity Miner."
+	],
+	dependencies: [
+		"2d7fd907",
+		"d6ff6419",
+		"c1ca632d"
+	],
+	tasks: [{
+		uid: "124a6ee8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		consume_items: false
+	}]
+}

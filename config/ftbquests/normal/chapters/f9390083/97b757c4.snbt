@@ -1,0 +1,53 @@
+{
+	title: "Blaze Data Model",
+	icon: "deepmoblearning:data_model_blaze",
+	x: 4.0d,
+	y: 4.0d,
+	description: "Blaze Rods and Sulfur",
+	text: [
+		"The outputs of this Data Model can be crafted into Pyrotheum, which can be used to increase the output of the Induction Smelter!",
+		"",
+		"Beyond that, there's not too much of a use, but that extra ore partway through the refinement chain can lead to 7 extra ingots per ore it processes!"
+	],
+	dependencies: [
+		"09c25c7e"
+	],
+	tasks: [{
+		uid: "1052d6be",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 16L
+	},
+	{
+		uid: "bc35f197",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics8"
+		}],
+		count: 48L
+	},
+	{
+		uid: "0fec1379",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 10L
+	},
+	{
+		uid: "7bdb15ad",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "5192ca1c",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "MAT_DML_BLAZE"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 46.0d,
+	y: -2.0d,
+	text: [
+		"This data model produces the next tier of ores, which can't be drilled for.",
+		"",
+		"In a way, it's a blessing in disguise, because handling all of these drills was getting a little annoying."
+	],
+	dependencies: [
+		"dfd8c0b3"
+	],
+	tasks: [{
+		uid: "18abb75c",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_creeper"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

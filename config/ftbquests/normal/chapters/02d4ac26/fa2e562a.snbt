@@ -1,0 +1,42 @@
+{
+	title: "Integrated Dynamics Fluid Transfer",
+	icon: "integratedtunnels:part_importer_world_fluid_item",
+	x: -4.0d,
+	y: 9.5d,
+	text: [
+		"Fluid transfer for Integrated Dynamics will make it an even more powerful tool!"
+	],
+	dependencies: [
+		"a0f665b4"
+	],
+	tasks: [{
+		uid: "1b84947f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 32L
+	},
+	{
+		uid: "f0a57e66",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics8"
+		}],
+		count: 8L
+	},
+	{
+		uid: "7ae96887",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "3bced8c2",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_ID_FLUID"
+	}]
+}

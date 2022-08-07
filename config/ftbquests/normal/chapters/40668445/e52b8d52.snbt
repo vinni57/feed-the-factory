@@ -1,0 +1,23 @@
+{
+	x: 16.5d,
+	y: 2.0d,
+	shape: "gear",
+	text: [
+		"If a thermal machine or dynamo already has the hardened upgrade, I can right-click them with this to increase its processing speed and upgradability.",
+		"",
+		"It will make dynamos produce 66% more power and give them one more augment slot than the previous tier.",
+		"",
+		"It will make machines run 2x faster and give them 2 more augment slots than the previous tier."
+	],
+	dependencies: [
+		"dff9d3a5"
+	],
+	tasks: [{
+		uid: "63dff967",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 1"
+		}],
+		consume_items: false
+	}]
+}

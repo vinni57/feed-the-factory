@@ -1,0 +1,22 @@
+{
+	title: "Powah!",
+	x: 7.5d,
+	y: 3.0d,
+	description: "First steps",
+	text: [
+		"With steel, I can finally craft my first power generator! Of course, I'll need to research it first in the \"Research: Power\" tab.",
+		"",
+		"It's a good start, but I'll also need a way to move power around if I want to use it properly."
+	],
+	dependencies: [
+		"3b5fedcf"
+	],
+	tasks: [{
+		uid: "f04f455c",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:coal_generator"
+		}],
+		consume_items: false
+	}]
+}

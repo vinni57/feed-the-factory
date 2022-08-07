@@ -1,0 +1,16 @@
+{
+	title: "Crafting",
+	icon: "minecraft:crafting_table",
+	x: 4.5d,
+	y: -3.0d,
+	text: [
+		"I can't be expected to craft everything I need manually!",
+		"",
+		"This tree deals with the various autocrafters available to me, in increasing ability."
+	],
+	tasks: [{
+		uid: "a9d49b70",
+		type: "checkmark",
+		title: "Crafting"
+	}]
+}

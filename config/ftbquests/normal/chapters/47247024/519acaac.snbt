@@ -1,0 +1,68 @@
+{
+	title: "Nuclear Fission",
+	icon: "nuclearcraft:fuel_uranium 1 7",
+	x: -1.0d,
+	y: 6.0d,
+	dependencies: [
+		"4c0b5a37"
+	],
+	tasks: [{
+		uid: "81bcda0c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 48L
+	},
+	{
+		uid: "5da8d42c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics64"
+		}],
+		count: 16L
+	},
+	{
+		uid: "6caa86d6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 32L
+	},
+	{
+		uid: "d2b149f2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility8"
+		}],
+		count: 24L
+	},
+	{
+		uid: "3f6c236e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchchemical1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "6249fba9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchquantum1"
+		}]
+	}],
+	rewards: [{
+		uid: "07cf9915",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_NUCLEAR_FISSION"
+	},
+	{
+		uid: "8c19394c",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_ORE_NCMANUFACTORY"
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Parallel Processing",
+	x: -0.5d,
+	y: 4.0d,
+	shape: "gear",
+	text: [
+		"Splitting ores between multiple furnaces isn't that easy with the technology I have at the moment.",
+		"",
+		"My current options take up a good amount of space or time to set up.",
+		"",
+		"With some more research, I'll be able to access easier and better ways to paralellize processing!"
+	],
+	dependencies: [
+		"de263f53"
+	],
+	tasks: [{
+		uid: "0a0b7117",
+		type: "checkmark",
+		title: "Thinking Time..."
+	}]
+}

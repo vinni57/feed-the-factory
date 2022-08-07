@@ -1,0 +1,18 @@
+{
+	x: 34.0d,
+	y: -2.0d,
+	text: [
+		"This machine can mix two different fluids together. It's normally used in the production of nuclear fuels, but I can make use of it right now to produce plastic."
+	],
+	dependencies: [
+		"6af0faeb"
+	],
+	tasks: [{
+		uid: "c6ad6207",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:salt_mixer_idle"
+		}],
+		consume_items: false
+	}]
+}

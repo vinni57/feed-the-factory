@@ -1,0 +1,31 @@
+{
+	x: 3.0d,
+	y: 5.0d,
+	can_repeat: true,
+	dependencies: [
+		"249218b8"
+	],
+	tasks: [{
+		uid: "aeccb1ee",
+		type: "checkmark",
+		title: "Ultra Blast Furnace",
+		icon: "thermalfoundation:storage_alloy"
+	}],
+	rewards: [{
+		uid: "88d79068",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 3,
+				structureName: "config/capsule/prefabs/modularmachinery/blastfurnace",
+				display: {
+					color: 3949738
+				},
+				label: "Blastfurnace"
+			},
+			Damage: 3s
+		}
+	}]
+}

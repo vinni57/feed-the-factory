@@ -1,0 +1,45 @@
+{
+	title: "Automated Crops",
+	icon: "minecraft:wheat",
+	x: 24.5d,
+	y: 2.0d,
+	shape: "diamond",
+	description: "Farmer in a box",
+	text: [
+		"Thanks to the nonreactive nature of aluminum in this world, it's perfect for dealing with crops! I have two designs for machines that can farm for me.",
+		"",
+		"Both require a steady supply of water and fertilizer to work, however, but that shouldn't be too tough to automate!",
+		"",
+		"It's better than constantly farming hemp. I'm a scientist, not a farmer!"
+	],
+	dependencies: [
+		"d6ff6419"
+	],
+	tasks: [{
+		uid: "9286e392",
+		type: "item",
+		title: "Farming Machine",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 13"
+		},
+		{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 4s
+		}],
+		consume_items: false
+	}]
+}

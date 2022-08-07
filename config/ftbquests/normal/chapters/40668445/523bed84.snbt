@@ -1,0 +1,26 @@
+{
+	title: "Nuclear Age",
+	x: 52.5d,
+	y: -4.0d,
+	description: "Stage 4",
+	text: [
+		""
+	],
+	dependencies: [
+		"3999045e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "10912f2c",
+		type: "checkmark",
+		title: "Platics Age"
+	},
+	{
+		uid: "b8cfb77e",
+		type: "item",
+		title: "You can't get this item yet, it's to stop you from moving forward until more of the pack is finished. Sorry :(",
+		items: [{
+			item: "contenttweaker:researchquantum64"
+		}]
+	}]
+}

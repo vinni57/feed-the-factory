@@ -1,0 +1,51 @@
+{
+	title: "Advanced Capacitor",
+	icon: "immersiveengineering:metal_device0 1 1",
+	x: 5.5d,
+	y: 4.0d,
+	description: "50,000 rf/t I/O | 5,000,000 rf capacity",
+	text: [
+		""
+	],
+	dependencies: [
+		"01843969"
+	],
+	tasks: [{
+		uid: "98658439",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 16L
+	},
+	{
+		uid: "ea7aaccc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics8"
+		}],
+		count: 48L
+	},
+	{
+		uid: "7086f5af",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 12L
+	},
+	{
+		uid: "ec13d80a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "fcdc7393",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_STORE_2"
+	}]
+}

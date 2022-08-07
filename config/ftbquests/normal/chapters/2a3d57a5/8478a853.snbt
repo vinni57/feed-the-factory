@@ -1,0 +1,31 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	can_repeat: true,
+	dependencies: [
+		"b339b94d"
+	],
+	tasks: [{
+		uid: "b335160b",
+		type: "checkmark",
+		title: "Metal Press",
+		icon: "minecraft:piston"
+	}],
+	rewards: [{
+		uid: "1bb2cecf",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 3,
+				structureName: "config/capsule/prefabs/immersiveengineering/ie-metalpress",
+				display: {
+					color: 3949738
+				},
+				label: "Ie-metalpress"
+			},
+			Damage: 3s
+		}
+	}]
+}

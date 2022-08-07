@@ -1,0 +1,42 @@
+{
+	title: "Better Conveyor Belts",
+	icon: "logisticalautomation:conveyor_fast",
+	x: -1.0d,
+	y: 1.5d,
+	text: [
+		"The basic conveyor belts I can make with Immersive Engineering are great for moving a large number of items over short distances, but they suffer from item despawning and other issues over longer ranges.",
+		"",
+		"With these improved conveyor belts, I can move items much faster, and that means they're less likely to despawn before reaching their destination!",
+		"",
+		"They come in 3 tiers, each one faster than the last. The first tier is as fast as the IE conveyor belt, however."
+	],
+	dependencies: [
+		"48c6f1d9"
+	],
+	tasks: [{
+		uid: "46493718",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "f6182b15",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_LA_1"
+	},
+	{
+		uid: "bf1e3c18",
+		type: "item",
+		item: {
+			id: "guideapi:logisticalautomation-guide",
+			tag: {
+				G-API_Category_Page: 0,
+				G-API_Category: 1,
+				G-API_Entry_Page: 0
+			}
+		}
+	}]
+}

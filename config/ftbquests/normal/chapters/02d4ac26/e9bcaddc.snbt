@@ -1,0 +1,37 @@
+{
+	title: "Conduit Speed... Downgrade?",
+	icon: "enderio:item_extract_speed_downgrade",
+	x: -2.0d,
+	y: 5.5d,
+	text: [
+		"I know in theory, upgrades should be possible. But all I can make in this dimension are speed downgrades! But maybe they could have their uses.",
+		"",
+		"If I need to only insert one item into an inventory at a time, that would be really helpful. Like with the Immersive Engineering metal press? Or multiple researchers when I don't have that many ingredients?"
+	],
+	dependencies: [
+		"8c2e19fc"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "f5de8b59",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 16L
+	},
+	{
+		uid: "7512a8e8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "ca139937",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_COND_SPEEDDOWN"
+	}]
+}

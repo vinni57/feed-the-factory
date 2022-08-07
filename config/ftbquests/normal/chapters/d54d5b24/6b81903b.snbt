@@ -1,0 +1,21 @@
+{
+	title: "Research",
+	x: 2.0d,
+	y: 1.0d,
+	text: [
+		"I'm pretty limited with the knowledge I have, and the only way around that is to learn more... via research!",
+		"",
+		"I won't be able to unlock, let alone bulk craft, all of these types of research at once, so I can get to them whenever I feel like I'm ready.",
+		"",
+		"And it'd honestly be easier to automate them as soon as possible so I don't have to worry about microcrafting and placing the ingredients in each inventory."
+	],
+	dependencies: [
+		"e39b4e3c"
+	],
+	tasks: [{
+		uid: "5d918878",
+		type: "checkmark",
+		title: "Research",
+		icon: "contenttweaker:researchquantum64"
+	}]
+}

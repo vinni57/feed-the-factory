@@ -1,0 +1,31 @@
+{
+	title: "Solar Panel Tier 1",
+	icon: "solarflux:solar_panel_1",
+	x: -8.0d,
+	y: 0.0d,
+	description: "1 rf/t",
+	text: [
+		"Solar panels are a single block that produce power during the day, which is all the time in this place.",
+		"",
+		"The tradeoff is a high upfront materials cost, and that lower tiers of panels don't produce much power.",
+		"",
+		"I'm going to have to unlock and build a lot of panels in order to power my machines."
+	],
+	dependencies: [
+		"71161bb4"
+	],
+	tasks: [{
+		uid: "ba9bb745",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "6f5d9944",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_SOLAR_SF_1"
+	}]
+}

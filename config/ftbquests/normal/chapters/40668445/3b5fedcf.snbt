@@ -1,0 +1,19 @@
+{
+	title: "Steel Age",
+	x: 6.5d,
+	y: 3.0d,
+	text: [
+		"I feel like I've achieved some sort of huge milestone! I've got a couple of drills, hopefully some automated smelting, and possibly even an assembly line!",
+		"",
+		"But with the creation of steel, I can take the first step to modernizing this. Let's see how things will go..."
+	],
+	dependencies: [
+		"0a901c5d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f0f8bfd2",
+		type: "checkmark",
+		title: "Steel Age"
+	}]
+}

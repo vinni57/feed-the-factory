@@ -1,0 +1,47 @@
+{
+	title: "Thermal Elemental Data Model",
+	icon: "deepmoblearning:data_model_thermal_elemental",
+	x: 8.0d,
+	y: 2.0d,
+	description: "Thermal Rods and Powders",
+	text: [
+		"This Data Model outputs pristine matter than be converted into elemental rods and accompanying powders!",
+		"",
+		"That means blaze, bliz, etc. rods, as well as sulfur, snowballs, etc.",
+		"",
+		"These outputs can be used to craft thermal dusts like pyrotheum and cryotheum!"
+	],
+	dependencies: [
+		"09c25c7e"
+	],
+	tasks: [{
+		uid: "5b83d99b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "1c1d3474",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "a7b7df31",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "7190d8ed",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "MAT_DML_THERMAL"
+	}]
+}

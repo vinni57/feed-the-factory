@@ -1,0 +1,42 @@
+{
+	title: "Automated Coal?",
+	icon: "minecraft:coal",
+	x: 5.5d,
+	y: 4.0d,
+	shape: "diamond",
+	description: "Some assembly required",
+	text: [
+		"Something is really strange about this world... namely with how it completely ignores the conservation of matter and energy.",
+		"",
+		"Apparently, by passing in 4 torches into a Sawmill, I can get back one stick and one coal. Even if those torches were made with coal coke or charcoal!",
+		"",
+		"Combined with a Coke Oven, I can create an infinite amount of coal! That's one less item I don't have to worry about drilling for!"
+	],
+	dependencies: [
+		"0a901c5d"
+	],
+	tasks: [{
+		uid: "b1382b94",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 2s
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}]
+}

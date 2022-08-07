@@ -1,0 +1,48 @@
+{
+	title: "Faster Steel",
+	icon: "immersiveengineering:stone_decoration 1 2",
+	x: -1.0d,
+	y: 0.0d,
+	text: [
+		"Craft blast bricks with a steel plate above it, then arrange these new blocks in a 3x3x3 cube with a hopper right above the top center one.",
+		"",
+		"Once assembled, the advanced blast furance is better than a regular one, and even takes input from the top and automatically outputs from the bottom ports!",
+		"",
+		"Front bottom port is for steel, back bottom port is for slag, and the top takes both iron and carbon."
+	],
+	dependencies: [
+		"bd2c4210"
+	],
+	tasks: [{
+		uid: "287d012d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "e6655693",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "MAT_STEEL_UPGRADE"
+	},
+	{
+		uid: "8ec2720e",
+		type: "item",
+		title: "No one-use capsule available",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 5,
+				structureName: "config/capsule/prefabs/immersiveengineering/ie-blastfurnaceadvanced",
+				display: {
+					color: 3949738
+				},
+				label: "Ie-blastfurnaceadvanced"
+			},
+			Damage: 3s
+		}
+	}]
+}

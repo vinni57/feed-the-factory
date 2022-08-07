@@ -1,0 +1,26 @@
+{
+	title: "MAX Cables",
+	icon: "industrialwires:ic2_connector 1 6",
+	x: 4.0d,
+	y: 9.0d,
+	description: "Connector: 10,000,000 rf/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"c5b488f1"
+	],
+	tasks: [{
+		uid: "ad63292b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}]
+	}],
+	rewards: [{
+		uid: "a7046266",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_POWER_IWHV"
+	}]
+}

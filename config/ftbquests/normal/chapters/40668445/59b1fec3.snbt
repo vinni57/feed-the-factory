@@ -1,0 +1,45 @@
+{
+	title: "Metal Press",
+	icon: "immersiveengineering:mold 1 1",
+	x: 11.5d,
+	y: 4.0d,
+	shape: "gear",
+	description: "All-purpose metal forming!",
+	text: [
+		"Finally, a way to automate creating plates, gears, and wires for cheap! It's not autocrafting, but it's a little cheaper!",
+		"",
+		"I need to make a mold for each type of output, be it plates, gears, or cables. I can make rods too, but I really don't see myself using those much yet.",
+		"",
+		"The Engineering Manual book should have more information on how to set it up."
+	],
+	dependencies: [
+		"48938a29"
+	],
+	tasks: [{
+		uid: "ab91dcdc",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:mold 1 1"
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cf27ed66",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:mold"
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d5dfdf73",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:mold 1 4"
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}]
+}

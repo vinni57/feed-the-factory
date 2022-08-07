@@ -1,0 +1,22 @@
+{
+	x: 21.5d,
+	y: 1.0d,
+	text: [
+		"This data model produces glowstone dust. Besides its use in making lumium metal, it's great for lighting up a room!",
+		"",
+		"And when combined with chisel, it'll give me access to all sorts of fancy light sources!"
+	],
+	dependencies: [
+		"b5f7d251"
+	],
+	tasks: [{
+		uid: "e1feae7a",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_ghast"
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 66.5d,
+	y: -4.0d,
+	description: "So many paths, one end result",
+	text: [
+		"The goal now is to create various nuclear isotopes.",
+		"",
+		"Californium 250 is technically all I need most to progress, but there are several other elements that would help me tremendously in other ways.",
+		"",
+		"No shame in researching the best way to obtain them or asking for help."
+	],
+	dependencies: [
+		"391e7711"
+	],
+	tasks: [{
+		uid: "85448cde",
+		type: "checkmark",
+		title: "Reaction Chain of Choice"
+	}]
+}

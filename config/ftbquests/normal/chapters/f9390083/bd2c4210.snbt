@@ -1,0 +1,49 @@
+{
+	title: "Steel",
+	icon: "thermalfoundation:material 1 160",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Steel is an iron-carbon alloy that is much stronger than either of its ingredients.",
+		"",
+		"To make the blast furnace needed to produce it, I need to craft 27 blast brick, place them in a 3x3x3 cube, and right-click any of the center face blocks with the engineer's hammer.",
+		"",
+		"It takes any kind of carbon as fuel, really. Charcoal, Coal, and Coal Coke."
+	],
+	tasks: [{
+		uid: "e4c9b755",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "deadd56b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "MAT_STEEL"
+	},
+	{
+		uid: "06a7a999",
+		type: "item",
+		item: "immersiveengineering:tool 1 3"
+	},
+	{
+		uid: "928f312e",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 3,
+				structureName: "config/capsule/prefabs/immersiveengineering/ie-blastfurnace",
+				display: {
+					color: 3949738
+				},
+				label: "Ie-blastfurnace"
+			},
+			Damage: 3s
+		}
+	}]
+}

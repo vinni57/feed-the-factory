@@ -1,0 +1,30 @@
+{
+	title: "Mechanics Research",
+	x: 7.0d,
+	y: 4.0d,
+	description: "Another type of Research?",
+	text: [
+		"Another gift given by steel is the ability to create these!",
+		"",
+		"Some kinds of technology simply can't unlock with Logistics research alone.",
+		"",
+		"Still, it's kind of expensive and takes even LONGER in the burner researcher! The powered  Researcher just takes twice the energy per tick to make it too."
+	],
+	dependencies: [
+		"3b5fedcf"
+	],
+	tasks: [{
+		uid: "baa748ae",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "b073db97",
+		type: "item",
+		item: "contenttweaker:researchmechanics1",
+		count: 8
+	}]
+}

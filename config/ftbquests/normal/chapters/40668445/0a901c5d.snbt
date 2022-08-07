@@ -1,0 +1,35 @@
+{
+	title: "Steel Meets Steel",
+	icon: "thermalfoundation:material 1 160",
+	x: 4.5d,
+	y: 3.0d,
+	text: [
+		"I'm going to need steel going forward. Now that I have my first Research, I can actually figure out how to make some!",
+		"",
+		"Steel can be unlocked under the \"Research: Materials\" tab of the questbook."
+	],
+	dependencies: [
+		"dab7ef50"
+	],
+	tasks: [{
+		uid: "a0d9c014",
+		type: "item",
+		title: "Any ingotSteel",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotSteel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "05e884f9",
+		type: "item",
+		item: "immersiveengineering:stone_decoration 1 1",
+		count: 27
+	}]
+}

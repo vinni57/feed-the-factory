@@ -1,0 +1,28 @@
+{
+	title: "Solar Panel Tier 7",
+	icon: "solarflux:solar_panel_7",
+	x: -8.0d,
+	y: 6.0d,
+	description: "4096 rf/t",
+	text: [
+		"These panels should be able to keep up with nuclear reactors!",
+		"",
+		"Well, something like a dozen panels per reactor, but still better than a hundred!"
+	],
+	dependencies: [
+		"e2b2f6fd"
+	],
+	tasks: [{
+		uid: "f1e5f249",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchquantum1"
+		}]
+	}],
+	rewards: [{
+		uid: "8bf7a7df",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_SOLAR_SF_7"
+	}]
+}

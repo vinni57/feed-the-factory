@@ -1,0 +1,12 @@
+{
+	title: "Assembly Lines",
+	icon: {
+		id: "immersiveengineering:conveyor",
+		tag: {
+			conveyorType: "immersiveengineering:conveyor"
+		}
+	},
+	always_invisible: true,
+	group: 0,
+	default_quest_shape: ""
+}

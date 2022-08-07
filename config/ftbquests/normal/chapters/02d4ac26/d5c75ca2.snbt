@@ -1,0 +1,26 @@
+{
+	title: "Minecarts",
+	icon: "minecraft:minecart",
+	x: 1.0d,
+	y: 1.5d,
+	text: [
+		"Minecarts are much faster than conveyorbelts, but I can't exactly dump items into them very quickly. But with a bit more research, I should be able to overcome that problem!"
+	],
+	dependencies: [
+		"48c6f1d9"
+	],
+	tasks: [{
+		uid: "9ae2c8d0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "4afe35e1",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_CART_1"
+	}]
+}

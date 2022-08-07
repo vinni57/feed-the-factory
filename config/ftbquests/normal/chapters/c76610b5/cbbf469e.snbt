@@ -1,0 +1,33 @@
+{
+	title: "Auto Workbench",
+	icon: "buildcraftfactory:autoworkbench_item",
+	x: 4.0d,
+	y: -1.0d,
+	description: "Slow, but works on Researched Recipes!",
+	text: [
+		"Not quite as fast as the IE Assembler, but it's got two advantages!",
+		"",
+		"First, it doesn't use power. Second, it will craft unlockable recipes!",
+		"",
+		"Just connect it to conveyor belts, itemducts, or whatever to insert and extract items to craft a new item every 10 seconds!",
+		"",
+		"Best part is that it even limits what can be inserted based on the recipe, so I don't have to be careful of other items using the same piping!"
+	],
+	dependencies: [
+		"cdfd7c0f"
+	],
+	tasks: [{
+		uid: "5b86e963",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "cfaffef4",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_CRAFT_BC"
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	can_repeat: true,
+	dependencies: [
+		"18f8c5a5"
+	],
+	tasks: [{
+		uid: "6f39a8d2",
+		type: "checkmark",
+		title: "Mega Metal Press",
+		icon: "contenttweaker:press_core"
+	}],
+	rewards: [{
+		uid: "2c3d7ecf",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 3,
+				structureName: "config/capsule/prefabs/modularmachinery/metalpress",
+				display: {
+					color: 3949738
+				},
+				label: "Metalpress"
+			},
+			Damage: 3s
+		}
+	}]
+}

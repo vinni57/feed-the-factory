@@ -1,0 +1,22 @@
+{
+	title: "Automating Wood",
+	x: 25.5d,
+	y: 2.0d,
+	shape: "diamond",
+	text: [
+		"Apparently, the Phytogenic Insolator is only capable of growing wood if it has this augment installed.",
+		"",
+		"In my opinion, it's worth it, since automated wood would completely free me of having to worry about several supply chains!"
+	],
+	dependencies: [
+		"25a417ed"
+	],
+	tasks: [{
+		uid: "302f3b1b",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 323"
+		}],
+		consume_items: false
+	}]
+}

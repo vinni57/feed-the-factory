@@ -1,0 +1,22 @@
+{
+	title: "MOX",
+	x: 65.5d,
+	y: -4.0d,
+	text: [
+		"The end result of processing the depleted uranium fuel should be a mix of uranium 238, neptunium 237, and two isotopes of plutonium.",
+		"",
+		"I can recombine these to make new fuels to pass into a fission reactor, but I have to be careful of how much heat they generate in comparison.",
+		"",
+		"Constructing a brand new reactor just to deal with this new fuel isn't out of the question. And I could totally use the extra power!"
+	],
+	dependencies: [
+		"427e0964"
+	],
+	tasks: [{
+		uid: "c5cb1c99",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:plutonium 1 6"
+		}]
+	}]
+}

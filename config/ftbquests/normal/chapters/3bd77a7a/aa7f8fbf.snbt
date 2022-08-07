@@ -1,0 +1,61 @@
+{
+	title: "Energy Upgrade 3",
+	icon: "contenttweaker:upgrade_energy_3",
+	x: -2.0d,
+	y: 3.0d,
+	text: [
+		"This final tier of energy  upgrade will decrease a researcher's power consumption by 50%!",
+		"",
+		"And I shouldn't forget it's stackable, so two of them can cut down the power usage to only a quarter of the original!"
+	],
+	dependencies: [
+		"d18b1c21",
+		"dbafcd59"
+	],
+	tasks: [{
+		uid: "bf0f15fc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 32L
+	},
+	{
+		uid: "e58c7e90",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics64"
+		}],
+		count: 12L
+	},
+	{
+		uid: "e1c7e768",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "d7af1add",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "e61a9fd1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchchemical1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "a4e86db1",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "RESEARCHER_ENERGY_3"
+	}]
+}

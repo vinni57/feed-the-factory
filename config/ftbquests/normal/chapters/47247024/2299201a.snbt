@@ -1,0 +1,51 @@
+{
+	title: "Spark Plugs",
+	icon: "thermalexpansion:augment 1 673",
+	x: 2.0d,
+	y: 4.0d,
+	description: "Compression Dynamo Upgrades",
+	text: [
+		"This augment will make Compression Dynamos process Refined Fuel much more efficiently!"
+	],
+	dependencies: [
+		"f40bd349"
+	],
+	tasks: [{
+		uid: "b7594829",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 32L
+	},
+	{
+		uid: "dd8e3013",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics64"
+		}],
+		count: 12L
+	},
+	{
+		uid: "18faf811",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "670791b5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "a2e5f3f5",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_OIL_UPGRADE"
+	}]
+}

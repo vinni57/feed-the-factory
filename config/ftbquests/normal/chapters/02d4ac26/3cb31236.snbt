@@ -1,0 +1,28 @@
+{
+	title: "LV Cables",
+	icon: "immersiveengineering:connector 1 1",
+	x: 4.0d,
+	y: 1.5d,
+	description: "Connector: 100 rf/t | Network: 800 rf/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"68c0c875"
+	],
+	tasks: [{
+		uid: "fd9d24e2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 8L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "97ea4daf",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_POWER_IELV"
+	}]
+}

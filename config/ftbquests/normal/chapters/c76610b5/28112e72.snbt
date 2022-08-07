@@ -1,0 +1,68 @@
+{
+	title: "Electrode Alloyer",
+	icon: "immersiveengineering:graphite_electrode",
+	x: -7.5d,
+	y: 3.0d,
+	text: [
+		"A return to multiblock alloying. But unlike the other single-block methods, this one is near-instantaneous! It can process a set of ingredients in a single tick!"
+	],
+	dependencies: [
+		"2f87d542"
+	],
+	tasks: [{
+		uid: "a12a6a9c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 32L
+	},
+	{
+		uid: "97167707",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics64"
+		}],
+		count: 8L
+	},
+	{
+		uid: "544f7c5d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "7668eaec",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "2c3b387d",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_MAT_ELECALLOYER"
+	},
+	{
+		uid: "4470829d",
+		type: "item",
+		title: "No one-use capsule available",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 3,
+				structureName: "config/capsule/prefabs/modularmachinery/alloyer",
+				display: {
+					color: 3949738
+				},
+				label: "Alloyer"
+			},
+			Damage: 3s
+		}
+	}]
+}

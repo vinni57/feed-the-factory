@@ -1,0 +1,40 @@
+{
+	title: "Ore Multiplication",
+	icon: "minecraft:iron_ingot 2",
+	x: 11.0d,
+	y: 1.0d,
+	shape: "gear",
+	text: [
+		"Sure, I can make more drills, but finding an ore-filled chunk and setting them up takes time! Why can't I just make better use of what I already have?",
+		"",
+		"Wait, I can! Why not just process the ores I dig up more efficiently? One of these machines ought to turn ores into multiple dirty dust, which can be smelted into ingots!",
+		"",
+		"As I continue my research, I should be able to find ways to make it even more efficient, and even add new tiers to the processing chain to get more out of each ore!"
+	],
+	dependencies: [
+		"48938a29"
+	],
+	tasks: [{
+		uid: "8d9d5d17",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 1s
+		}],
+		consume_items: false
+	}]
+}

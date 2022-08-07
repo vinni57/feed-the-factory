@@ -1,0 +1,26 @@
+{
+	title: "Nuclearcraft Ores",
+	x: 47.0d,
+	y: -2.0d,
+	description: "Required for Reactors",
+	text: [
+		""
+	],
+	dependencies: [
+		"e879b06d"
+	],
+	tasks: [{
+		uid: "2a93054b",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ore 1 5"
+		},
+		{
+			item: "nuclearcraft:ore 1 7"
+		},
+		{
+			item: "nuclearcraft:ore 1 6"
+		}],
+		consume_items: false
+	}]
+}

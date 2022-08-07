@@ -1,0 +1,20 @@
+{
+	title: "MV Conduit",
+	x: 18.5d,
+	y: 1.0d,
+	shape: "gear",
+	description: "MV Cable-based Transfer",
+	text: [
+		"Just like connectors and wires, there are also MV Energy Conduits. They transfer a proportional amount of power as well."
+	],
+	dependencies: [
+		"9ddfb412"
+	],
+	tasks: [{
+		uid: "df4d8796",
+		type: "item",
+		items: [{
+			item: "enderio:item_endergy_conduit 1 1"
+		}]
+	}]
+}

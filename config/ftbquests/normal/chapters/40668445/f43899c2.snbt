@@ -1,0 +1,14 @@
+{
+	x: 54.0d,
+	y: -2.0d,
+	dependencies: [
+		"523bed84"
+	],
+	tasks: [{
+		uid: "60461e4d",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_block"
+		}]
+	}]
+}

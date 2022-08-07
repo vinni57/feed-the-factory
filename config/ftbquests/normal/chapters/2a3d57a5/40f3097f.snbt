@@ -1,0 +1,31 @@
+{
+	icon: "contenttweaker:researchlogistics64",
+	x: 3.0d,
+	y: 4.0d,
+	can_repeat: true,
+	dependencies: [
+		"af6c0466"
+	],
+	tasks: [{
+		uid: "beff0a6b",
+		type: "checkmark",
+		title: "Researcher"
+	}],
+	rewards: [{
+		uid: "ac75cc52",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 3,
+				structureName: "config/capsule/prefabs/modularmachinery/researcher",
+				display: {
+					color: 3949738
+				},
+				label: "Researcher"
+			},
+			Damage: 3s
+		}
+	}]
+}

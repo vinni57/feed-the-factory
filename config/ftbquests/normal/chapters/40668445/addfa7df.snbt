@@ -1,0 +1,23 @@
+{
+	title: "Pyrotheum",
+	x: 34.0d,
+	y: 2.0d,
+	shape: "gear",
+	description: "More Ores!",
+	text: [
+		"I can use Blazing Pyrotheum (liquid) with an induction smelter and this augment to create an extra clump per operation!",
+		"",
+		"It also stacks with rich slag and cinnabar, producing up to 4 clumps with the latter."
+	],
+	dependencies: [
+		"101175cb"
+	],
+	tasks: [{
+		uid: "47484951",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 304"
+		}],
+		consume_items: false
+	}]
+}

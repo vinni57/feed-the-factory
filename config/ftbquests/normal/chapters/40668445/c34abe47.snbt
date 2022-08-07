@@ -1,0 +1,42 @@
+{
+	title: "Diesel Generator",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "diesel",
+			Amount: 1000
+		}
+	},
+	x: 34.0d,
+	y: -1.0d,
+	description: "Fuel Efficient Multiblock",
+	text: [
+		"Unlocked with research, this multiblock will prouduce even more power than the base compression dynamo at a 75% increased efficiency!",
+		"",
+		"It takes all of the same fuels as the dynamo to boot!",
+		"",
+		"If it stops when I switch fuels, I can try breaking a block off and reforming the machine. There might be a single drop left that clogs everything up."
+	],
+	dependencies: [
+		"9415d4cb"
+	],
+	tasks: [{
+		uid: "5420c900",
+		type: "item",
+		items: [{
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 5,
+				structureName: "config/capsule/prefabs/immersiveengineering/ie-dieselgenerator",
+				display: {
+					color: 3949738
+				},
+				label: "Ie-dieselgenerator"
+			},
+			Damage: 3s
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}]
+}

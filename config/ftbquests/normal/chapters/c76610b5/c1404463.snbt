@@ -1,0 +1,54 @@
+{
+	title: "Pulverizer",
+	icon: {
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				3b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			Level: 0b
+		},
+		Damage: 1s
+	},
+	x: -2.0d,
+	y: 0.5d,
+	description: "x2.5",
+	text: [
+		"This machine crushes ores into dirty dusts, but can also turn ingots into regular dusts.",
+		"",
+		"It might have some additional industrial uses beyond ore processing."
+	],
+	dependencies: [
+		"5896e621"
+	],
+	tasks: [{
+		uid: "2b9e5167",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "01a8ff1e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "7e88280f",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_ORE_PULVERIZER"
+	}]
+}

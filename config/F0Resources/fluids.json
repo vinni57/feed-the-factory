@@ -1,0 +1,20 @@
+[
+  {
+    "stretchX": 5.0,
+    "stretchZ": 5.0,
+    "seed": 454141,
+    "valueModifier": 1.0,
+    "fluidMaximum": 5000000,
+    "fluidMinimum": 0.1,
+    "fluidID": "oil",
+    "dimensionBlacklist": [
+      1,
+      -1
+    ],
+    "isBlacklistWhitelist": false,
+    "fluidDrainRate": 50,
+    "isDrainRateBasedOnFluidAmount": false,
+    "drainRateMax": 2.0,
+    "drainRateMin": 0.2
+  }
+]

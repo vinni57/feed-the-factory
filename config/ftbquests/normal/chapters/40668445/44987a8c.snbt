@@ -1,0 +1,43 @@
+{
+	title: "Alloying",
+	icon: "immersiveengineering:stone_decoration 1 10",
+	x: 0.5d,
+	y: 3.0d,
+	text: [
+		"Using these materials I've refined, I can make modularium, a very useful material that is required for research machines.",
+		"",
+		"I need an Alloy Kiln for that, which needs 8 kiln bricks placed in a 2x2x2 cube, and right-clicked with an Engineer's Hammer to form.",
+		"",
+		"The multiblock takes two inputs, and burnable fuel."
+	],
+	dependencies: [
+		"de263f53"
+	],
+	tasks: [{
+		uid: "9f584a1d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 10"
+		}],
+		count: 4L,
+		consume_items: false
+	},
+	{
+		uid: "2ee79bb3",
+		type: "item",
+		items: [{
+			item: "modularmachinery:itemmodularium"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "8a068f4a",
+		type: "item",
+		item: "betterbuilderswands:wanddiamond"
+	},
+	{
+		uid: "92b94337",
+		type: "item",
+		item: "immersiveengineering:tool 1 3"
+	}]
+}

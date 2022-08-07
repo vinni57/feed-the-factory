@@ -1,0 +1,21 @@
+{
+	x: 50.5d,
+	y: -2.0d,
+	shape: "heart",
+	description: "More to come soon",
+	text: [
+		"Thanks for playing my modpack! This is as far as I've done, even though there are some nuclearcraft quests after this.",
+		"",
+		"They still need recipe changes and power generation/consumption to be balanced, among other things. Check out the discord for updates, along with /r/feedthebeast.",
+		"",
+		"I hope you had fun, and will enjoy the update even more!"
+	],
+	dependencies: [
+		"002faeb0"
+	],
+	tasks: [{
+		uid: "e277d544",
+		type: "checkmark",
+		title: "End of Alpha 1.0"
+	}]
+}

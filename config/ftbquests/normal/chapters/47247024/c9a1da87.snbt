@@ -1,0 +1,26 @@
+{
+	title: "Elite Capacitor",
+	icon: "immersiveengineering:metal_device0 1 2",
+	x: 5.5d,
+	y: 8.0d,
+	description: "5,000,000 rf/t I/O | 500,000,000 rf capacity",
+	text: [
+		""
+	],
+	dependencies: [
+		"1d65ecaa"
+	],
+	tasks: [{
+		uid: "3f0ac43a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchquantum1"
+		}]
+	}],
+	rewards: [{
+		uid: "6fa8103f",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_STORE_3"
+	}]
+}

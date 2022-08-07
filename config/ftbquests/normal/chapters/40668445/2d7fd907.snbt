@@ -1,0 +1,34 @@
+{
+	title: "Signalum Ingot",
+	x: 23.5d,
+	y: 0.0d,
+	text: [
+		"There are multiple ways of producing this metal, listed as follows:",
+		"",
+		"1) Create a base alloy and fill it with the relevant liquid inside an Immersive Engineering Bottler.",
+		"",
+		"2) Craft metal dusts and a bucket of relevant liquid together, then smelt the resulting dust in an Induction Smelter with sand."
+	],
+	dependencies: [
+		"13126a06"
+	],
+	tasks: [{
+		uid: "d4c6432f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotSignalum",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotSignalum"
+				}
+			}
+		}],
+		consume_items: false
+	}]
+}

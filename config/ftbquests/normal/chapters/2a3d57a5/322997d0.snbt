@@ -1,0 +1,20 @@
+{
+	x: -1.0d,
+	y: 2.0d,
+	can_repeat: true,
+	dependencies: [
+		"a0f665b4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "29eb70cd",
+		type: "checkmark",
+		title: "Integrated Dynamics",
+		icon: "integrateddynamics:on_the_dynamics_of_integration"
+	}],
+	rewards: [{
+		uid: "b539f410",
+		type: "item",
+		item: "integrateddynamics:on_the_dynamics_of_integration"
+	}]
+}

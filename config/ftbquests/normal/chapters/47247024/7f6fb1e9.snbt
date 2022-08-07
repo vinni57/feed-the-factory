@@ -1,0 +1,50 @@
+{
+	title: "MV Capacitor Bank",
+	icon: "enderio:block_cap_bank 1 2",
+	x: 6.5d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"1d65ecaa"
+	],
+	tasks: [{
+		uid: "97521a88",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 16L
+	},
+	{
+		uid: "431e86a0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics64"
+		}],
+		count: 8L
+	},
+	{
+		uid: "6ff322cc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "7721586b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "6feee388",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_STORE_EIO_2"
+	}]
+}

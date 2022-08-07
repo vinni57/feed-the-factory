@@ -1,0 +1,26 @@
+{
+	title: "EV Cables",
+	icon: "industrialwires:ic2_connector 1 5",
+	x: 4.0d,
+	y: 6.0d,
+	description: "Connector: 100,000 rf/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"0fd5fa40"
+	],
+	tasks: [{
+		uid: "7773bb48",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}]
+	}],
+	rewards: [{
+		uid: "f751f48b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_POWER_IWGOLD"
+	}]
+}

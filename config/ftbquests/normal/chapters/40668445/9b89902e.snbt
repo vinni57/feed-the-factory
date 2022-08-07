@@ -1,0 +1,37 @@
+{
+	title: "Speedier Cheap Plates",
+	x: 13.0d,
+	y: 4.5d,
+	shape: "gear",
+	text: [
+		"This takes more power and resources to craft than the metal press, and has the same ingot to plate ratio too, but boy is it fast!",
+		"",
+		"For now, it can only make plates however. But that won't be for long!"
+	],
+	dependencies: [
+		"59b1fec3"
+	],
+	tasks: [{
+		uid: "6047afcd",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 5s
+		}],
+		consume_items: false
+	}]
+}

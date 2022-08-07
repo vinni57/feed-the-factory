@@ -1,0 +1,31 @@
+{
+	title: "External Heater",
+	icon: "immersiveengineering:metal_device1 1 1",
+	x: -2.0d,
+	y: -1.0d,
+	description: "x1",
+	text: [
+		"Place this next to a furnace and provide it power, and it will let the furnace work without fuel!",
+		"",
+		"Consumes 4 RF/tick, considerably cheaper than the default!",
+		"",
+		"Right-click with an engineer's hammer to rotate the machine. Shift-placing will put the power port on the side opposite of you."
+	],
+	dependencies: [
+		"56ed1491"
+	],
+	tasks: [{
+		uid: "b07424e8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "bdc38c14",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_ORE_HEATER"
+	}]
+}

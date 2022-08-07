@@ -1,0 +1,24 @@
+{
+	title: "Power Conduits",
+	x: 9.5d,
+	y: 1.0d,
+	shape: "gear",
+	description: "Wires are for chumps!",
+	text: [
+		"Sometimes, I don't want to bother creating a power network with dozens of wires all over the place.",
+		"",
+		"Power Conduit cabling acts as a block that can be placed next to itself to carry power through the entire structure.",
+		"",
+		"Any machines placed next to the Conduit also insert or extract power from the chain. It's pretty simple, right?"
+	],
+	dependencies: [
+		"48938a29"
+	],
+	tasks: [{
+		uid: "575077e2",
+		type: "item",
+		items: [{
+			item: "enderio:item_endergy_conduit 1 4"
+		}]
+	}]
+}

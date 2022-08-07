@@ -1,0 +1,25 @@
+{
+	x: -1.5d,
+	y: 4.0d,
+	shape: "gear",
+	text: [
+		"This means you can carry chests and animals by shift-right clicking them with an empty hand (and empty offhand).",
+		"",
+		"Great for moving filled chests without having to manually transport its contents stack by stack!",
+		"",
+		"Combine it with /home if that's enabled to great effect!"
+	],
+	dependencies: [
+		"144c9831"
+	],
+	tasks: [{
+		uid: "bb8259b2",
+		type: "checkmark",
+		title: "Carry On is in the pack!"
+	}],
+	rewards: [{
+		uid: "090a8eb5",
+		type: "item",
+		item: "ironchest:iron_chest 1 1"
+	}]
+}

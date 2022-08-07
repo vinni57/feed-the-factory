@@ -1,0 +1,29 @@
+{
+	title: "Basic Capacitor",
+	icon: "immersiveengineering:metal_device0",
+	x: 5.5d,
+	y: 0.0d,
+	description: "500 rf/t I/O | 50,000 rf capacity",
+	text: [
+		"Having to keep my generators fueled every time I want to run something can get tedious fast.",
+		"",
+		"Instead, I can store some of that power in a capacitor and draw from it when I need it!"
+	],
+	dependencies: [
+		"71161bb4"
+	],
+	tasks: [{
+		uid: "166cafb4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "1dced2b7",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_STORE_1"
+	}]
+}

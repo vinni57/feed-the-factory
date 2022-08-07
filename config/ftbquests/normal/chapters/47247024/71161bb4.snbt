@@ -1,0 +1,26 @@
+{
+	title: "Coal Power",
+	icon: "integrateddynamics:coal_generator",
+	x: -1.0d,
+	y: 0.0d,
+	description: "20 rf/tick",
+	text: [
+		"The first power generator I can craft! I still have to unlock the research for it, but it's not too expensive.",
+		"",
+		"Takes burnable fuel like coal or wood to produce power."
+	],
+	tasks: [{
+		uid: "b2fbe008",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "17b6d8a8",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_COAL"
+	}]
+}

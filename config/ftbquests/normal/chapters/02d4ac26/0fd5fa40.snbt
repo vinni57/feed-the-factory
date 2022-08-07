@@ -1,0 +1,51 @@
+{
+	title: "HV Cables",
+	icon: "immersiveengineering:connector 1 3",
+	x: 4.0d,
+	y: 4.5d,
+	description: "Connector: 10,000 rf/t | Network: 80,000 rf/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"fb84228d"
+	],
+	tasks: [{
+		uid: "3ece93b0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 16L
+	},
+	{
+		uid: "9aad3068",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics8"
+		}],
+		count: 32L
+	},
+	{
+		uid: "3e5c3644",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 12L
+	},
+	{
+		uid: "1af2ff50",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "171df4d2",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_POWER_IEMV"
+	}]
+}

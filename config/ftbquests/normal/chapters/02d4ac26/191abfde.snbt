@@ -1,0 +1,26 @@
+{
+	title: "EV Energy Conduit",
+	icon: "enderio:item_endergy_conduit 1 3",
+	x: 5.0d,
+	y: 6.0d,
+	description: "500,000 rf/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"7c133253"
+	],
+	tasks: [{
+		uid: "07803121",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}]
+	}],
+	rewards: [{
+		uid: "4e0852ec",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_POWER_EIO_EV"
+	}]
+}

@@ -1,0 +1,54 @@
+{
+	title: "Integrated Dynamics",
+	icon: "integrateddynamics:variable",
+	x: 0.0d,
+	y: 5.5d,
+	text: [
+		"This mod, even in its base form, provides powerful inventory and redstone control!",
+		"",
+		"I can use it to keep track of my assembly lines, route items, or determine if anything breaks!"
+	],
+	dependencies: [
+		"f644dc6a"
+	],
+	tasks: [{
+		uid: "c62e88f1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "11be91d6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics8"
+		}],
+		count: 8L
+	},
+	{
+		uid: "17db3795",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "805b125d",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_ID_1"
+	},
+	{
+		uid: "50cfb1c4",
+		type: "item",
+		item: "integrateddynamics:menril_sapling"
+	},
+	{
+		uid: "edbb0725",
+		type: "item",
+		item: "integrateddynamics:on_the_dynamics_of_integration"
+	}]
+}

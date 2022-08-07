@@ -1,0 +1,23 @@
+{
+	title: "Fastest Movement",
+	icon: "travellersboots:bootsmkiv",
+	x: -8.0d,
+	y: 3.0d,
+	text: [
+		"These are the best speed boots I can get, and are faster than any of the other boots before it!"
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "d8fa47ea",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "82638a3d",
+		type: "item",
+		item: "travellersboots:bootsmkiv"
+	}]
+}

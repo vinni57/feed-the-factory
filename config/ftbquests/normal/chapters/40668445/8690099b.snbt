@@ -1,0 +1,25 @@
+{
+	title: "Depleted Uranium Fuel",
+	x: 61.5d,
+	y: -4.0d,
+	dependencies: [
+		"7edecd3b",
+		"5f5703d9"
+	],
+	tasks: [{
+		uid: "31b1e5bd",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:depleted_fuel_uranium 1 4"
+		},
+		{
+			item: "nuclearcraft:depleted_fuel_uranium 1 5"
+		},
+		{
+			item: "nuclearcraft:depleted_fuel_uranium 1 6"
+		},
+		{
+			item: "nuclearcraft:depleted_fuel_uranium 1 7"
+		}]
+	}]
+}

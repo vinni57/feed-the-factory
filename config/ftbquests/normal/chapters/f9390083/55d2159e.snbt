@@ -1,0 +1,69 @@
+{
+	title: "Simulation Supercomputer",
+	icon: "deepmoblearning:deep_learner",
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"Simulation Chambers can be pretty slow. Thankfully, I've devised a way to process models even faster!",
+		"",
+		"This Supercomputer is a multiblock that takes a Model and Pulsating Polymer Clay, and outputs pristine matter at a much faster and higher rate."
+	],
+	dependencies: [
+		"09c25c7e"
+	],
+	tasks: [{
+		uid: "0ebb2109",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 32L
+	},
+	{
+		uid: "a441ce27",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics64"
+		}],
+		count: 16L
+	},
+	{
+		uid: "78f5e324",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "81c4d290",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "c87e4e61",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "MAT_DML_SUPERCOMPUTER"
+	},
+	{
+		uid: "4b21a19c",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 3,
+				structureName: "config/capsule/prefabs/modularmachinery/simulationchamber",
+				display: {
+					color: 3949738
+				},
+				label: "Simulationchamber"
+			},
+			Damage: 3s
+		}
+	}]
+}

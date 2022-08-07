@@ -1,0 +1,37 @@
+{
+	title: "Thermal Mediator",
+	x: 25.5d,
+	y: 7.5d,
+	shape: "gear",
+	description: "Speeding up Thermal Machines",
+	text: [
+		"By pumping this device with liquid cryotheum, it will make Thermal Expansion machines work much faster!",
+		"",
+		"Great for machines, even better for dynamos!"
+	],
+	dependencies: [
+		"ee2a6625"
+	],
+	tasks: [{
+		uid: "d1cb13ee",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				]
+			},
+			Damage: 2s
+		}],
+		consume_items: false
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -7.0d,
+	y: -3.0d,
+	text: [
+		"Ingots are nice and all, but I'll also need alloys, plates, rods, and wires.",
+		"",
+		"This tree deals with ways to produce all of those."
+	],
+	tasks: [{
+		uid: "0ffe7796",
+		type: "checkmark",
+		title: "Metalworking",
+		icon: "immersiveengineering:metal 1 33"
+	}]
+}

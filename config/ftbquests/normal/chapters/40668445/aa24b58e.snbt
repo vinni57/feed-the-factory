@@ -1,0 +1,33 @@
+{
+	title: "Item Filtering",
+	icon: "enderio:item_limited_item_filter",
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"The three most common filters are the regular filter, advanced filter, and limiting item filter.",
+		"",
+		"The first two limit a specific type of item, with the second allowing me to check for metadata, NBT, and the like.",
+		"",
+		"The third lets me keep an inventory filled with only a specific number of certain items. Perfect for researchers!",
+		"",
+		"I can shift right-click a stack of filters in my inventory to set them then and there, rather than one-at-a-time in a conduit."
+	],
+	dependencies: [
+		"994447a2"
+	],
+	tasks: [{
+		uid: "c7f35a4f",
+		type: "item",
+		title: "Filters",
+		items: [{
+			item: "enderio:item_basic_item_filter"
+		},
+		{
+			item: "enderio:item_advanced_item_filter"
+		},
+		{
+			item: "enderio:item_limited_item_filter"
+		}],
+		consume_items: false
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Solar Panel Tier 2",
+	icon: "solarflux:solar_panel_2",
+	x: -8.0d,
+	y: 1.0d,
+	description: "4 rf/t",
+	text: [
+		"Better in terms of power generation, but it takes quite a number of materials to make. Luckily they aren't too expensive... yet."
+	],
+	dependencies: [
+		"03ddf13a"
+	],
+	tasks: [{
+		uid: "aa52e63d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "7021a286",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_SOLAR_SF_2"
+	}]
+}

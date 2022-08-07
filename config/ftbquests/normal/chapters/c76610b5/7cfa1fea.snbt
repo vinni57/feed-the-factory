@@ -1,0 +1,17 @@
+{
+	title: "Tier 4",
+	icon: "contenttweaker:ore-shard-gold",
+	x: -3.0d,
+	y: 3.5d,
+	description: "Shards",
+	text: [
+		"Ores and Crystals are turned into Shards in this tier."
+	],
+	dependencies: [
+		"78c23b0b"
+	],
+	tasks: [{
+		uid: "01202403",
+		type: "checkmark"
+	}]
+}

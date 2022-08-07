@@ -1,0 +1,23 @@
+{
+	title: "Tier 3 Researcher Upgrades",
+	x: 42.0d,
+	y: -3.0d,
+	description: "75% bonus",
+	text: [
+		"The final tier of Researcher Upgrade! They provide a pretty hefty bonus too, especially when you stack two of them together!"
+	],
+	dependencies: [
+		"6d52878d"
+	],
+	tasks: [{
+		uid: "0cb3f863",
+		type: "item",
+		items: [{
+			item: "contenttweaker:upgrade_speed_3"
+		},
+		{
+			item: "contenttweaker:upgrade_energy_3"
+		}],
+		consume_items: false
+	}]
+}

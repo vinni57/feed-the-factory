@@ -1,0 +1,23 @@
+{
+	title: "Quick Drill Math",
+	icon: "thermalfoundation:material 1 656",
+	x: -1.5d,
+	y: 2.0d,
+	shape: "gear",
+	description: "For those wanting to calculate optimal fuel usage",
+	text: [
+		"The slowest setup is the burner drill with iron drill head. In it, one coal provides enough fuel to dig up about 20 items, and a block of coal 200 items.",
+		"",
+		"The diamond and steel drill heads are 50% faster than that, so one coal should dig up about 30 items.",
+		"",
+		"(Feel free to look at the config files for other specific values!)"
+	],
+	dependencies: [
+		"144c9831"
+	],
+	tasks: [{
+		uid: "ba4683ec",
+		type: "checkmark",
+		title: "Okie Dokie"
+	}]
+}

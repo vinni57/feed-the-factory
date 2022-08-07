@@ -1,0 +1,23 @@
+{
+	title: "Fast Movement",
+	icon: "travellersboots:bootsmki",
+	x: -8.0d,
+	y: 0.0d,
+	text: [
+		"The Traveller's Boots will let me move around faster! Great for getting around large factories!"
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "7490c67e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "945f9f17",
+		type: "item",
+		item: "travellersboots:bootsmki"
+	}]
+}

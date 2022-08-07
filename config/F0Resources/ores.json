@@ -1,0 +1,250 @@
+[
+  {
+    "stretchX": 5.0,
+    "stretchZ": 5.0,
+    "seed": 15213,
+    "valueModifier": 1.0,
+    "oreMaximum": 1200,
+    "oreMinimum": 0.5,
+    "oreID": "minecraft:coal",
+    "oreMeta": 0,
+    "dimensionBlacklist": [
+      0
+    ],
+    "isBlacklistWhitelist": true,
+    "tierReq": 0,
+    "progressMultiplier": 1.5
+  },
+  {
+    "stretchX": 5.0,
+    "stretchZ": 5.0,
+    "seed": 3567345,
+    "valueModifier": 1.2,
+    "oreMaximum": 1200,
+    "oreMinimum": 0.3,
+    "oreID": "minecraft:iron_ore",
+    "oreMeta": 0,
+    "dimensionBlacklist": [
+      0
+    ],
+    "isBlacklistWhitelist": true,
+    "tierReq": 0,
+    "progressMultiplier": 3.0
+  },
+  {
+    "stretchX": 5.0,
+    "stretchZ": 5.0,
+    "seed": 8756234,
+    "valueModifier": 1.2,
+    "oreMaximum": 1200,
+    "oreMinimum": 0.3,
+    "oreID": "thermalfoundation:ore",
+    "oreMeta": 0,
+    "dimensionBlacklist": [
+      0
+    ],
+    "isBlacklistWhitelist": true,
+    "tierReq": 0,
+    "progressMultiplier": 3.0
+  },
+  {
+    "stretchX": 5.0,
+    "stretchZ": 5.0,
+    "seed": 45215841,
+    "valueModifier": 1.0,
+    "oreMaximum": 600,
+    "oreMinimum": 0.5,
+    "oreID": "minecraft:redstone",
+    "oreMeta": 0,
+    "dimensionBlacklist": [
+      0
+    ],
+    "isBlacklistWhitelist": true,
+    "tierReq": 0,
+    "progressMultiplier": 3.0
+  },
+  {
+    "stretchX": 5.0,
+    "stretchZ": 5.0,
+    "seed": 75423,
+    "valueModifier": 1.0,
+    "oreMaximum": 128,
+    "oreMinimum": 0.5,
+    "oreID": "minecraft:diamond",
+    "oreMeta": 0,
+    "dimensionBlacklist": [
+      0
+    ],
+    "isBlacklistWhitelist": true,
+    "tierReq": 0,
+    "progressMultiplier": 3.0
+  },
+  
+  
+  
+  
+  {
+    "stretchX": 5.0,
+    "stretchZ": 5.0,
+    "seed": 48121821,
+    "valueModifier": 1.0,
+    "oreMaximum": 320,
+    "oreMinimum": 0.5,
+    "oreID": "thermalfoundation:ore",
+    "oreMeta": 1,
+    "dimensionBlacklist": [
+      0
+    ],
+    "isBlacklistWhitelist": true,
+    "tierReq": 1,
+    "progressMultiplier": 3.0
+  },
+  {
+    "stretchX": 5.0,
+    "stretchZ": 5.0,
+    "seed": 8754241,
+    "valueModifier": 1.0,
+    "oreMaximum": 320,
+    "oreMinimum": 0.5,
+    "oreID": "thermalfoundation:ore",
+    "oreMeta": 2,
+    "dimensionBlacklist": [
+      0
+    ],
+    "isBlacklistWhitelist": true,
+    "tierReq": 1,
+    "progressMultiplier": 3.0
+  },
+  {
+    "stretchX": 5.0,
+    "stretchZ": 5.0,
+    "seed": 5452485,
+    "valueModifier": 1.0,
+    "oreMaximum": 320,
+    "oreMinimum": 0.5,
+    "oreID": "thermalfoundation:ore",
+    "oreMeta": 3,
+    "dimensionBlacklist": [
+      0
+    ],
+    "isBlacklistWhitelist": true,
+    "tierReq": 1,
+    "progressMultiplier": 3.0
+  },
+  {
+    "stretchX": 5.0,
+    "stretchZ": 5.0,
+    "seed": 2315847852,
+    "valueModifier": 1.0,
+    "oreMaximum": 320,
+    "oreMinimum": 0.5,
+    "oreID": "thermalfoundation:ore",
+    "oreMeta": 5,
+    "dimensionBlacklist": [
+      0
+    ],
+    "isBlacklistWhitelist": true,
+    "tierReq": 1,
+    "progressMultiplier": 3.0
+  },
+  {
+    "stretchX": 5.0,
+    "stretchZ": 5.0,
+    "seed": 345642,
+    "valueModifier": 1.0,
+    "oreMaximum": 320,
+    "oreMinimum": 0.5,
+    "oreID": "minecraft:gold_ore",
+    "oreMeta": 0,
+    "dimensionBlacklist": [
+      0
+    ],
+    "isBlacklistWhitelist": true,
+    "tierReq": 1,
+    "progressMultiplier": 3.0
+  },
+  {
+    "stretchX": 5.0,
+    "stretchZ": 5.0,
+    "seed": 572478,
+    "valueModifier": 1.0,
+    "oreMaximum": 240,
+    "oreMinimum": 0.5,
+    "oreID": "minecraft:quartz",
+    "oreMeta": 0,
+    "dimensionBlacklist": [
+      0
+    ],
+    "isBlacklistWhitelist": true,
+    "tierReq": 1,
+    "progressMultiplier": 3.0
+  },
+  
+  
+  
+  {
+    "stretchX": 5.0,
+    "stretchZ": 5.0,
+    "seed": 7845315,
+    "valueModifier": 1.0,
+    "oreMaximum": 1200,
+    "oreMinimum": 0.5,
+    "oreID": "thermalfoundation:ore",
+    "oreMeta": 4,
+    "dimensionBlacklist": [
+      0
+    ],
+    "isBlacklistWhitelist": true,
+    "tierReq": 2,
+    "progressMultiplier": 40.0
+  },
+  {
+    "stretchX": 5.0,
+    "stretchZ": 5.0,
+    "seed": 8415348,
+    "valueModifier": 1.0,
+    "oreMaximum": 1200,
+    "oreMinimum": 0.5,
+    "oreID": "thermalfoundation:ore",
+    "oreMeta": 6,
+    "dimensionBlacklist": [
+      0
+    ],
+    "isBlacklistWhitelist": true,
+    "tierReq": 2,
+    "progressMultiplier": 50.0
+  },
+  {
+    "stretchX": 5.0,
+    "stretchZ": 5.0,
+    "seed": 674563,
+    "valueModifier": 1.0,
+    "oreMaximum": 400,
+    "oreMinimum": 0.5,
+    "oreID": "nuclearcraft:ore",
+    "oreMeta": 3,
+    "dimensionBlacklist": [
+      0
+    ],
+    "isBlacklistWhitelist": true,
+    "tierReq": 2,
+    "progressMultiplier": 60.0
+  },
+  {
+    "stretchX": 5.0,
+    "stretchZ": 5.0,
+    "seed": 674563,
+    "valueModifier": 1.0,
+    "oreMaximum": 400,
+    "oreMinimum": 0.5,
+    "oreID": "nuclearcraft:ore",
+    "oreMeta": 4,
+    "dimensionBlacklist": [
+      0
+    ],
+    "isBlacklistWhitelist": true,
+    "tierReq": 2,
+    "progressMultiplier": 60.0
+  }
+  
+]

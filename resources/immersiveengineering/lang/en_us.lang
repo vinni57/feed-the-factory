@@ -1,0 +1,18 @@
+tile.immersiveengineering.connector.connector_mv.name=HV Wire Connector
+tile.immersiveengineering.connector.relay_mv.name=HV Wire Relay
+tile.immersiveengineering.metal_device0.capacitor_mv.name=HV Capacitor
+item.immersiveengineering.wirecoil.electrum.name=HV Wire Coil
+item.immersiveengineering.wirecoil.insulated_electrum.name=Insulated HV Wire Coil
+tile.immersiveengineering.metal_decoration0.coil_mv.name=Electrum Coil Block
+
+tile.immersiveengineering.connector.connector_hv.name=IV Wire Connector
+tile.immersiveengineering.connector.relay_hv.name=IV Wire Relay
+tile.immersiveengineering.metal_device0.capacitor_hv.name=IV Capacitor
+item.immersiveengineering.wirecoil.hv.name=IV Wire Coil
+tile.immersiveengineering.metal_decoration0.coil_hv.name=Insane-Voltage Coil Block
+
+ie.manual.entry.highvoltage.name=Insane-Voltage
+ie.manual.entry.wiringTransformer0=§lTransformers§r allow you to transition between different types of Immersive Engineering wire. The weakest wire restricts the transfer rate. Note that IV Transformers can step down to LV or HV (but not MV or EV), so you do not need to chain two transformers.
+ie.manual.entry.highvoltage0=Insane-Voltage wires have some of the highest available transfer rates (<config;iA;wireTransferRate;2> Flux/t) and will need special connectors. Note that on Insane voltage connections, §oConnectors and Relays are different blocks§r, Relays will not be able to in- or output to the energy net. Furthermore, §oRelays can only be placed on the underside of the block.§r<br>To transition from IV to LV or HV connections (but not MV or EV), you will need Insane-Voltage Transformers, and keep in mind, the lowest tier of wire limits the transferrate of an entire connection.
+
+ie.manual.entry.breaker1=Due to the high risk, these switches will not accept IV wires.<br>They will also emit a redstone signal when they are switched on; this behaviour can be inverted by clicking the switch with an Engineer's Hammer.<br>Additionally they are an excellent way to control your <link;lighting;powered lights;1>!

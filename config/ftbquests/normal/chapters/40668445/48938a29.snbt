@@ -1,0 +1,48 @@
+{
+	title: "Power Transfer",
+	icon: "immersiveengineering:wirecoil",
+	x: 8.5d,
+	y: 3.0d,
+	text: [
+		"There are multiple ways to transfer power! The first researchable method uses connectors, relays, and wires!",
+		"",
+		"I can place connectors where I want to take and send power (eg. back of the heat generator, energy input port of a multiblock), and use wires to connect them together."
+	],
+	dependencies: [
+		"1a9d2d90"
+	],
+	tasks: [{
+		uid: "daad042e",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "1b182f68",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wirecoil"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "c011b8f5",
+		type: "item",
+		item: "minecraft:diamond_hoe"
+	},
+	{
+		uid: "f09a4829",
+		type: "item",
+		item: "immersiveengineering:seed",
+		count: 18
+	},
+	{
+		uid: "1be74b81",
+		type: "item",
+		title: "Bonemeal Equivalent",
+		item: "thermalfoundation:fertilizer",
+		count: 16
+	}]
+}

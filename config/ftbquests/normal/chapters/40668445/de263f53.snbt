@@ -1,0 +1,69 @@
+{
+	x: -0.5d,
+	y: 3.0d,
+	text: [
+		"I've got ores, the obvious next step is to refine them into something I can use.",
+		"",
+		"P.s: The morph-o-tool will break if one of the tools inside it breaks! I craft a brand new engineer's hammer and use THAT for cheaper plates, or craft them without."
+	],
+	dependencies: [
+		"144c9831"
+	],
+	tasks: [{
+		uid: "04555a6d",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "53338a37",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "f215655a",
+		type: "item",
+		item: {
+			id: "morphtool:tool",
+			tag: {
+				"morphtool:data": {
+					integratedtunnels: {
+						id: "integrateddynamics:wrench",
+						Count: 1b,
+						Damage: 0s
+					},
+					enderio: {
+						id: "enderio:item_yeta_wrench",
+						Count: 1b,
+						Damage: 0s
+					},
+					thermalfoundation: {
+						id: "thermalfoundation:wrench",
+						Count: 1b,
+						Damage: 0s
+					},
+					immersiveengineering: {
+						id: "immersiveengineering:tool",
+						Count: 1b,
+						Damage: 0s
+					},
+					logisticalautomation: {
+						id: "logisticalautomation:logistic_wrench",
+						Count: 1b,
+						Damage: 0s
+					},
+					pressure: {
+						id: "pressure:configurator",
+						Count: 1b,
+						Damage: 0s
+					}
+				}
+			}
+		}
+	}]
+}

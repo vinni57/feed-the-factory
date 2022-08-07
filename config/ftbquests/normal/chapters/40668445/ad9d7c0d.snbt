@@ -1,0 +1,43 @@
+{
+	title: "Deep Mob Learning",
+	icon: "deepmoblearning:simulation_chamber",
+	x: 18.5d,
+	y: 3.0d,
+	description: "Only place to get mob drops",
+	text: [
+		"The biggest advantage of aluminum is that it allows the creation of Deep Mob Learners.",
+		"",
+		"These machines can simulate the farming of monsters to obtain their drops without having to actually spawn in and kill them. Super humane!",
+		"",
+		"It requires a mob card, along with a steady supply of Polymer Clay and power.",
+		"",
+		"Only takes piped item inputs from the top and outputs them at the bottom. Power can be supplied on any side.",
+		"",
+		"Unlocked in the \"Research: Materials\" tab."
+	],
+	dependencies: [
+		"73c0a875"
+	],
+	tasks: [{
+		uid: "72233595",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:simulation_chamber"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "6fcdeafc",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_blank"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "cfea2f6f",
+		type: "item",
+		item: "deepmoblearning:polymer_clay",
+		count: 16
+	}]
+}

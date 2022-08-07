@@ -1,0 +1,31 @@
+{
+	title: "Windmills",
+	icon: "immersiveengineering:wooden_device1 1 1",
+	x: -5.0d,
+	y: 0.0d,
+	description: "12-15 rf/tick",
+	text: [
+		"More renewable power! I have to place this away from other blocks at the same height to ensure proper windflow.",
+		"",
+		"Place it on a kinetic dynamo and extract power from the top of the dynamo. Height does NOT matter, luckily.",
+		"",
+		"Produces 12-15 rf/t based on the weather. It's not much, but it's easy to craft and can be forgotten about."
+	],
+	dependencies: [
+		"71161bb4"
+	],
+	tasks: [{
+		uid: "7a169cf3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "c330d961",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_WIND_IE_1"
+	}]
+}

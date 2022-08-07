@@ -1,0 +1,31 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	can_repeat: true,
+	dependencies: [
+		"28112e72"
+	],
+	tasks: [{
+		uid: "84fdb757",
+		type: "checkmark",
+		title: "Electrode Alloyer",
+		icon: "contenttweaker:alloyer_core"
+	}],
+	rewards: [{
+		uid: "a95182ad",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				sourceInventory: {},
+				size: 3,
+				structureName: "config/capsule/prefabs/modularmachinery/alloyer",
+				display: {
+					color: 3949738
+				},
+				label: "Alloyer"
+			},
+			Damage: 3s
+		}
+	}]
+}

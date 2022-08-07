@@ -1,0 +1,43 @@
+{
+	title: "Witch Data Model",
+	icon: "deepmoblearning:data_model_witch",
+	x: 4.0d,
+	y: 2.0d,
+	description: "Redstone Dust",
+	text: [
+		"This Data Model outputs pristine matter than be converted into redstone dust!"
+	],
+	dependencies: [
+		"09c25c7e"
+	],
+	tasks: [{
+		uid: "da816e17",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "5a35d627",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "d2f9ed72",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "27ae591e",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "MAT_DML_WITCH"
+	}]
+}

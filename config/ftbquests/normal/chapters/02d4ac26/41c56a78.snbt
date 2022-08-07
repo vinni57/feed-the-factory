@@ -1,0 +1,37 @@
+{
+	title: "LP Fluid Conduit",
+	icon: "enderio:item_liquid_conduit 1 1",
+	x: -4.0d,
+	y: 3.5d,
+	description: "Low Pressure",
+	text: [
+		"This conduit can only handle one fluid at a time, and there might be some that gets stuck inside the pipe.",
+		"",
+		"Use the Yeta Wrench to make another LP Fluid Conduit connect to another pipe if it doesn't want to join by right-clicking the non-connecting side."
+	],
+	dependencies: [
+		"941ea755"
+	],
+	tasks: [{
+		uid: "d3ae357a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "f61d4c39",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "d90a2c58",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "TRANS_FLUID_EIO_2"
+	}]
+}

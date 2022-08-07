@@ -1,0 +1,35 @@
+{
+	title: "Flux Anodizers",
+	icon: "thermalexpansion:augment 1 257",
+	x: 0.0d,
+	y: -1.0d,
+	description: "x2",
+	text: [
+		"An augment for the redstone furnace that doubles smelted ores and dirty dusts!"
+	],
+	dependencies: [
+		"11d67a42"
+	],
+	tasks: [{
+		uid: "a6292b74",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "f277d58e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "fba8d7d2",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "PROC_ORE_ANODIZERS"
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Dynamo Augments",
+	icon: "thermalexpansion:augment 1 512",
+	x: -3.5d,
+	y: -1.5d,
+	text: [
+		"General dynamo augments increase the energy production rate or the fuel efficiency. Of course, I can mix and match between them."
+	],
+	tasks: [{
+		uid: "e5ab14e8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "61e090d0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics1"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "6a2bfb4e",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "UPGRADE_TE_DYNAMO"
+	}]
+}

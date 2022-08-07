@@ -1,0 +1,16 @@
+{
+	x: -2.5d,
+	y: 0.0d,
+	text: [
+		"\"Quantum Research is perfectly safe!\" they said. \"Nothing could possibly go wrong!\" Oh, how wrong they were.",
+		"",
+		"Now I'm stuck in this weird, blocky world and I need to find a way to get back!",
+		"",
+		"Luckily I was smart enough to pack some tools, especially my auto-science kit. Now to figure out how to get out of here..."
+	],
+	tasks: [{
+		uid: "22019553",
+		type: "checkmark",
+		title: "Click Me!"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -1.0d,
+	y: 3.0d,
+	description: "This isn't a manual, it just tells you if your boiler is built correctly",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"3392e9a3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d3a0d818",
+		type: "checkmark",
+		title: "Better Boilers",
+		icon: "betterboilers:inspector"
+	}],
+	rewards: [{
+		uid: "f581c362",
+		type: "item",
+		item: "betterboilers:inspector"
+	}]
+}

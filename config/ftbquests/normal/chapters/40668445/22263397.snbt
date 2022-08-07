@@ -1,0 +1,38 @@
+{
+	title: "An Actual Researcher",
+	icon: "contenttweaker:researchmechanics8",
+	x: 11.5d,
+	y: 3.0d,
+	text: [
+		"The burner researcher is nice and all, but... ok, it's not that nice.",
+		"",
+		"The Researcher, however, is! It takes electricity instead of burnable fuel from the hatch block at the top.",
+		"",
+		"That energy hatch can be switched to a bigger one and back by right-clicking it with an empty hand, but it removes whatever power is inside of it."
+	],
+	dependencies: [
+		"48938a29"
+	],
+	tasks: [{
+		uid: "142acd46",
+		type: "item",
+		items: [{
+			id: "capsule:capsule",
+			tag: {
+				color: 13421772,
+				size: 3,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/basicresearcher",
+				display: {
+					color: 16777215
+				},
+				label: "Basic Researcher",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,61 @@
+{
+	title: "Creeper Data Model",
+	icon: "deepmoblearning:data_model_creeper",
+	x: 4.0d,
+	y: 6.0d,
+	description: "Nuclearcraft Ores",
+	text: [
+		"This Data Model outputs pristine matter that can be converted into specialized ores from Nuclearcraft!",
+		"",
+		"They're not normally found in the ground, so this is the best way to reliably obtain them."
+	],
+	dependencies: [
+		"09c25c7e"
+	],
+	tasks: [{
+		uid: "5a746217",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 48L
+	},
+	{
+		uid: "380360bb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics64"
+		}],
+		count: 16L
+	},
+	{
+		uid: "96cd0e46",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 32L
+	},
+	{
+		uid: "43138145",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility8"
+		}],
+		count: 32L
+	},
+	{
+		uid: "79f655de",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchchemical1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "1f944254",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "MAT_DML_CREEPER"
+	}]
+}

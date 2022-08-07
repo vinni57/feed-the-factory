@@ -1,0 +1,29 @@
+{
+	title: "Better Fuels",
+	x: 4.5d,
+	y: 2.0d,
+	text: [
+		"The Blast Furnace takes charcoal and coal, which are well and all, but there's a better fuel: Coal Coke, made in an Immersive Engineering Coke Oven multiblock.",
+		"",
+		"I can make 2 steel with just a single coke, that's amazing! In a regular furnace, it lasts 2x as long as regular coal or charcoal, which is a bonus.",
+		"",
+		"Also, I'll need the creosote produced as a byproduct to make treated wood, which will be important later on."
+	],
+	dependencies: [
+		"0a901c5d"
+	],
+	tasks: [{
+		uid: "7e0d40e8",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 6"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "a12589f9",
+		type: "item",
+		item: "immersiveengineering:stone_decoration",
+		count: 27
+	}]
+}

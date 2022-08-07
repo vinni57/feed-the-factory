@@ -1,0 +1,59 @@
+{
+	title: "Solar Panel Tier 6",
+	icon: "solarflux:solar_panel_6",
+	x: -8.0d,
+	y: 5.0d,
+	description: "1024 rf/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"5780f456"
+	],
+	tasks: [{
+		uid: "50b96391",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchlogistics64"
+		}],
+		count: 32L
+	},
+	{
+		uid: "de6e120c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchmechanics64"
+		}],
+		count: 12L
+	},
+	{
+		uid: "523f5cd1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchproduction8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "09990b34",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchutility8"
+		}],
+		count: 16L
+	},
+	{
+		uid: "56a5d2b3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchchemical1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "55db87ff",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "POW_SOLAR_SF_6"
+	}]
+}
