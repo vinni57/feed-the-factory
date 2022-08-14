@@ -17,6 +17,7 @@
 		type: "item",
 		items: [{
 			item: "signals:chunkloader_upgrade"
-		}]
+		}],
+		consume_items: false
 	}]
 }

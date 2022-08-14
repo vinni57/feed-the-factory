@@ -202,7 +202,7 @@ recipes.remove(<enderio:block_power_monitor>);
 recipes.addShaped(<enderio:block_power_monitor>, [
 	[<ore:ingotIron>, <enderio:item_conduit_probe>, <ore:ingotIron>],
 	[<ore:ingotIron>, <thermalexpansion:frame:64>, <ore:ingotIron>],
-	[<ore:ingotIron>, <enderio:item_power_conduit>, <ore:ingotIron>]
+	[<ore:ingotIron>, <enderio:item_endergy_conduit:4>, <ore:ingotIron>]
 ]);
 
 	//Graphical Power Monitor
@@ -230,7 +230,7 @@ recipes.addShaped(<enderio:block_gauge>, [
 recipes.remove(<enderio:block_cap_bank:1>);
 recipes.addShaped(<enderio:block_cap_bank:1>, [
 	[<immersiveengineering:wirecoil>, <immersiveengineering:wirecoil>, <immersiveengineering:wirecoil>],
-	[<enderio:item_conduit_probe>, <immersiveengineering:metal_device0>, <enderio:item_conduit_probe>],
+	[<immersiveengineering:connector>, <immersiveengineering:metal_device0>, <immersiveengineering:connector>],
 	[<immersiveengineering:wirecoil>, <immersiveengineering:wirecoil>, <immersiveengineering:wirecoil>]
 ]);
 
@@ -238,7 +238,7 @@ recipes.addShaped(<enderio:block_cap_bank:1>, [
 recipes.remove(<enderio:block_cap_bank:2>);
 recipes.addShaped(<enderio:block_cap_bank:2>, [
 	[<immersiveengineering:wirecoil:1>, <immersiveengineering:wirecoil:1>, <immersiveengineering:wirecoil:1>],
-	[<enderio:item_conduit_probe>, <immersiveengineering:metal_device0:1>, <enderio:item_conduit_probe>],
+	[<immersiveengineering:connector:2>, <immersiveengineering:metal_device0:1>, <immersiveengineering:connector:2>],
 	[<immersiveengineering:wirecoil:1>, <immersiveengineering:wirecoil:1>, <immersiveengineering:wirecoil:1>]
 ]);
 
@@ -246,6 +246,14 @@ recipes.addShaped(<enderio:block_cap_bank:2>, [
 recipes.remove(<enderio:block_cap_bank:3>);
 recipes.addShaped(<enderio:block_cap_bank:3>, [
 	[<immersiveengineering:wirecoil:2>, <immersiveengineering:wirecoil:2>, <immersiveengineering:wirecoil:2>],
-	[<enderio:item_conduit_probe>, <immersiveengineering:metal_device0:2>, <enderio:item_conduit_probe>],
+	[<immersiveengineering:connector:4>, <immersiveengineering:metal_device0:2>, <immersiveengineering:connector:4>],
 	[<immersiveengineering:wirecoil:2>, <immersiveengineering:wirecoil:2>, <immersiveengineering:wirecoil:2>]
 ]);
+
+
+	//Deprecated Conduit Conversion
+recipes.addShapeless(<enderio:item_endergy_conduit:4>, [<enderio:item_power_conduit>]);
+<enderio:item_power_conduit>.addTooltip(format.red("This conduit is DEPRECATED and no longer used. Craft it by itself to convert to a working cable."));
+
+recipes.addShapeless(<enderio:item_power_conduit:2>, [<enderio:item_power_conduit:1>]);
+<enderio:item_power_conduit:1>.addTooltip(format.red("This conduit is DEPRECATED and no longer used. Craft it by itself to convert to a working cable."));

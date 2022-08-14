@@ -19,6 +19,7 @@
 		items: [{
 			item: "minecraft:chest_minecart"
 		}],
+		consume_items: false,
 		ignore_damage: true,
 		ignore_nbt: 1b
 	},
@@ -27,7 +28,8 @@
 		type: "item",
 		items: [{
 			item: "minecraft:hopper"
-		}]
+		}],
+		consume_items: false
 	}],
 	rewards: [{
 		uid: "05a4ae3e",

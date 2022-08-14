@@ -12,7 +12,7 @@ import mods.modularmachinery.RecipeBuilder;
 	// Infinity Miner
 
 recipes.addShaped(<contenttweaker:mining_drone>*8, [
-	[<nuclearcraft:solar_panel_basic>, <minecraft:glass>, <nuclearcraft:solar_panel_basic>],
+	[<solarflux:solar_panel_1>, <minecraft:glass>, <solarflux:solar_panel_1>],
 	[<minecraft:daylight_detector>, <thermalexpansion:frame>, <immersiveengineering:metal_decoration0:3>],
 	[<thermalfoundation:material:292>, null, <thermalfoundation:material:292>]
 ]);

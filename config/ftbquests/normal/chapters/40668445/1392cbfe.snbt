@@ -1,0 +1,24 @@
+{
+	title: "Fast Factory Movement",
+	x: 1.5d,
+	y: 1.0d,
+	shape: "gear",
+	text: [
+		"It might take a little while longer before I can get Boots of Speed, there's another way to quickly get around my factories.",
+		"",
+		"Concrete is especially simple to make here, requiring only Sand, Gravel, and Clay! And I can dye it different colors, on top of chiseling it into new patterns!",
+		"",
+		"The old way is still present too, but why would I want to bother submersing the stuff in water when there's an easier way?"
+	],
+	dependencies: [
+		"cbcb5ce4"
+	],
+	tasks: [{
+		uid: "ea6c9cc1",
+		type: "item",
+		items: [{
+			item: "minecraft:concrete 1 8"
+		}],
+		consume_items: false
+	}]
+}

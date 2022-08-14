@@ -19,6 +19,7 @@
 		type: "item",
 		items: [{
 			item: "enderio:item_endergy_conduit 1 4"
-		}]
+		}],
+		consume_items: false
 	}]
 }

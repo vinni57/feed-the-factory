@@ -16,6 +16,7 @@
 		type: "item",
 		items: [{
 			item: "industrialwires:ic2_connector"
-		}]
+		}],
+		consume_items: false
 	}]
 }

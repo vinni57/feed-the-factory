@@ -16,6 +16,13 @@
 		items: [{
 			item: "contenttweaker:researchlogistics8"
 		}]
+	},
+	{
+		uid: "c5a2aed8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:researchquantum1"
+		}]
 	}],
 	rewards: [{
 		uid: "f751f48b",

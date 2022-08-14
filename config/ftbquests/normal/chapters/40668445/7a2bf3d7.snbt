@@ -18,7 +18,8 @@
 		type: "item",
 		items: [{
 			item: "immersiveengineering:wooden_device0 1 3"
-		}]
+		}],
+		consume_items: false
 	},
 	{
 		uid: "119e3a18",
@@ -28,7 +29,8 @@
 			tag: {
 				conveyorType: "immersiveengineering:splitter"
 			}
-		}]
+		}],
+		consume_items: false
 	}],
 	rewards: [{
 		uid: "25d07019",

@@ -106,10 +106,14 @@ for i, rod in rods{
 	mods.immersiveengineering.MetalPress.addRecipe(rod*4, rodMaterials[i], <immersiveengineering:mold:2>, powGearPress, 1); //rod mold
 }
 
-	//Clay from putting sand in IE bottler
+	//Clay from putting sand in IE bottler and Fluid Transposer
 mods.immersiveengineering.BottlingMachine.addRecipe(<minecraft:clay>, <minecraft:dirt>, <liquid:water>*2000);
 mods.immersiveengineering.BottlingMachine.addRecipe(<minecraft:clay>, <minecraft:stained_hardened_clay:*>, <liquid:water>*4000);
 mods.immersiveengineering.BottlingMachine.addRecipe(<minecraft:clay>, <minecraft:sand>, <liquid:water>*1000);
+
+mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:clay>, <minecraft:dirt>, <liquid:water>*2000, 1000);
+mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:clay>, <minecraft:stained_hardened_clay:*>, <liquid:water>*4000, 1000);
+mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:clay>, <minecraft:sand>, <liquid:water>*1000, 1000);
 
 	//8 Torches from Coal Coke
 recipes.addShaped(<minecraft:torch>*6, [
@@ -165,3 +169,6 @@ recipes.addShapeless(<minecraft:coal:1>, [
 	<cttinycoal:tiny_charcoal>, <cttinycoal:tiny_charcoal>, <cttinycoal:tiny_charcoal>
 ]);
 recipes.addShapeless(<cttinycoal:tiny_charcoal>*9, [<minecraft:coal:1>]);
+
+	//Creosote + wool = 3x charcoal
+recipes.addShapeless(<minecraft:coal:1>*3, [<ore:wool>, <liquid:creosote>*1000]);
